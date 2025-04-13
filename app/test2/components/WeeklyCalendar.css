@@ -1,103 +1,100 @@
 /* WeeklyCalendar.css */
 .weekly-calendar {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    height: 1240px; /* Matches the 31 time slots x 40px */
   }
   
   .calendar-header {
     display: flex;
-    border-bottom: 1px solid #e0e0e0;
-    background-color: #f8f9fa;
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    height: 40px;
   }
   
   .time-column {
-    flex: 0 0 60px;
-    border-right: 1px solid #e0e0e0;
+    width: 80px;
+    flex-shrink: 0;
+    border-right: 1px solid #ddd;
+    background-color: #f5f5f5;
   }
   
   .day-column-header {
     flex: 1;
     text-align: center;
-    font-weight: 600;
     padding: 10px;
-    border-right: 1px solid #e0e0e0;
+    font-weight: bold;
+    border-right: 1px solid #ddd;
+  }
+  
+  .day-column-header:last-child {
+    border-right: none;
   }
   
   .calendar-body {
-    display: flex;
-    flex: 1;
     position: relative;
+    display: flex;
     overflow-y: auto;
-    min-height: 600px;
+    height: 100%;
+  }
+  
+  .day-column {
+    position: relative;
+    flex: 1;
+    height: 1240px; /* Same as above */
+  }
+  
+  .day-column:last-child {
+    border-right: none;
   }
   
   .time-slot {
     height: 40px;
+    border-bottom: 1px solid #ddd;
     position: relative;
-    text-align: right;
-    padding-right: 8px;
-    border-bottom: 1px solid #f0f0f0;
   }
   
   .time-label {
-    font-size: 12px;
     position: absolute;
-    right: 8px;
-    top: -9px;
-    color: #757575;
-    background-color: white;
-    padding: 0 2px;
-  }
-  
-  .day-column {
-    flex: 1;
-    position: relative;
-    border-right: 1px solid #e0e0e0;
-    min-height: 100%;
+    top: 0px;
+    right: 7px;
+    font-size: 12px;
+    color: #666;
   }
   
   .calendar-grid-line {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #eee;
     height: 40px;
-    border-bottom: 1px solid #f0f0f0;
   }
   
   .calendar-event {
     position: absolute;
-    background-color: rgba(66, 133, 244, 0.8);
-    color: white;
-    border-radius: 4px;
-    padding: 6px;
-    overflow: hidden;
-    cursor: pointer;
-    font-size: 12px;
-    transition: box-shadow 0.2s, transform 0.1s;
     box-sizing: border-box;
-    z-index: 5;
+    border-radius: 4px;
+    padding: 5px;
+    overflow: hidden;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    transition: box-shadow 0.2s ease;
   }
   
   .calendar-event:hover {
-    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
-    z-index: 10;
-    transform: scale(1.01);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
   }
   
   .event-content {
     display: flex;
     flex-direction: column;
     height: 100%;
-    overflow: hidden;
   }
   
   .event-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
   }
   
   .event-title {
@@ -107,139 +104,33 @@
     text-overflow: ellipsis;
   }
   
-  .event-details {
-    font-size: 11px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-  
   .event-remove-btn {
     background: none;
     border: none;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     cursor: pointer;
-    font-size: 16px;
-    line-height: 1;
-    padding: 0 4px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 5px;
-    visibility: hidden;
-  }
-  
-  .calendar-event:hover .event-remove-btn {
-    visibility: visible;
+    font-size: 14px;
+    padding: 0;
+    margin: -3px 0 0;
+    opacity: 0.7;
+    transition: opacity 0.2s;
   }
   
   .event-remove-btn:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: white;
+    opacity: 1;
   }
   
-  /* Schedule view styling */
-  .schedule-view {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  .event-details {
+    font-size: 11px;
     overflow: hidden;
   }
   
-  .schedule-content {
-    display: flex;
-    flex-direction: column;
-    height: calc(100% - 50px);
-    gap: 20px;
-  }
-  
-  .calendar-view {
-    flex: 1;
-    overflow: auto;
-    min-height: 600px;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-  }
-  
-  .list-view {
-    flex: 0 0 auto;
-    padding: 15px;
-    background-color: #f9f9f9;
-    border-radius: 4px;
-    max-height: 300px;
-    overflow: auto;
-  }
-  
-  .enrolled-courses {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .enrolled-course {
-    margin-bottom: 15px;
-    padding: 12px;
-    background-color: white;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  }
-  
-  .enrolled-course-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 8px;
-  }
-  
-  .enrolled-course-header h4 {
-    margin: 0;
-    font-size: 16px;
-  }
-  
-  .remove-course {
-    background: none;
-    border: none;
-    color: #ff5252;
-    cursor: pointer;
-    font-size: 16px;
-    padding: 2px 6px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .remove-course:hover {
-    background-color: #ffecec;
-  }
-  
-  .enrolled-sections {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  
-  .enrolled-section {
-    display: grid;
-    grid-template-columns: auto auto 1fr auto auto;
-    grid-gap: 10px;
-    align-items: center;
-    padding: 6px 8px;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-    font-size: 14px;
-  }
-  
-  .section-code {
-    font-weight: bold;
-    color: #4285f4;
-  }
-  
-  .section-type {
-    text-transform: uppercase;
-    font-size: 12px;
-    padding: 2px 6px;
-    background-color: #e0e0e0;
-    border-radius: 3px;
+  @media (max-width: 768px) {
+    .time-column {
+      width: 60px;
+    }
+    
+    .time-label {
+      font-size: 10px;
+    }
   }

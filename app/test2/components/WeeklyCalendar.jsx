@@ -1,4 +1,5 @@
-// components/WeeklyCalendar.jsx
+// Updated WeeklyCalendar.jsx with fixed grid lines
+
 import React from 'react';
 import './WeeklyCalendar.css'; // Make sure to create this CSS file
 
@@ -42,9 +43,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
   // Helper to convert time to vertical position
   const getTimePosition = (timeStr) => {
     const minutes = timeToMinutes(timeStr);
-    const startMinutes = 7 * 60; // 7:00am
-    
-    // Calculate pixels per minute (40px per 30min = 1.33px per minute)
+    const startMinutes = 7 * 60;
     const pixelsPerMinute = 40 / 30;
     
     return (minutes - startMinutes) * pixelsPerMinute;
@@ -55,10 +54,8 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
     const startMinutes = timeToMinutes(startTime);
     const endMinutes = timeToMinutes(endTime);
     const durationMinutes = endMinutes - startMinutes;
-    
-    // Convert minutes to pixels (40px per 30min)
     const pixelsPerMinute = 40 / 30;
-    return Math.max(durationMinutes * pixelsPerMinute, 30); // Minimum height of 30px
+    return Math.max(durationMinutes * pixelsPerMinute, 30);
   };
 
   // Group events by day
@@ -148,12 +145,17 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
         
         {days.map(day => (
           <div key={day} className="day-column">
-            {/* Time grid lines */}
-            {timeSlots.map((time, index) => (
-              <div key={index} className="calendar-grid-line"></div>
+            {[...Array(timeSlots.length + 1)].map((_, index) => (
+              <div 
+                key={index} 
+                className="calendar-grid-line"
+                style={{ 
+                  top: `${index * 40}px`,
+                  height: index === timeSlots.length ? '1px' : '40px'
+                }}
+              ></div>
             ))}
             
-            {/* Events */}
             {processedEventsByDay[day].map((event, index) => {
               const top = getTimePosition(event.startTime);
               const height = getEventHeight(event.startTime, event.endTime);
