@@ -40,7 +40,7 @@ export default function Home() {
             </ol>
             <div className="flex gap-4 items-center flex-col sm:flex-row">
               <a
-                className="text-zinc-800 object-center rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#888585] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
+                className="text-zinc-800 object-center rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-white gap-2 hover:bg-[#4c4b4b] dark:hover:bg-[#b7b4b4] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
                 href="http://localhost:3000/test2" 
                 target="_blank"
                 rel="noopener noreferrer"
@@ -48,7 +48,7 @@ export default function Home() {
                 <img
                   className="dark:invert"
                   src="/vercel.svg"
-                  alt="Vercel logomark"
+                  alt="button"
                   width={20}
                   height={20}
                 />
