@@ -229,7 +229,7 @@ function App() {
       <header className="app-header">
         <h1>Course Scheduler</h1>
         <div className="term-selector">
-          <label>Term: </label>
+
           <select
             value={activeTerm}
             onChange={(e) => setActiveTerm(e.target.value)}
@@ -240,6 +240,7 @@ function App() {
           </select>
         </div>
       </header>
+      
 
       <div className="main-content">
         <div className="left-panel">
