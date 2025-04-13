@@ -32,6 +32,23 @@ body {
   color: #00ddff;
 }
 
+.dog-image {
+  width: 50px; /* Set a fixed width */
+  height: 50px; /* Maintain aspect ratio */
+  max-height: 50px; /* Optional: Limit the maximum height */
+  object-fit: contain; /* Ensure the image fits within the dimensions */
+  margin: 0 10px; /* Add spacing around the images */
+}
+
+.cat-image {
+  width: 50px; /* Set a fixed width */
+  height: 50px; /* Maintain aspect ratio */
+  max-height: 50px; /* Optional: Limit the maximum height */
+  object-fit: contain; /* Ensure the image fits within the dimensions */
+  margin: 0 10px; /* Add spacing around the images */
+  align-items: left;
+}
+
 .term-selector {
   display: flex;
   align-items: center;
@@ -39,12 +56,15 @@ body {
   gap: 10px;
 }
 
+.term-selector label{
+  text-align: center;
+}
+
 .term-selector select {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #ccc;
   background-color: #fff;
-  text-align: center;
   font-size: 16px;
 }
 

@@ -228,8 +228,18 @@ function App() {
     <div className="app">
       <header className="app-header">
         <h1>Course Scheduler</h1>
+        <img
+        src = "https://media.tenor.com/sEiYXWmf1W8AAAAi/glorp-alien.gif"
+        alt = "Cat"
+        className= "cat-image"
+       />
+       
         <div className="term-selector">
-
+          <img
+            src= "https://i.imgur.com/I1svEqz.png"
+            alt="Dog"
+            className="dog-image"
+          />
           <select
             value={activeTerm}
             onChange={(e) => setActiveTerm(e.target.value)}
@@ -240,7 +250,6 @@ function App() {
           </select>
         </div>
       </header>
-      
 
       <div className="main-content">
         <div className="left-panel">
