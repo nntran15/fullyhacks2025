@@ -59,14 +59,19 @@ function Tabs({
                 className="rename-tab"
                 onClick={() => startRenaming(schedule.id, schedule.name)}
               >
-                [✎]
+                [✏️]
               </button>
               {schedules.length > 1 && (
                 <button
                   className="close-tab"
-                  onClick={() => onDeleteSchedule(schedule.id)}
+                  onClick={() => {
+                    const confirmDelete = window.confirm(`Are you sure you want to delete the schedule "${schedule.name}"?`);
+                    if (confirmDelete) {
+                      onDeleteSchedule(schedule.id);
+                    }
+                  }}
                 >
-                  ✕
+                  [❌]
                 </button>
               )}
             </div>

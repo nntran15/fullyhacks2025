@@ -375,6 +375,33 @@ body {
 }
 
 /* Calendar Tabs */
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  /* Align tabs horizontally */
+  gap: 10px;
+  /* Add spacing between tabs */
+}
+.tab-actions {
+  display: flex;
+  gap: 16px; /* Add spacing between the ✎ and ✕ buttons */
+  align-items: center; /* Align buttons vertically */
+}
+
+.tab {
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: white;
+  border-color: #0056b3;
+}
+
 .add-tab {
   border: 2px solid #4CAF50;
   /* Green border */
