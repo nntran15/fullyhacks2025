@@ -2,10 +2,10 @@
 // components/Tabs.jsx
 import React, { useState } from 'react';
 
-function Tabs({ 
-  schedules, 
-  activeSchedule, 
-  onChangeSchedule, 
+function Tabs({
+  schedules,
+  activeSchedule,
+  onChangeSchedule,
   onAddSchedule,
   onDeleteSchedule,
   onRenameSchedule
@@ -13,13 +13,13 @@ function Tabs({
   const [isRenaming, setIsRenaming] = useState(false);
   const [newName, setNewName] = useState('');
   const [renamingId, setRenamingId] = useState(null);
-  
+
   const startRenaming = (scheduleId, currentName) => {
     setRenamingId(scheduleId);
     setNewName(currentName);
     setIsRenaming(true);
   };
-  
+
   const handleRename = () => {
     if (newName.trim()) {
       onRenameSchedule(renamingId, newName);
@@ -27,18 +27,18 @@ function Tabs({
     setIsRenaming(false);
     setRenamingId(null);
   };
-  
+
   return (
     <div className="schedule-tabs">
       <div className="tabs-container">
         {schedules.map(schedule => (
-          <div 
-            key={schedule.id} 
+          <div
+            key={schedule.id}
             className={`tab ${activeSchedule === schedule.id ? 'active-tab' : ''}`}
           >
             {isRenaming && renamingId === schedule.id ? (
-              <input 
-                type="text" 
+              <input
+                type="text"
                 value={newName}
                 onChange={(e) => setNewName(e.target.value)}
                 onBlur={handleRename}
@@ -46,23 +46,23 @@ function Tabs({
                 autoFocus
               />
             ) : (
-              <span 
+              <span
                 className="tab-name"
                 onClick={() => onChangeSchedule(schedule.id)}
               >
                 {schedule.name}
               </span>
             )}
-            
+
             <div className="tab-actions">
-              <button 
+              <button
                 className="rename-tab"
                 onClick={() => startRenaming(schedule.id, schedule.name)}
               >
-                ✎
+                [✎]
               </button>
               {schedules.length > 1 && (
-                <button 
+                <button
                   className="close-tab"
                   onClick={() => onDeleteSchedule(schedule.id)}
                 >
@@ -72,12 +72,12 @@ function Tabs({
             </div>
           </div>
         ))}
-        
-        <button 
+
+        <button
           className="add-tab"
           onClick={onAddSchedule}
         >
-          +
+          [+]
         </button>
       </div>
     </div>
