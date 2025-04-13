@@ -227,19 +227,19 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>Course Scheduler</h1>
-        <img
-        src = "https://media.tenor.com/sEiYXWmf1W8AAAAi/glorp-alien.gif"
-        alt = "Cat"
-        className= "cat-image"
-       />
-       
+        <h1> Jotchua and Glorp wants to find the most habitable schedule you can make. Do not disappoint them. </h1>
         <div className="term-selector">
           <img
-            src= "https://i.imgur.com/I1svEqz.png"
+            src="https://i.imgur.com/I1svEqz.png"
             alt="Dog"
             className="dog-image"
           />
+          <img
+            src="https://media.tenor.com/sEiYXWmf1W8AAAAi/glorp-alien.gif"
+            alt="Cat"
+            className="cat-image"
+          />
+
           <select
             value={activeTerm}
             onChange={(e) => setActiveTerm(e.target.value)}

@@ -8,6 +8,7 @@
     background-color: #f5f5f5;
     border-bottom: 1px solid #ddd;
     height: 40px;
+    box-sizing: border-box;
   }
   
   .time-column {
@@ -15,6 +16,7 @@
     flex-shrink: 0;
     border-right: 1px solid #ddd;
     background-color: #f5f5f5;
+
   }
   
   .day-column-header {
@@ -23,6 +25,7 @@
     padding: 10px;
     font-weight: bold;
     border-right: 1px solid #ddd;
+    box-sizing: border-box;
   }
   
   .day-column-header:last-child {
@@ -32,8 +35,8 @@
   .calendar-body {
     position: relative;
     display: flex;
-    overflow-y: auto;
     height: 100%;
+    overflow:hidden;
   }
   
   .day-column {
