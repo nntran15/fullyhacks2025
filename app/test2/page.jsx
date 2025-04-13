@@ -166,7 +166,7 @@ const addCourseToSchedule = (course, sectionIds) => {
   return (
     <div className="app">
       <header className="app-header">
-        <h1> Jotchua and Glorp wants to find the most habitable schedule you can make. Do not disappoint them. </h1>
+        <h1> Jotchua and Glorp want to see you make the most habitable schedule. Do not disappoint them. </h1>
         <div className="term-selector">
           <img
             src="https://i.imgur.com/I1svEqz.png"
