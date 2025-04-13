@@ -81,15 +81,15 @@ function CourseSearch({ onSearch, activeTerm }) {
       setLoading(false);
     }
   };
-  
+
   return (
     <div className="course-search">
       <h2>Find Courses</h2>
       <form onSubmit={handleSubmit}>
         <div className="search-group">
           <label>Department:</label>
-          <select 
-            value={department} 
+          <select
+            value={department}
             onChange={(e) => setDepartment(e.target.value)}
           >
             <option value="">All Departments</option>
@@ -98,11 +98,11 @@ function CourseSearch({ onSearch, activeTerm }) {
             ))}
           </select>
         </div>
-        
+
         <div className="search-group">
           <label>Search:</label>
-          <input 
-            type="text" 
+          <input
+            type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Enter course code, title, or instructor"
