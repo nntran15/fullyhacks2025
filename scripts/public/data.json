@@ -1,0 +1,66 @@
+[
+  {
+    "Class ID":22124,
+    "Class Name":"AFAM 107 - Introduction to African American Studies",
+    "Section":"04-LEC\nRegular",
+    "Room":"Online",
+    "Instruction Type":"Fully Online",
+    "Time":"TBA"
+  },
+  {
+    "Class ID":17149,
+    "Class Name":"AFAM 160 - Introduction to Black Creative Expression",
+    "Section":"01-LEC\nRegular",
+    "Room":"EC 122 - Lecture Room",
+    "Instruction Type":"In Person",
+    "Time":"MoWe 11:30AM - 12:45PM"
+  },
+  {
+    "Class ID":21755,
+    "Class Name":"AFAM 308 - Black Men in America",
+    "Section":"02-DIS\nRegular",
+    "Room":"EC 203 - Lecture Room",
+    "Instruction Type":"In Person",
+    "Time":"MoWe 1:00PM - 2:15PM"
+  },
+  {
+    "Class ID":17157,
+    "Class Name":"AFAM 314 - Pan-African Dance and Movement",
+    "Section":"01-DIS\nRegular",
+    "Room":"E-SW011 - Lecture Room",
+    "Instruction Type":"In Person",
+    "Time":"We 4:00PM - 6:45PM"
+  },
+  {
+    "Class ID":17285,
+    "Class Name":"AFAM 335 - History of Racism",
+    "Section":"02-DIS\nRegular",
+    "Room":"GH 304 - Lecture Room",
+    "Instruction Type":"In Person",
+    "Time":"Tu 7:00PM - 9:45PM"
+  },
+  {
+    "Class ID":17558,
+    "Class Name":"AFAM 357 - Blacks in the Performing Arts",
+    "Section":"02-LEC\nRegular",
+    "Room":"Hum 413 - Lecture Room",
+    "Instruction Type":"In Person",
+    "Time":"TuTh 1:00PM - 2:15PM"
+  },
+  {
+    "Class ID":17159,
+    "Class Name":"AFAM 388 - Hip Hop Culture",
+    "Section":"01-LEC\nRegular",
+    "Room":"EC 124 - Lecture Room",
+    "Instruction Type":"In Person",
+    "Time":"MoWe 2:30PM - 3:45PM"
+  },
+  {
+    "Class ID":20471,
+    "Class Name":"AFAM 408 - The Black Athlete",
+    "Section":"01-LEC\nRegular",
+    "Room":"LH 402 - Lecture Room",
+    "Instruction Type":"In Person",
+    "Time":"MoWe 11:30AM - 12:45PM"
+  }
+]
