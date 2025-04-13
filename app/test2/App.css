@@ -10,6 +10,7 @@ body {
   line-height: 1.5;
   color: #333;
   background-color: #f5f5f5;
+  background-image: url('../../images/269191.jpg')
 }
 
 .app {
@@ -382,10 +383,13 @@ body {
   gap: 10px;
   /* Add spacing between tabs */
 }
+
 .tab-actions {
   display: flex;
-  gap: 16px; /* Add spacing between the ✎ and ✕ buttons */
-  align-items: center; /* Align buttons vertically */
+  gap: 16px;
+  /* Add spacing between the ✎ and ✕ buttons */
+  align-items: center;
+  /* Align buttons vertically */
 }
 
 .tab {

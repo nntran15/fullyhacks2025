@@ -7,7 +7,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
   // Define the days of the week and time slots
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
   const timeSlots = [];
-  
+
   // Generate time slots from 7:00am to 10:00pm in 30 min increments
   for (let hour = 7; hour <= 22; hour++) {
     const amPm = hour < 12 ? 'am' : 'pm';
@@ -21,18 +21,18 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
   // Helper to convert time string to minutes since midnight
   const timeToMinutes = (timeStr) => {
     if (!timeStr) return 0;
-    
+
     try {
       // Parse time like "10:00am" or "2:30pm" or "10:50am"
       const [time, amPm] = timeStr.split(/([ap]m)/).filter(Boolean);
       let [hours, minutes] = time.split(':').map(Number);
-      
+
       if (amPm === 'pm' && hours !== 12) {
         hours += 12;
       } else if (amPm === 'am' && hours === 12) {
         hours = 0;
       }
-      
+
       return hours * 60 + minutes;
     } catch (e) {
       console.error(`Error parsing time ${timeStr}:`, e);
@@ -45,7 +45,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
     const minutes = timeToMinutes(timeStr);
     const startMinutes = 7 * 60;
     const pixelsPerMinute = 40 / 30;
-    
+
     return (minutes - startMinutes) * pixelsPerMinute;
   };
 
@@ -63,7 +63,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
     acc[day] = events.filter(event => event.day === day);
     return acc;
   }, {});
-  
+
   // Sort events within each day
   Object.keys(eventsByDay).forEach(day => {
     eventsByDay[day].sort((a, b) => {
@@ -74,15 +74,15 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
   // Find overlapping events and organize them
   const organizeOverlappingEvents = (events) => {
     if (!events.length) return [];
-    
+
     // Group events by overlap
     const groups = [];
     let currentGroup = [events[0]];
-    
+
     for (let i = 1; i < events.length; i++) {
       const event = events[i];
       const previousEvent = events[i - 1];
-      
+
       // Check if current event overlaps with previous event
       if (timeToMinutes(event.startTime) < timeToMinutes(previousEvent.endTime)) {
         currentGroup.push(event);
@@ -91,11 +91,11 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
         currentGroup = [event];
       }
     }
-    
+
     if (currentGroup.length) {
       groups.push(currentGroup);
     }
-    
+
     // For each group, calculate position and width
     return groups.flatMap(group => {
       return group.map((event, index) => {
@@ -133,7 +133,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
           </div>
         ))}
       </div>
-      
+
       <div className="calendar-body">
         <div className="time-column">
           {timeSlots.map(time => (
@@ -142,27 +142,27 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
             </div>
           ))}
         </div>
-        
+
         {days.map(day => (
           <div key={day} className="day-column">
             {[...Array(timeSlots.length + 1)].map((_, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="calendar-grid-line"
-                style={{ 
+                style={{
                   top: `${index * 40}px`,
                   height: index === timeSlots.length ? '1px' : '40px'
                 }}
               ></div>
             ))}
-            
+
             {processedEventsByDay[day].map((event, index) => {
               const top = getTimePosition(event.startTime);
               const height = getEventHeight(event.startTime, event.endTime);
               const backgroundColor = courseColors[event.course];
-              
+
               return (
-                <div 
+                <div
                   key={`${event.course}-${index}`}
                   className="calendar-event"
                   style={{
@@ -178,7 +178,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
                     <div className="event-header">
                       <div className="event-title">{event.course}</div>
                       {onRemoveEvent && (
-                        <button 
+                        <button
                           className="event-remove-btn"
                           onClick={(e) => {
                             e.stopPropagation();
