@@ -1,0 +1,149 @@
+Class ID,Class Name,Section,Room,Instruction Type,Time
+17268,EGEC 180 - Digital Logic and Computer Structures,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,Mo 9:00-10:50AM
+17269,EGEC 180 - Digital Logic and Computer Structures,"02-ACT
+Regular",CS 301 - Teaching Lab,In Person,We 9:00-10:50AM
+17210,EGEC 203 - Electric Circuits,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,TuTh 1:00-2:15PM
+17327,EGEC 203 - Electric Circuits,"03-DIS
+Regular",CS 406 - Teaching Lab,In Person,MoWe 1:00-2:15PM
+17346,EGEC 203 - Electric Circuits,"04-DIS
+Regular",E 321 - Lecture Room,In Person,TuTh 10:00-11:15AM
+17259,EGEC 203L - Electric Circuits Laboratory,"01-LAB
+Regular",E 303 - Teaching Lab,In Person,We 8:30-11:15AM
+17261,EGEC 203L - Electric Circuits Laboratory,"02-LAB
+Regular",E 303 - Teaching Lab,In Person,Tu 8:30-11:15AM
+17274,EGEC 203L - Electric Circuits Laboratory,"03-LAB
+Regular",E 303 - Teaching Lab,In Person,Tu 11:30AM-2:15PM
+20385,EGEC 203L - Electric Circuits Laboratory,"04-LAB
+Regular",E 303 - Teaching Lab,In Person,Mo 7:00-9:45PM
+20388,EGEC 203L - Electric Circuits Laboratory,"06-LAB
+Regular",E 303 - Teaching Lab,In Person,Tu 7:00-9:45PM
+17311,EGEC 203L - Electric Circuits Laboratory,"07-LAB
+Regular",E 303 - Teaching Lab,In Person,Fr 11:30AM-2:15PM
+17378,EGEC 203L - Electric Circuits Laboratory,"12-LAB
+Regular",E 303 - Teaching Lab,In Person,We 1:00-3:45PM
+17612,EGEC 215 - Solving Engineering Problems Using MATLAB,"01-LAB
+Regular",CS 406 - Teaching Lab,In Person,Tu 7:00-9:45PM
+17211,EGEC 245 - Computer Logic and Architecture,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,MoWe 2:30-3:45PM
+19676,EGEC 245L - Computer Logic and Architecture Lab,"02-LAB
+Regular",CS 402 - Special Instruction,In Person,Fr 2:30-5:15PM
+17722,EGEC 245L - Computer Logic and Architecture Lab,"03-LAB
+Regular",CS 402 - Special Instruction,In Person,Th 7:00-9:45PM
+17359,EGEC 280 - Microcontrollers,"03-LEC
+Regular",CS 301 - Teaching Lab,In Person,Tu 8:30-9:20AM
+17360,EGEC 280 - Microcontrollers,"04-ACT
+Regular",CS 301 - Teaching Lab,In Person,TuTh 9:30-11:20AM
+17610,EGEC 281 - Designing with VHDL,"01-LEC
+Regular",CS 406 - Teaching Lab,In Person,Th 7:00-7:50PM
+17611,EGEC 281 - Designing with VHDL,"02-ACT
+Regular",CS 406 - Teaching Lab,In Person,Th 8:00-9:45PM
+17526,EGEC 281 - Designing with VHDL,"05-LEC
+Regular",CS 406 - Teaching Lab,In Person,Fr 8:30-9:25AM
+17527,EGEC 281 - Designing with VHDL,"06-ACT
+Regular",CS 406 - Teaching Lab,In Person,Fr 9:30-11:20AM
+17212,EGEC 303 - Electronics,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,TuTh 11:30AM-12:45PM
+17270,EGEC 303L - Electronics Laboratory,"01-LAB
+Regular",E 403 - Teaching Lab,In Person,Tu 8:30-11:15AM
+17298,EGEC 303L - Electronics Laboratory,"03-LAB
+Regular",E 403 - Teaching Lab,In Person,Fr 8:30-11:15AM
+17306,EGEC 308 - Engineering Analysis,"02-DIS
+Regular",CS 406 - Teaching Lab,In Person,MoWe 11:30AM-12:45PM
+20709,EGEC 309 - Network Analysis,"02-DIS
+Regular",CS 406 - Teaching Lab,In Person,TuTh 2:30-3:45PM
+17342,EGEC 310 - Electronic Circuits,"01-DIS
+Regular",CS 402 - Special Instruction,In Person,TuTh 2:30-3:45PM
+17352,EGEC 310L - Electronic Circuits Lab,"01-LAB
+Regular",E 403 - Teaching Lab,In Person,Fr 1:00-3:45PM
+20417,EGEC 310L - Electronic Circuits Lab,"02-LAB
+Regular",E 403 - Teaching Lab,In Person,Tu 7:00-9:45PM
+17391,EGEC 311 - Field Theory and Transmission Lines,"03-DIS
+Regular",E 321 - Lecture Room,In Person,TuTh 4:00-5:15PM
+17255,EGEC 313 - Introduction to Electromechanics,"01-DIS
+Regular",E 321 - Lecture Room,In Person,MoWe 1:00-2:15PM
+17466,EGEC 313L - Power Laboratory,"03-LAB
+Regular",E 402 - Teaching Lab,In Person,Mo 10:00AM-12:45PM
+19688,EGEC 323 - Engineering Probability and Statistics,"01-DIS
+Regular",E 321 - Lecture Room,In Person,MoWe 10:00-11:15AM
+17430,EGEC 371 - Modeling and Simulation of Signals and Systems,"01-LEC
+Regular",CS 402 - Special Instruction,In Person,MoWe 11:30AM-12:45PM
+17402,EGEC 381 - Computer Design and Organization,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,TuTh 1:00-1:50PM
+17403,EGEC 381 - Computer Design and Organization,"02-ACT
+Regular",CS 301 - Teaching Lab,In Person,TuTh 2:00-3:50PM
+17377,EGEC 401 - Engineering Economics and Professionalism,"01-DIS
+Regular",E 321 - Lecture Room,In Person,MoWe 4:00-5:15PM
+17607,EGEC 401 - Engineering Economics and Professionalism,"02-DIS
+Regular",E 321 - Lecture Room,In Person,TuTh 11:30AM-12:45PM
+17350,EGEC 404 - Introduction to Microprocessors and Microcomputers,"01-DIS
+Regular",CS 402 - Special Instruction,In Person,TuTh 4:00-5:15PM
+17719,EGEC 409 - Introduction to Linear Systems,"01-DIS
+Regular",CS 402 - Special Instruction,In Person,MoWe 2:30-3:45PM
+17404,EGEC 441 - Advanced Electronics for Computer Engineers,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,MoWe 4:00-4:50PM
+17405,EGEC 441 - Advanced Electronics for Computer Engineers,"02-ACT
+Regular",CS 301 - Teaching Lab,In Person,MoWe 5:00-6:50PM
+20711,EGEC 443 - Electronic Communication Systems,"01-DIS
+Regular",TBA,In Person,TuTh 7:00-8:15PM
+17343,EGEC 446 - Advanced Digital Design using Verilog HDL,"01-LEC
+Regular",CS 406 - Teaching Lab,In Person,MoWe 5:30-6:45PM
+17544,EGEC 447 - Introduction to Cyber-Physical Systems Security,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,MoWe 7:00-8:15PM
+17522,EGEC 450 - Embedded Processor Interfacing,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,MoWe 1:00-1:50PM
+17523,EGEC 450 - Embedded Processor Interfacing,"02-ACT
+Regular",CS 301 - Teaching Lab,In Person,MoWe 2:00-3:50PM
+20516,EGEC 455 - Microelectronics and Nano Devices,"01-DIS
+Regular",E 321 - Lecture Room,In Person,TuTh 2:30-3:45PM
+17285,EGEC 465 - Introduction to VLSI Design,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,MoWe 7:00-8:15PM
+17423,EGEC 470 - Multidisciplinary Projects in Computer Engineering - I,"01-ACT
+Regular",E 302 - Teaching Lab,In Person,Fr 9:00AM-12:50PM
+17347,EGEC 485 - Electrical Engineering Design Projects Laboratory,"01-LEC
+Regular",E 302 - Teaching Lab,In Person,TuTh 8:00-8:25AM
+17348,EGEC 485 - Electrical Engineering Design Projects Laboratory,"02-LAB
+Regular",E 302 - Teaching Lab,In Person,TuTh 8:25-11:15AM
+17215,EGEC 497 - Senior Project,"01-SUP
+Regular",TBA,In Person,TBA
+17220,EGEC 499 - Independent Study,"01-SUP
+Regular",TBA,In Person,TBA
+17221,EGEC 499 - Independent Study,"02-SUP
+Regular",TBA,In Person,TBA
+17222,EGEC 499 - Independent Study,"03-SUP
+Regular",TBA,In Person,TBA
+20527,EGEC 503 - Information Theory and Coding,"01-SEM
+Regular",CS 402 - Special Instruction,In Person,TuTh 5:30-6:45PM
+20522,EGEC 518 - Digital Signal Processing I,"01-DIS
+Regular",E 321 - Lecture Room,In Person,MoWe 5:30-6:45PM
+17459,EGEC 540 - Computer Arithmetic Structures,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,TuTh 5:30-6:45PM
+20525,EGEC 565 - Rapid Prototyping for Internet of Things,"01-LEC
+Regular",CS 402 - Special Instruction,In Person,Tu 7:00-9:45PM
+17328,EGEC 597 - Project,"01-SUP
+Regular",TBA,In Person,TBA
+17329,EGEC 597 - Project,"02-SUP
+Regular",TBA,In Person,TBA
+17330,EGEC 597 - Project,"03-SUP
+Regular",TBA,In Person,TBA
+17331,EGEC 597 - Project,"04-SUP
+Regular",TBA,In Person,TBA
+17332,EGEC 597 - Project,"05-SUP
+Regular",TBA,In Person,TBA
+17366,EGEC 597 - Project,"06-SUP
+Regular",TBA,In Person,TBA
+17245,EGEC 598 - Thesis,"01-SUP
+Regular",TBA,In Person,TBA
+17246,EGEC 598 - Thesis,"02-SUP
+Regular",TBA,In Person,TBA
+17247,EGEC 598 - Thesis,"03-SUP
+Regular",TBA,In Person,TBA
+17248,EGEC 598 - Thesis,"04-SUP
+Regular",TBA,In Person,TBA
+17249,EGEC 598 - Thesis,"05-SUP
+Regular",TBA,In Person,TBA
+17234,EGEC 599 - Independent Graduate Research,"01-SUP
+Regular",TBA,In Person,TBA
+17235,EGEC 599 - Independent Graduate Research,"02-SUP
+Regular",TBA,In Person,TBA

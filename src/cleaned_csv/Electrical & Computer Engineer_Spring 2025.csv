@@ -1,0 +1,99 @@
+Class ID,Class Name,Section,Room,Instruction Type,Time
+14078,EGEC 180 - Digital Logic and Computer Structures,"03-LEC
+Regular",CS 406 - Teaching Lab,In Person,Mo 11:30AM-1:20PM
+14079,EGEC 180 - Digital Logic and Computer Structures,"04-ACT
+Regular",CS 406 - Teaching Lab,In Person,We 11:30AM-1:20PM
+20941,EGEC 245L - Computer Logic and Architecture Lab,"02-LAB
+Regular",CS 406 - Teaching Lab,In Person,Fr 8:30-11:15AM
+13885,EGEC 280 - Microcontrollers,"01-LEC
+Regular",CS 402 - Special Instruction,In Person,Mo 8:30-9:20AM
+13886,EGEC 280 - Microcontrollers,"02-ACT
+Regular",CS 402 - Special Instruction,In Person,MoWe 9:30-11:20AM
+22126,EGEC 303L - Electronics Laboratory,"04-LAB
+Regular",E 403 - Teaching Lab,In Person,Fr 2:30-5:15PM
+13861,EGEC 309 - Network Analysis,"01-DIS
+Regular",CS 402 - Special Instruction,In Person,TuTh 1:00-2:15PM
+13862,EGEC 310 - Electronic Circuits,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,MoWe 2:30-3:45PM
+13866,EGEC 311 - Field Theory and Transmission Lines,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,TuTh 11:30AM-12:45PM
+13867,EGEC 313 - Introduction to Electromechanics,"01-DIS
+Regular",E 321 - Lecture Room,In Person,MoWe 11:30AM-12:45PM
+13871,EGEC 371 - Modeling and Simulation of Signals and Systems,"01-LEC
+Regular",CS 402 - Special Instruction,In Person,TuTh 4:00-5:15PM
+13891,EGEC 381 - Computer Design and Organization,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,MoWe 4:00-4:50PM
+13892,EGEC 381 - Computer Design and Organization,"02-ACT
+Regular",CS 301 - Teaching Lab,In Person,MoWe 5:00-6:50PM
+13872,EGEC 401 - Engineering Economics and Professionalism,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,TuTh 1:00-2:15PM
+13873,EGEC 401 - Engineering Economics and Professionalism,"02-DIS
+Regular",CS 406 - Teaching Lab,In Person,TuTh 5:30-6:45PM
+21889,EGEC 406 - Design Applications with Microcontroller and FPGA,"03-DIS
+Regular",CS 402 - Special Instruction,In Person,MoWe 1:00-2:15PM
+13875,EGEC 409 - Introduction to Linear Systems,"01-DIS
+Regular",CS 402 - Special Instruction,In Person,TuTh 11:30AM-12:45PM
+20942,EGEC 420 - Introduction to Digital Filtering,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,MoWe 4:00-5:15PM
+13893,EGEC 441 - Advanced Electronics for Computer Engineers,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,TuTh 8:30-9:20AM
+13894,EGEC 441 - Advanced Electronics for Computer Engineers,"02-ACT
+Regular",CS 301 - Teaching Lab,In Person,TuTh 9:30-11:20AM
+13876,EGEC 445 - Digital Electronics,"01-DIS
+Regular",CS 406 - Teaching Lab,In Person,TuTh 4:00-5:15PM
+21645,EGEC 461 - Low Power Digital IC Design,"02-LEC
+Regular",CS 301 - Teaching Lab,In Person,Fr 2:30-5:15PM
+21486,EGEC 469 - Antennas for Wireless Communications,"01-LEC
+Regular",CS 402 - Special Instruction,In Person,MoWe 7:00-8:15PM
+13969,EGEC 483 - Introduction to Global Positioning Systems (GPS),"01-DIS
+Regular",CS 402 - Special Instruction,In Person,TuTh 5:30-6:45PM
+13880,EGEC 485 - Electrical Engineering Design Projects Laboratory,"01-LEC
+Regular",E 302 - Teaching Lab,In Person,TuTh 8:00-8:25AM
+13881,EGEC 485 - Electrical Engineering Design Projects Laboratory,"02-LAB
+Regular",E 302 - Teaching Lab,In Person,TuTh 8:30-11:15AM
+22213,EGEC 497 - Senior Project,"02-SUP
+Regular",TBA,In Person,TBA
+22212,EGEC 497 - Senior Project,"1-SUP
+Regular",TBA,In Person,TBA
+14074,EGEC 499 - Independent Study,"01-SUP
+Regular",TBA,In Person,TBA
+14075,EGEC 499 - Independent Study,"02-SUP
+Regular",TBA,In Person,TBA
+14076,EGEC 499 - Independent Study,"03-SUP
+Regular",TBA,In Person,TBA
+14077,EGEC 499 - Independent Study,"04-SUP
+Regular",TBA,In Person,TBA
+21487,EGEC 541 - Mixed-Signal IC Design,"01-LEC
+Regular",CS 301 - Teaching Lab,In Person,MoWe 7:00-8:15PM
+22125,EGEC 580 - Analysis of Random Signals,"02-SEM
+Regular",CS 406 - Teaching Lab,In Person,MoWe 5:30-6:45PM
+13975,EGEC 597 - Project,"01-SUP
+Regular",TBA,In Person,TBA
+13976,EGEC 597 - Project,"02-SUP
+Regular",TBA,In Person,TBA
+13977,EGEC 597 - Project,"03-SUP
+Regular",TBA,In Person,TBA
+13978,EGEC 597 - Project,"04-SUP
+Regular",TBA,In Person,TBA
+13979,EGEC 597 - Project,"05-SUP
+Regular",TBA,In Person,TBA
+22219,EGEC 597 - Project,"06-SUP
+Regular",TBA,In Person,TBA
+13981,EGEC 598 - Thesis,"02-SUP
+Regular",TBA,In Person,TBA
+13982,EGEC 598 - Thesis,"03-SUP
+Regular",TBA,In Person,TBA
+13983,EGEC 598 - Thesis,"04-SUP
+Regular",TBA,In Person,TBA
+13984,EGEC 598 - Thesis,"05-SUP
+Regular",TBA,In Person,TBA
+13971,EGEC 599 - Independent Graduate Research,"01-SUP
+Regular",TBA,In Person,TBA
+13972,EGEC 599 - Independent Graduate Research,"02-SUP
+Regular",TBA,In Person,TBA
+13973,EGEC 599 - Independent Graduate Research,"03-SUP
+Regular",TBA,In Person,TBA
+13974,EGEC 599 - Independent Graduate Research,"04-SUP
+Regular",TBA,In Person,TBA
+13985,EGEC 599 - Independent Graduate Research,"05-SUP
+Regular",TBA,In Person,TBA

@@ -1,55 +1,92 @@
-// components/Schedule.jsx
+// components/Schedule.jsx - Completely fixed version
 import React from 'react';
 import WeeklyCalendar from './WeeklyCalendar';
 
 function Schedule({ schedule, onRemoveCourse }) {
   if (!schedule) return <div>No schedule selected</div>;
 
-  // Helper to parse time strings into schedule objects
+  // Helper to parse time strings into schedule objects - COMPLETELY REVAMPED
   const parseTimeString = (timeStr) => {
-    // Parse format like "MWF 10:00-10:50am" or "TuTh 11:00-12:20pm"
-    const parts = timeStr.split(' ');
-    if (parts.length !== 2) return { days: [], startTime: '', endTime: '' };
+    if (!timeStr || timeStr === "TBA") return { days: [], startTime: '', endTime: '' };
     
-    const days = parts[0];
-    const timeRange = parts[1];
+    console.log('Parsing schedule time string:', timeStr);
     
-    // Handle cases where AM/PM is only specified once at the end
-    let [startTime, endTime] = timeRange.split('-');
+    // Extract days part and time part, handling various formats
+    const match = timeStr.match(/^([A-Za-z]+)\s+(.+)$/);
+if (!match) {
+  console.error('Invalid time string format:', timeStr);
+  return { days: [], startTime: '', endTime: '' };
+}
+const daysStr = match[1].trim();
+const timePart = match[2].trim();
     
-    // Check if endTime has am/pm but startTime doesn't
-    if (endTime.includes('am') || endTime.includes('pm')) {
-      const suffix = endTime.includes('am') ? 'am' : 'pm';
-      
-      if (!startTime.includes('am') && !startTime.includes('pm')) {
-        startTime = `${startTime}${suffix}`;
+    // Extract start and end times, handling different dash formats and spacing
+    const timeMatch = timePart.match(/(\d+:\d+(?:AM|PM)?)\s*-\s*(\d+:\d+(?:AM|PM)?)/i);
+    if (!timeMatch) {
+      console.error('Could not extract start and end times:', timePart);
+      return { days: [], startTime: '', endTime: '' };
+    }
+    
+    // Ensure AM/PM is included in times
+    let startTime = timeMatch[1].trim();
+    let endTime = timeMatch[2].trim();
+    
+    // Add AM/PM if missing (handle case where AM/PM is only at the end)
+    if (!startTime.toLowerCase().includes('am') && !startTime.toLowerCase().includes('pm')) {
+      // Extract AM/PM from end time if present
+      const periodMatch = endTime.match(/(AM|PM)$/i);
+      if (periodMatch) {
+        startTime += periodMatch[0];
       }
     }
     
-    // Parse days more accurately
+    console.log(`Extracted times: start=${startTime}, end=${endTime}`);
+    
+    // Parse days, handling both "MWF" and "MoWeFr" formats
+    const dayMappings = {
+      'M': 'Monday', 'Mo': 'Monday',
+      'T': 'Tuesday', 'Tu': 'Tuesday',
+      'W': 'Wednesday', 'We': 'Wednesday',
+      'Th': 'Thursday',
+      'F': 'Friday', 'Fr': 'Friday'
+    };
+    
     const parsedDays = [];
-    let i = 0;
     
-    while (i < days.length) {
-      if (days.substring(i, i+2) === 'Tu') {
-        parsedDays.push('Tuesday');
-        i += 2;
-      } else if (days.substring(i, i+2) === 'Th') {
-        parsedDays.push('Thursday');
-        i += 2;
-      } else if (days[i] === 'M') {
-        parsedDays.push('Monday');
-        i += 1;
-      } else if (days[i] === 'W') {
-        parsedDays.push('Wednesday');
-        i += 1;
-      } else if (days[i] === 'F') {
-        parsedDays.push('Friday');
-        i += 1;
-      } else {
-        i += 1; // Skip unrecognized characters
+    // Try to parse by checking all possible day abbreviations
+    let remainingStr = daysStr;
+    while (remainingStr.length > 0) {
+      let matched = false;
+      
+      // Check two-letter abbreviations first
+      for (const [abbr, day] of Object.entries(dayMappings)) {
+        if (abbr.length === 2 && remainingStr.startsWith(abbr)) {
+          parsedDays.push(day);
+          remainingStr = remainingStr.substring(abbr.length);
+          matched = true;
+          break;
+        }
+      }
+      
+      // If no two-letter match, try one-letter abbreviations
+      if (!matched) {
+        for (const [abbr, day] of Object.entries(dayMappings)) {
+          if (abbr.length === 1 && remainingStr.startsWith(abbr)) {
+            parsedDays.push(day);
+            remainingStr = remainingStr.substring(abbr.length);
+            matched = true;
+            break;
+          }
+        }
+      }
+      
+      // If still no match, skip this character
+      if (!matched) {
+        remainingStr = remainingStr.substring(1);
       }
     }
+    
+    console.log('Parsed days:', parsedDays);
     
     return {
       days: parsedDays,
@@ -76,6 +113,9 @@ function Schedule({ schedule, onRemoveCourse }) {
     }).flat()
   );
 
+  // Log the calendar events for debugging
+  console.log('Calendar events:', calendarEvents);
+
   // Function to handle course removal with confirmation
   const handleRemoveCourse = (courseId, courseName) => {
     const confirmRemove = window.confirm(`Remove ${courseName} from your schedule?`);
@@ -92,7 +132,7 @@ function Schedule({ schedule, onRemoveCourse }) {
         <div className="calendar-view">
           <WeeklyCalendar 
             events={calendarEvents} 
-            onRemoveEvent={(courseId) => handleRemoveCourse(courseId)} 
+            onRemoveEvent={handleRemoveCourse} 
           />
         </div>
         

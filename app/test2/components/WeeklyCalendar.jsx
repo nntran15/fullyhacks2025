@@ -1,13 +1,13 @@
-// Updated WeeklyCalendar.jsx with fixed grid lines
+// WeeklyCalendar.jsx - Fixed version with robust time parsing
 
 import React from 'react';
-import './WeeklyCalendar.css'; // Make sure to create this CSS file
+import './WeeklyCalendar.css';
 
 function WeeklyCalendar({ events, onRemoveEvent }) {
   // Define the days of the week and time slots
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
   const timeSlots = [];
-
+  
   // Generate time slots from 7:00am to 10:00pm in 30 min increments
   for (let hour = 7; hour <= 22; hour++) {
     const amPm = hour < 12 ? 'am' : 'pm';
@@ -18,52 +18,57 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
     }
   }
 
-  // Helper to convert time string to minutes since midnight
+  // DEBUG: Log all events immediately to check input format
+  console.log('Raw events:', events);
+
+  // Helper to convert time string to minutes since midnight - ROBUST VERSION
   const timeToMinutes = (timeStr) => {
     if (!timeStr) return 0;
-
-    try {
-      // Parse time like "10:00am" or "2:30pm" or "10:50am"
-      const [time, amPm] = timeStr.split(/([ap]m)/).filter(Boolean);
-      let [hours, minutes] = time.split(':').map(Number);
-
-      if (amPm === 'pm' && hours !== 12) {
-        hours += 12;
-      } else if (amPm === 'am' && hours === 12) {
-        hours = 0;
-      }
-
-      return hours * 60 + minutes;
-    } catch (e) {
-      console.error(`Error parsing time ${timeStr}:`, e);
+  
+    const cleanTime = timeStr.replace(/\s/g, '');
+    const timeMatch = cleanTime.match(/(\d+):(\d+)([AP]M)/i);
+  
+    if (!timeMatch) {
+      console.error("Failed to parse time string:", timeStr);
       return 0;
     }
+  
+    let hours = parseInt(timeMatch[1], 10);
+    const minutes = parseInt(timeMatch[2], 10);
+    const period = timeMatch[3].toUpperCase();
+  
+    if (period === 'PM' && hours < 12) {
+      hours += 12;
+    } else if (period === 'AM' && hours === 12) {
+      hours = 0;
+    }
+  
+    return hours * 60 + minutes;
   };
 
-  // Helper to convert time to vertical position
-  const getTimePosition = (timeStr) => {
-    const minutes = timeToMinutes(timeStr);
-    const startMinutes = 7 * 60;
-    const pixelsPerMinute = 40 / 30;
-
-    return (minutes - startMinutes) * pixelsPerMinute;
+  // Calculate the vertical position of an event
+  const getTimePosition = (startTime) => {
+    const minutes = timeToMinutes(startTime);
+    const startOfDay = 7 * 60; // 7:00 AM in minutes
+    return (minutes - startOfDay) * (80 / 60); // 40px per hour, 2/3px per minute
   };
 
-  // Calculate event height based on exact start and end times
+  // Calculate the height of an event
   const getEventHeight = (startTime, endTime) => {
     const startMinutes = timeToMinutes(startTime);
     const endMinutes = timeToMinutes(endTime);
-    const durationMinutes = endMinutes - startMinutes;
-    const pixelsPerMinute = 40 / 30;
-    return Math.max(durationMinutes * pixelsPerMinute, 30);
+    return (endMinutes - startMinutes) * (80 / 60); // 40px per hour, 2/3px per minute
   };
+
+  console.log('Start time position:', getTimePosition('5:30PM')); // Should be correct
+  console.log('Event height:', getEventHeight('5:30PM', '6:45PM')); // Should match duration
 
   // Group events by day
   const eventsByDay = days.reduce((acc, day) => {
     acc[day] = events.filter(event => event.day === day);
     return acc;
   }, {});
-
+  
   // Sort events within each day
   Object.keys(eventsByDay).forEach(day => {
     eventsByDay[day].sort((a, b) => {
@@ -74,15 +79,15 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
   // Find overlapping events and organize them
   const organizeOverlappingEvents = (events) => {
     if (!events.length) return [];
-
+    
     // Group events by overlap
     const groups = [];
     let currentGroup = [events[0]];
-
+    
     for (let i = 1; i < events.length; i++) {
       const event = events[i];
       const previousEvent = events[i - 1];
-
+      
       // Check if current event overlaps with previous event
       if (timeToMinutes(event.startTime) < timeToMinutes(previousEvent.endTime)) {
         currentGroup.push(event);
@@ -91,11 +96,11 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
         currentGroup = [event];
       }
     }
-
+    
     if (currentGroup.length) {
       groups.push(currentGroup);
     }
-
+    
     // For each group, calculate position and width
     return groups.flatMap(group => {
       return group.map((event, index) => {
@@ -123,6 +128,24 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
     }
   });
 
+  // Debug logging for event positioning
+  const debugEvents = events.map(event => {
+    const startMinutes = timeToMinutes(event.startTime);
+    const endMinutes = timeToMinutes(event.endTime);
+    const top = getTimePosition(event.startTime);
+    const height = getEventHeight(event.startTime, event.endTime);
+    
+    return {
+      ...event,
+      startMinutes,
+      endMinutes,
+      top,
+      height
+    };
+  });
+  
+  console.log('Debug events:', debugEvents);
+
   return (
     <div className="weekly-calendar">
       <div className="calendar-header">
@@ -133,7 +156,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
           </div>
         ))}
       </div>
-
+      
       <div className="calendar-body">
         <div className="time-column">
           {timeSlots.map(time => (
@@ -142,27 +165,27 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
             </div>
           ))}
         </div>
-
+        
         {days.map(day => (
           <div key={day} className="day-column">
             {[...Array(timeSlots.length + 1)].map((_, index) => (
-              <div
-                key={index}
+              <div 
+                key={index} 
                 className="calendar-grid-line"
-                style={{
+                style={{ 
                   top: `${index * 40}px`,
                   height: index === timeSlots.length ? '1px' : '40px'
                 }}
               ></div>
             ))}
-
+            
             {processedEventsByDay[day].map((event, index) => {
               const top = getTimePosition(event.startTime);
               const height = getEventHeight(event.startTime, event.endTime);
               const backgroundColor = courseColors[event.course];
-
+              
               return (
-                <div
+                <div 
                   key={`${event.course}-${index}`}
                   className="calendar-event"
                   style={{
@@ -178,7 +201,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
                     <div className="event-header">
                       <div className="event-title">{event.course}</div>
                       {onRemoveEvent && (
-                        <button
+                        <button 
                           className="event-remove-btn"
                           onClick={(e) => {
                             e.stopPropagation();
@@ -191,9 +214,9 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
                       )}
                     </div>
                     <div className="event-details">
-                      <div>{event.section}</div>
-                      <div>{event.location}</div>
                       <div>{event.startTime}-{event.endTime}</div>
+                      <div>{event.course} - {event.section}</div>
+                      <div>{event.location}</div>
                     </div>
                   </div>
                 </div>

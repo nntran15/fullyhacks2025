@@ -1,136 +1,136 @@
 /* WeeklyCalendar.css */
 .weekly-calendar {
-    height: 1240px; /* Matches the 31 time slots x 40px */
-  }
-  
-  .calendar-header {
-    display: flex;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #ddd;
-    height: 40px;
-  }
-  
+  height: 1240px; /* Matches the 31 time slots x 40px */
+}
+
+.calendar-header {
+  display: flex;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  height: 40px;
+}
+
+.time-column {
+  width: 80px;
+  flex-shrink: 0;
+  border-right: 1px solid #ddd;
+  background-color: #f5f5f5;
+}
+
+.day-column-header {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  border-right: 1px solid #ddd;
+}
+
+.day-column-header:last-child {
+  border-right: none;
+}
+
+.calendar-body {
+  position: relative;
+  display: flex;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.day-column {
+  position: relative;
+  flex: 1;
+  height: 1240px; /* Same as above */
+}
+
+.day-column:last-child {
+  border-right: none;
+}
+
+.time-slot {
+  height: 40px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.time-label {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  font-size: 12px;
+  color: #666;
+}
+
+.calendar-grid-line {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #eee;
+  height: 40px;
+}
+
+.calendar-event {
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 5px;
+  overflow: hidden;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.calendar-event:hover {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.event-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.event-title {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event-remove-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin: -3px 0 0;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.event-remove-btn:hover {
+  opacity: 1;
+}
+
+.event-details {
+  font-size: 11px;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
   .time-column {
-    width: 80px;
-    flex-shrink: 0;
-    border-right: 1px solid #ddd;
-    background-color: #f5f5f5;
-  }
-  
-  .day-column-header {
-    flex: 1;
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    border-right: 1px solid #ddd;
-  }
-  
-  .day-column-header:last-child {
-    border-right: none;
-  }
-  
-  .calendar-body {
-    position: relative;
-    display: flex;
-    overflow-y: auto;
-    height: 100%;
-  }
-  
-  .day-column {
-    position: relative;
-    flex: 1;
-    height: 1240px; /* Same as above */
-  }
-  
-  .day-column:last-child {
-    border-right: none;
-  }
-  
-  .time-slot {
-    height: 40px;
-    border-bottom: 1px solid #ddd;
-    position: relative;
+    width: 60px;
   }
   
   .time-label {
-    position: absolute;
-    top: 0px;
-    right: 7px;
-    font-size: 12px;
-    color: #666;
+    font-size: 10px;
   }
-  
-  .calendar-grid-line {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    border-top: 1px solid #eee;
-    height: 40px;
-  }
-  
-  .calendar-event {
-    position: absolute;
-    box-sizing: border-box;
-    border-radius: 4px;
-    padding: 5px;
-    overflow: hidden;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-    transition: box-shadow 0.2s ease;
-  }
-  
-  .calendar-event:hover {
-    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  }
-  
-  .event-content {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
-  
-  .event-header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2px;
-  }
-  
-  .event-title {
-    font-weight: bold;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .event-remove-btn {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-    padding: 0;
-    margin: -3px 0 0;
-    opacity: 0.7;
-    transition: opacity 0.2s;
-  }
-  
-  .event-remove-btn:hover {
-    opacity: 1;
-  }
-  
-  .event-details {
-    font-size: 11px;
-    overflow: hidden;
-  }
-  
-  @media (max-width: 768px) {
-    .time-column {
-      width: 60px;
-    }
-    
-    .time-label {
-      font-size: 10px;
-    }
-  }
+}

@@ -1,0 +1,514 @@
+Class ID,Class Name,Section,Room,Instruction Type,Time
+19744,MATH 10S - Mathematics For Liberal Arts Supplement,"01-LEC
+Regular",MH 502 - Lecture Room,In Person,TuTh 9:00-9:50AM
+18292,MATH 10S - Mathematics For Liberal Arts Supplement,"02-LEC
+Regular",MH 213 - Lecture Room,In Person,MoWe 10:00-10:50AM
+19745,MATH 10S - Mathematics For Liberal Arts Supplement,"03-LEC
+Regular",MH 487 - Lecture Room,In Person,MoWe 12:00-12:50PM
+19746,MATH 10S - Mathematics For Liberal Arts Supplement,"04-LEC
+Regular",MH 380 - Teaching Lab,In Person,TuTh 12:00-12:50PM
+19836,MATH 20S - Elementary Statistics Supplement,"02-LEC
+Regular",MH 501 - Computer Lab,In Person,Th 8:00-8:50AM
+18146,MATH 20S - Elementary Statistics Supplement,"03-LEC
+Regular",MH 501 - Computer Lab,In Person,Mo 2:00-2:50PM
+22065,MATH 20S - Elementary Statistics Supplement,"05-LEC
+Regular",MH 452 - Computer Lab,In Person,Tu 12:00-12:50PM
+18258,MATH 106 - Integral Calculus and Differential Equations,"01-LEC
+Regular",MH 390 - Teaching Lab,In Person,TuTh 10:00-11:50AM
+20976,MATH 106L - Calculus II - Laboratory,"01-LAB
+Regular",MH 390 - Teaching Lab,In Person,MoWe 10:00-11:15AM
+18201,MATH 107 - Introduction to Computational Linear Algebra,"01-LEC
+Regular",MH 452 - Computer Lab,In Person,TuTh 8:00-9:50AM
+18202,MATH 107 - Introduction to Computational Linear Algebra,"02-LEC
+Regular",MH 452 - Computer Lab,In Person,MoWe 1:00-2:50PM
+20794,MATH 110 - Mathematics for Liberal Arts Students,"05-DIS
+Regular",MH 553 - Computer Lab,In Person,Fr 10:00AM-12:45PM
+20801,MATH 110 - Mathematics for Liberal Arts Students,"12-DIS
+Regular",MH 553 - Computer Lab,In Person,MoWe 4:00-5:15PM
+20804,MATH 110 - Mathematics for Liberal Arts Students,"15-DIS
+Regular",MH 553 - Computer Lab,In Person,TuTh 5:30-6:45PM
+20806,MATH 110 - Mathematics for Liberal Arts Students,"50-DIS
+Regular","MH 047 - Lecture Room
+Zoom
+MH 049 - Lecture Room",Mostly Online w/ In-Person Mtg,MoWe 1:00-2:15PM
+20807,MATH 110 - Mathematics for Liberal Arts Students,"51-DIS
+Regular","LH 318 - Lecture Room
+Zoom
+LH 308 - Lecture Room",Mostly Online w/ In-Person Mtg,"MoWe 11:30AM-12:45PM
+MoWe 11:30AM-12:45PM
+MoWe 11:30AM-12:45PM"
+18080,MATH 115 - College Algebra,"02-DIS
+Regular",MH 487 - Lecture Room,In Person,TuTh 8:00-9:50AM
+20811,MATH 115 - College Algebra,"03-DIS
+Regular",MH 553 - Computer Lab,In Person,Sa 9:00AM-12:50PM
+20812,MATH 115 - College Algebra,"08-DIS
+Regular",MH 563 - Lecture Room,In Person,MoWe 4:00-5:50PM
+19683,MATH 115 - College Algebra,"11-DIS
+Regular",MH 512 - Lecture Room,In Person,TuTh 6:00-7:50PM
+18104,MATH 115 - College Algebra,"50-DIS
+Regular","CPAC 146 - Lecture Room
+Zoom",Mostly Online w/ In-Person Mtg,TuTh 9:00-10:50AM
+18251,MATH 115 - College Algebra,"52-DIS
+Regular","Zoom
+MH 682 - Lecture Room",Mostly Online w/ In-Person Mtg,MoWe 12:00-1:50PM
+18149,MATH 115A - College Algebra (A),"03-LEC
+Regular",MH 504 - Lecture Room,In Person,TuTh 8:30-9:45AM
+19828,MATH 115A - College Algebra (A),"04-LEC
+Regular",MH 476 - Teaching Lab,In Person,TuTh 8:30-9:45AM
+19823,MATH 115A - College Algebra (A),"08-LEC
+Regular",MH 412 - Lecture Room,In Person,TuTh 11:30AM-12:45PM
+19838,MATH 115A - College Algebra (A),"09-LEC
+Regular",MH 380 - Teaching Lab,In Person,MoWe 1:00-2:15PM
+19839,MATH 115A - College Algebra (A),"10-LEC
+Regular",MH 408 - Lecture Room,In Person,MoWe 1:00-2:15PM
+20818,MATH 115A - College Algebra (A),"12-LEC
+Regular",MH 491 - Lecture Room,In Person,MoWe 2:30-3:45PM
+20819,MATH 115A - College Algebra (A),"13-LEC
+Regular",MH 514 - Lecture Room,In Person,MoWe 2:30-3:45PM
+19884,MATH 115A - College Algebra (A),"15-LEC
+Regular",MH 468 - Lecture Room,In Person,TuTh 2:30-3:45PM
+19827,MATH 115A - College Algebra (A),"18-LEC
+Regular",MH 682 - Lecture Room,In Person,MoWe 4:00-5:15PM
+22102,MATH 115A - College Algebra (A),"20-LEC
+Regular",CPAC 116 - Lecture Room,In Person,TuTh 10:00-11:15AM
+22103,MATH 115A - College Algebra (A),"21-LEC
+Regular",Hum 426 - Lecture Room,In Person,TuTh 1:00-2:15PM
+18223,MATH 115B - College Algebra (B),"01-LEC
+Regular",MH 615 - Lecture Room,In Person,MoWe 7:00-8:15AM
+18151,MATH 115B - College Algebra (B),"02-LEC
+Regular",MH 390 - Teaching Lab,In Person,TuTh 7:00-8:15AM
+19840,MATH 115B - College Algebra (B),"03-LEC
+Regular",MH 476 - Teaching Lab,In Person,MoWe 8:30-9:45AM
+19841,MATH 115B - College Algebra (B),"04-LEC
+Regular",MH 514 - Lecture Room,In Person,MoWe 8:30-9:45AM
+19842,MATH 115B - College Algebra (B),"05-LEC
+Regular",MH 442 - Lecture Room,In Person,TuTh 8:30-9:45AM
+19843,MATH 115B - College Algebra (B),"06-LEC
+Regular",MH 390 - Teaching Lab,In Person,TuTh 8:30-9:45AM
+18153,MATH 115B - College Algebra (B),"09-LEC
+Regular",MH 390 - Teaching Lab,In Person,MoWe 11:30AM-12:45PM
+19845,MATH 115B - College Algebra (B),"13-LEC
+Regular",MH 438 - Lecture Room,In Person,TuTh 1:00-2:15PM
+18294,MATH 115B - College Algebra (B),"14-LEC
+Regular",MH 563 - Lecture Room,In Person,MoWe 2:30-3:45PM
+19847,MATH 115B - College Algebra (B),"16-LEC
+Regular",MH 047 - Lecture Room,In Person,MoWe 2:30-3:45PM
+19848,MATH 115B - College Algebra (B),"17-LEC
+Regular",MH 491 - Lecture Room,In Person,TuTh 2:30-3:45PM
+19849,MATH 115B - College Algebra (B),"18-LEC
+Regular",MH 476 - Teaching Lab,In Person,TuTh 2:30-3:45PM
+18328,MATH 115B - College Algebra (B),"19-LEC
+Regular",MH 047 - Lecture Room,In Person,TuTh 2:30-3:45PM
+18329,MATH 115B - College Algebra (B),"20-LEC
+Regular",MH 047 - Lecture Room,In Person,MoWe 4:00-5:15PM
+20834,MATH 115B - College Algebra (B),"21-LEC
+Regular",MH 390 - Teaching Lab,In Person,MoWe 4:00-5:15PM
+20835,MATH 115B - College Algebra (B),"22-LEC
+Regular",MH 565 - Lecture Room,In Person,TuTh 4:00-5:15PM
+19850,MATH 115B - College Algebra (B),"23-LEC
+Regular",MH 412 - Lecture Room,In Person,TuTh 4:00-5:15PM
+19851,MATH 115B - College Algebra (B),"24-LEC
+Regular",MH 491 - Lecture Room,In Person,MoWe 5:30-6:45PM
+20836,MATH 115B - College Algebra (B),"25-LEC
+Regular",MH 565 - Lecture Room,In Person,TuTh 5:30-6:45PM
+18097,MATH 115W - College Algebra Workshop,"02-LAB
+Regular",MH 187D - Math SI Room,In Person,MoWe 10:00-11:15AM
+18295,MATH 115W - College Algebra Workshop,"03-LAB
+Regular",MH 187D - Math SI Room,In Person,TuTh 2:30-3:45PM
+22084,MATH 115W - College Algebra Workshop,"04-LAB
+Regular",MH 187D - Math SI Room,In Person,TuTh 11:30AM-12:45PM
+18327,MATH 116 - Trigonometry,"03-LEC
+Regular",MH 380 - Teaching Lab,In Person,TuTh 1:00-1:50PM
+19829,MATH 116 - Trigonometry,"04-LEC
+Regular",MH 380 - Teaching Lab,In Person,TuTh 2:00-2:50PM
+19830,MATH 116 - Trigonometry,"05-LEC
+Regular",MH 380 - Teaching Lab,In Person,TuTh 3:00-3:50PM
+21997,MATH 116 - Trigonometry,"06-LEC
+Regular",MH 615 - Lecture Room,In Person,TuTh 1:00-1:50PM
+22067,MATH 116 - Trigonometry,"07-LEC
+Regular",MH 416 - Lecture Room,In Person,MoWe 9:00-9:50AM
+18277,MATH 120 - Elementary Statistics,"03-DIS
+Regular",MH 412 - Lecture Room,In Person,TuTh 8:30-9:45AM
+18081,MATH 120 - Elementary Statistics,"04-DIS
+Regular",MH 457 - Lecture Room,In Person,MoWe 10:00-11:15AM
+18169,MATH 120 - Elementary Statistics,"11-DIS
+Regular",MH 452 - Computer Lab,In Person,TuTh 1:00-2:15PM
+19684,MATH 120 - Elementary Statistics,"12-DIS
+Regular",MOD 107 - Computer Lab,In Person,MoWe 2:30-3:45PM
+18171,MATH 120 - Elementary Statistics,"13-DIS
+Regular",MOD 102 - Modular,In Person,MoWe 4:00-5:15PM
+20839,MATH 120 - Elementary Statistics,"16-DIS
+Regular",MH 501 - Computer Lab,In Person,TuTh 5:30-6:45PM
+18225,MATH 120 - Elementary Statistics,"50-DIS
+Regular","Zoom
+MOD 102 - Modular",Mostly Online w/ In-Person Mtg,MoWe 10:00-11:15AM
+18227,MATH 120 - Elementary Statistics,"52-DIS
+Regular","Zoom
+MH 049 - Lecture Room",Mostly Online w/ In-Person Mtg,TuTh 2:30-3:45PM
+20840,MATH 125 - Precalculus,"01-DIS
+Regular",MH 406 - Lecture Room,In Person,TuTh 7:00-9:15AM
+18098,MATH 125W - Precalculus Workshop,"02-LAB
+Regular",MH 187D - Math SI Room,In Person,MoWe 10:00-11:15AM
+18288,MATH 130 - Calculus for the Natural Sciences,"02-DIS
+Regular",MH 438 - Lecture Room,In Person,TuTh 8:00-9:50AM
+18289,MATH 130 - Calculus for the Natural Sciences,"05-DIS
+Regular",LH 308 - Lecture Room,In Person,TuTh 1:00-2:50PM
+22080,MATH 130W - A Short Course in Calculus Workshop,"02-LAB
+Regular",MH 187D - Math SI Room,In Person,MoWe 11:30AM-12:45PM
+18193,MATH 135 - Business Calculus,"01-DIS
+Regular",MH 480 - Teaching Lab,In Person,MoWe 8:30-9:45AM
+18131,MATH 135 - Business Calculus,"02-DIS
+Regular",MH 512 - Lecture Room,In Person,TuTh 8:30-9:45AM
+18230,MATH 135 - Business Calculus,"04-DIS
+Regular",MH 502 - Lecture Room,In Person,MoWe 10:00-11:15AM
+19687,MATH 135 - Business Calculus,"17-DIS
+Regular",MH 464 - Lecture Room,In Person,MoWe 7:00-8:15PM
+18252,MATH 135 - Business Calculus,"50-DIS
+Regular","Zoom
+Hum 110 - Lecture Room",Mostly Online w/ In-Person Mtg,MoWe 8:30-9:45AM
+18232,MATH 135 - Business Calculus,"52-DIS
+Regular","MH 617 - Lecture Room
+Zoom
+MH 682 - Lecture Room",Mostly Online w/ In-Person Mtg,TuTh 10:00-11:15AM
+18168,MATH 135W - Business Calculus Workshop,"01-LAB
+Regular",MH 187D - Math SI Room,In Person,TuTh 10:00-11:15AM
+21474,MATH 135W - Business Calculus Workshop,"03-LAB
+Regular",MH 187D - Math SI Room,In Person,MoWe 2:30-3:45PM
+22132,MATH 136 - Foundational Support for Business Calculus,"01-LAB
+Regular",MH 465 - Lecture Room,In Person,TuTh 10:00-10:50AM
+19688,MATH 150A - Calculus I,"01-DIS
+Regular",MH 565 - Lecture Room,In Person,MoWe 8:00-9:50AM
+18285,MATH 150A - Calculus I,"02-DIS
+Regular",MH 416 - Lecture Room,In Person,TuTh 8:00-9:50AM
+18286,MATH 150A - Calculus I,"04-DIS
+Regular",MH 491 - Lecture Room,In Person,TuTh 9:00-10:50AM
+18155,MATH 150A - Calculus I,"05-DIS
+Regular",MH 565 - Lecture Room,In Person,MoWe 10:00-11:50AM
+18015,MATH 150A - Calculus I,"06-DIS
+Regular",MH 487 - Lecture Room,In Person,MoWe 10:00-11:50AM
+18016,MATH 150A - Calculus I,"10-DIS
+Regular",MH 491 - Lecture Room,In Person,TuTh 11:00AM-12:50PM
+18072,MATH 150A - Calculus I,"11-DIS
+Regular",MH 491 - Lecture Room,In Person,MoWe 12:00-1:50PM
+18062,MATH 150A - Calculus I,"13-DIS
+Regular",MH 404 - Lecture Room,In Person,TuTh 12:00-1:50PM
+18297,MATH 150A - Calculus I,"14-DIS
+Regular",MH 514 - Lecture Room,In Person,TuTh 12:00-1:50PM
+19875,MATH 150A - Calculus I,"17-DIS
+Regular",MH 412 - Lecture Room,In Person,MoWe 3:00-4:50PM
+19876,MATH 150A - Calculus I,"18-DIS
+Regular",MH 464 - Lecture Room,In Person,TuTh 3:00-4:50PM
+19877,MATH 150A - Calculus I,"19-DIS
+Regular",MH 565 - Lecture Room,In Person,MoWe 4:00-5:50PM
+19879,MATH 150A - Calculus I,"21-DIS
+Regular",MH 487 - Lecture Room,In Person,TuTh 4:00-5:50PM
+20918,MATH 150A - Calculus I,"23-DIS
+Regular",MH 416 - Lecture Room,In Person,MoWe 5:30-7:20PM
+20919,MATH 150A - Calculus I,"24-DIS
+Regular",MH 442 - Lecture Room,In Person,TuTh 5:30-7:20PM
+19690,MATH 150B - Calculus II,"02-DIS
+Regular",MH 487 - Lecture Room,In Person,MoWe 8:00-9:50AM
+18299,MATH 150B - Calculus II,"04-DIS
+Regular",MH 464 - Lecture Room,In Person,TuTh 8:00-9:50AM
+18059,MATH 150B - Calculus II,"14-DIS
+Regular",MH 615 - Lecture Room,In Person,TuTh 2:00-3:50PM
+18314,MATH 150B - Calculus II,"15-DIS
+Regular",MH 404 - Lecture Room,In Person,TuTh 2:00-3:50PM
+19691,MATH 150B - Calculus II,"17-DIS
+Regular",MH 487 - Lecture Room,In Person,MoWe 3:00-4:50PM
+18209,MATH 151A - Calculus I Workshop,"04-LAB
+Regular",MH 187D - Math SI Room,In Person,MoWe 4:00-5:15PM
+22081,MATH 151A - Calculus I Workshop,"05-LAB
+Regular",MH 187D - Math SI Room,In Person,MoWe 11:30AM-12:45PM
+18055,MATH 151B - Calculus II Workshop,"01-LAB
+Regular",MH 187D - Math SI Room,In Person,TuTh 8:30-9:45AM
+18237,MATH 170A - Mathematical Structures I,"02-DIS
+Regular",MH 615 - Lecture Room,In Person,TuTh 8:30-9:45AM
+19692,MATH 170A - Mathematical Structures I,"04-DIS
+Regular",MOD 102 - Modular,In Person,TuTh 1:00-2:15PM
+19693,MATH 170A - Mathematical Structures I,"05-DIS
+Regular",MH 615 - Lecture Room,In Person,MoWe 2:30-3:45PM
+20927,MATH 170A - Mathematical Structures I,"07-DIS
+Regular",MH 682 - Lecture Room,In Person,TuTh 2:30-3:45PM
+20929,MATH 170A - Mathematical Structures I,"11-DIS
+Regular",MH 615 - Lecture Room,In Person,TuTh 5:30-6:45PM
+18019,MATH 170B - Mathematical Structures II,"01-DIS
+Regular",MH 615 - Lecture Room,In Person,MoWe 8:30-9:45AM
+18302,MATH 170B - Mathematical Structures II,"03-DIS
+Regular",MH 513 - Lecture Room,In Person,MoWe 10:00-11:15AM
+18164,MATH 170B - Mathematical Structures II,"08-DIS
+Regular",MH 404 - Lecture Room,In Person,MoWe 1:00-2:15PM
+18303,MATH 170B - Mathematical Structures II,"11-DIS
+Regular",MH 512 - Lecture Room,In Person,TuTh 1:00-2:15PM
+19834,MATH 170B - Mathematical Structures II,"13-DIS
+Regular",MH 512 - Lecture Room,In Person,TuTh 2:30-3:45PM
+18235,MATH 207 - Differential Equations and Linear Algebra,"01-LEC
+Regular",MH 452 - Computer Lab,In Person,TuTh 10:00-11:50AM
+21162,MATH 237 - Foundations of Data Science,"02-LEC
+Regular",MH 563 - Lecture Room,In Person,TuTh 4:00-5:50PM
+19695,MATH 250A - Calculus III,"05-DIS
+Regular",MH 464 - Lecture Room,In Person,MoWe 1:00-2:50PM
+19747,MATH 250A - Calculus III,"09-DIS
+Regular",MH 416 - Lecture Room,In Person,MoWe 3:00-4:50PM
+19696,MATH 250B - Introduction to Linear Algebra and Differential Equations,"01-DIS
+Regular",MH 442 - Lecture Room,In Person,MoWe 8:00-9:50AM
+18093,MATH 250B - Introduction to Linear Algebra and Differential Equations,"09-DIS
+Regular",MH 442 - Lecture Room,In Person,MoWe 2:00-3:50PM
+18309,MATH 251A - Calculus III Workshop,"03-LAB
+Regular",MH 187D - Math SI Room,In Person,MoWe 4:00-5:15PM
+18198,MATH 251B - Linear Algebra and Differential Equations Workshop,"01-ACT
+Regular",MH 187D - Math SI Room,In Person,TuTh 4:00-5:15PM
+18239,MATH 280 - Strategies of Proof,"02-DIS
+Regular",MH 553 - Computer Lab,In Person,TuTh 1:00-2:50PM
+18280,MATH 302 - Modern Algebra,"01-DIS
+Regular",MH 213 - Lecture Room,In Person,MoWe 8:00-9:50AM
+18240,MATH 302 - Modern Algebra,"02-DIS
+Regular",MH 563 - Lecture Room,In Person,TuTh 10:00-11:50AM
+19699,MATH 303B - Fundamental Concepts of Elementary Mathematics,"01-DIS
+Regular",MH 380 - Teaching Lab,In Person,MoWe 10:00-11:15AM
+18242,MATH 303B - Fundamental Concepts of Elementary Mathematics,"04-DIS
+Regular",MH 615 - Lecture Room,In Person,TuTh 4:00-5:15PM
+18271,MATH 307 - Linear Algebra,"01-DIS
+Regular",MH 514 - Lecture Room,In Person,TuTh 8:00-9:50AM
+18022,MATH 307 - Linear Algebra,"02-DIS
+Regular",MH 615 - Lecture Room,In Person,MoWe 10:00-11:50AM
+18244,MATH 310 - Ordinary Differential Equations,"01-DIS
+Regular",MH 512 - Lecture Room,In Person,MoWe 1:00-2:50PM
+18245,MATH 320 - Introduction to Mathematical Computation,"01-DIS
+Regular",MH 452 - Computer Lab,In Person,TuTh 4:00-5:15PM
+18135,MATH 335 - Mathematical Probability,"01-DIS
+Regular",MH 464 - Lecture Room,In Person,TuTh 10:00-11:50AM
+18162,MATH 338 - Statistics Applied to Natural Sciences,"17-DIS
+Regular",MH 504 - Lecture Room,In Person,MoWe 2:30-3:45PM
+18163,MATH 338 - Statistics Applied to Natural Sciences,"18-ACT
+Regular",MH 501 - Computer Lab,In Person,MoWe 4:00-4:50PM
+18246,MATH 338 - Statistics Applied to Natural Sciences,"29-DIS
+Regular",MH 512 - Lecture Room,In Person,MoWe 5:30-6:45PM
+18247,MATH 338 - Statistics Applied to Natural Sciences,"30-ACT
+Regular",MH 501 - Computer Lab,In Person,MoWe 7:00-7:50PM
+18332,MATH 338 - Statistics Applied to Natural Sciences,"35-DIS
+Regular","Zoom
+MH 412 - Lecture Room",Mostly In-Person (Hybrid),TuTh 5:30-6:45PM
+18333,MATH 338 - Statistics Applied to Natural Sciences,"36-ACT
+Regular","Zoom
+MH 452 - Computer Lab",Mostly In-Person (Hybrid),TuTh 7:00-7:50PM
+18338,MATH 338 - Statistics Applied to Natural Sciences,"53-DIS
+Regular","Zoom
+MH 049 - Lecture Room",Mostly Online w/ In-Person Mtg,MoWe 2:30-3:45PM
+18339,MATH 338 - Statistics Applied to Natural Sciences,"54-ACT
+Regular",Zoom,Mostly Online w/ In-Person Mtg,MoWe 4:00-4:50PM
+18204,MATH 340 - Numerical Analysis,"01-DIS
+Regular",MH 452 - Computer Lab,In Person,MoWe 10:00-11:50AM
+18283,MATH 350 - Advanced Calculus I,"01-DIS
+Regular",MH 464 - Lecture Room,In Person,MoWe 10:00-11:50AM
+18136,MATH 350 - Advanced Calculus I,"02-DIS
+Regular",MH 480 - Teaching Lab,In Person,TuTh 1:00-2:50PM
+18025,MATH 401 - Algebra and Probability for the Secondary Teacher,"01-DIS
+Regular",MH 480 - Teaching Lab,In Person,MoWe 4:00-5:15PM
+18026,MATH 402 - Logic and Geometry for the Secondary Teacher,"01-DIS
+Regular",MH 380 - Teaching Lab,In Person,TuTh 4:00-5:15PM
+18203,MATH 403A - Fundamental Concepts of Middle School Mathematics I,"50-DIS
+Regular",Zoom,Fully Online,Th 4:30-7:15PM
+22005,MATH 405 - Calculus for the Secondary Teacher,"01-DIS
+Regular",MH 404 - Lecture Room,In Person,TuTh 10:30-11:45AM
+18075,MATH 406 - Introduction to Partial Differential Equations,"01-DIS
+Regular",MH 416 - Lecture Room,In Person,MoWe 1:00-2:50PM
+18027,MATH 407 - Abstract Algebra,"01-DIS
+Regular",MH 442 - Lecture Room,In Person,MoWe 4:00-5:50PM
+18028,MATH 417 - Foundations of Geometry,"01-DIS
+Regular",MH 380 - Teaching Lab,In Person,TuTh 8:30-9:45AM
+18167,MATH 430 - Number Theory,"01-DIS
+Regular",MH 442 - Lecture Room,In Person,TuTh 4:00-5:15PM
+18076,MATH 435 - Mathematical Statistics,"01-DIS
+Regular",MH 457 - Lecture Room,In Person,TuTh 10:00-11:50AM
+18099,MATH 437 - Modern Approaches to Data Analysis,"01-DIS
+Regular",MH 491 - Lecture Room,In Person,TuTh 1:00-2:15PM
+18323,MATH 437 - Modern Approaches to Data Analysis,"02-ACT
+Regular",MH 452 - Computer Lab,In Person,TuTh 2:30-3:20PM
+18049,MATH 450 - Advanced Calculus II,"01-DIS
+Regular",MH 442 - Lecture Room,In Person,MoWe 10:00-11:50AM
+18103,MATH 460 - Actuarial Models,"01-DIS
+Regular",MH 457 - Lecture Room,In Person,MoWe 1:00-2:50PM
+18083,MATH 470 - Advanced Mathematical Model Building,"01-DIS
+Regular",MH 452 - Computer Lab,In Person,MoWe 8:00-9:50AM
+18038,MATH 495 - Internship in Applied Mathematics,"01-SUP
+Regular",TBA,In Person,TBA
+18029,MATH 496 - Student-to-Student Tutorials,"01-SUP
+Regular",TBA,In Person,TBA
+18107,MATH 497 - Undergraduate Research,"01-SUP
+Regular",TBA,In Person,TBA
+18108,MATH 497 - Undergraduate Research,"02-SUP
+Regular",TBA,In Person,TBA
+18109,MATH 497 - Undergraduate Research,"03-SUP
+Regular",TBA,In Person,TBA
+18110,MATH 497 - Undergraduate Research,"04-SUP
+Regular",TBA,In Person,TBA
+18111,MATH 497 - Undergraduate Research,"05-SUP
+Regular",TBA,In Person,TBA
+18112,MATH 497 - Undergraduate Research,"06-SUP
+Regular",TBA,In Person,TBA
+18113,MATH 497 - Undergraduate Research,"07-SUP
+Regular",TBA,In Person,TBA
+18114,MATH 497 - Undergraduate Research,"08-SUP
+Regular",TBA,In Person,TBA
+18115,MATH 497 - Undergraduate Research,"09-SUP
+Regular",TBA,In Person,TBA
+18116,MATH 497 - Undergraduate Research,"10-SUP
+Regular",TBA,In Person,TBA
+18118,MATH 497 - Undergraduate Research,"11-SUP
+Regular",TBA,In Person,TBA
+18119,MATH 497 - Undergraduate Research,"12-SUP
+Regular",TBA,In Person,TBA
+18120,MATH 497 - Undergraduate Research,"13-SUP
+Regular",TBA,In Person,TBA
+18121,MATH 497 - Undergraduate Research,"14-SUP
+Regular",TBA,In Person,TBA
+18122,MATH 497 - Undergraduate Research,"15-SUP
+Regular",TBA,In Person,TBA
+18123,MATH 497 - Undergraduate Research,"16-SUP
+Regular",TBA,In Person,TBA
+18124,MATH 497 - Undergraduate Research,"17-SUP
+Regular",TBA,In Person,TBA
+18125,MATH 497 - Undergraduate Research,"18-SUP
+Regular",TBA,In Person,TBA
+18140,MATH 497 - Undergraduate Research,"19-SUP
+Regular",TBA,In Person,TBA
+18141,MATH 497 - Undergraduate Research,"20-SUP
+Regular",TBA,In Person,TBA
+18142,MATH 497 - Undergraduate Research,"21-SUP
+Regular",TBA,In Person,TBA
+18143,MATH 497 - Undergraduate Research,"22-SUP
+Regular",TBA,In Person,TBA
+18144,MATH 497 - Undergraduate Research,"23-SUP
+Regular",TBA,In Person,TBA
+18145,MATH 497 - Undergraduate Research,"24-SUP
+Regular",TBA,In Person,TBA
+18210,MATH 497 - Undergraduate Research,"25-SUP
+Regular",TBA,In Person,TBA
+18211,MATH 497 - Undergraduate Research,"26-SUP
+Regular",TBA,In Person,TBA
+18212,MATH 497 - Undergraduate Research,"27-SUP
+Regular",TBA,In Person,TBA
+18213,MATH 497 - Undergraduate Research,"28-SUP
+Regular",TBA,In Person,TBA
+18214,MATH 497 - Undergraduate Research,"29-SUP
+Regular",TBA,In Person,TBA
+18215,MATH 497 - Undergraduate Research,"30-SUP
+Regular",TBA,In Person,TBA
+18216,MATH 497 - Undergraduate Research,"31-SUP
+Regular",TBA,In Person,TBA
+18217,MATH 497 - Undergraduate Research,"32-SUP
+Regular",TBA,In Person,TBA
+18218,MATH 497 - Undergraduate Research,"33-SUP
+Regular",TBA,In Person,TBA
+18219,MATH 497 - Undergraduate Research,"34-SUP
+Regular",TBA,In Person,TBA
+18220,MATH 497 - Undergraduate Research,"35-SUP
+Regular",TBA,In Person,TBA
+18221,MATH 497 - Undergraduate Research,"36-SUP
+Regular",TBA,In Person,TBA
+18342,MATH 497 - Undergraduate Research,"37-SUP
+Regular",TBA,In Person,TBA
+18343,MATH 497 - Undergraduate Research,"38-SUP
+Regular",TBA,In Person,TBA
+18344,MATH 497 - Undergraduate Research,"39-SUP
+Regular",TBA,In Person,TBA
+18345,MATH 497 - Undergraduate Research,"40-SUP
+Regular",TBA,In Person,TBA
+18346,MATH 497 - Undergraduate Research,"41-SUP
+Regular",TBA,In Person,TBA
+18347,MATH 497 - Undergraduate Research,"42-SUP
+Regular",TBA,In Person,TBA
+18348,MATH 497 - Undergraduate Research,"43-SUP
+Regular",TBA,In Person,TBA
+18349,MATH 497 - Undergraduate Research,"44-SUP
+Regular",TBA,In Person,TBA
+22190,MATH 497 - Undergraduate Research,"45-SUP
+Regular",TBA,In Person,TBA
+22191,MATH 497 - Undergraduate Research,"46-SUP
+Regular",TBA,In Person,TBA
+22192,MATH 497 - Undergraduate Research,"47-SUP
+Regular",TBA,In Person,TBA
+22193,MATH 497 - Undergraduate Research,"48-SUP
+Regular",TBA,In Person,TBA
+22186,MATH 497 - Undergraduate Research,"49-SUP
+Regular",TBA,In Person,TBA
+22187,MATH 497 - Undergraduate Research,"50-SUP
+Regular",TBA,In Person,TBA
+22188,MATH 497 - Undergraduate Research,"51-SUP
+Regular",TBA,In Person,TBA
+22189,MATH 497 - Undergraduate Research,"52-SUP
+Regular",TBA,In Person,TBA
+22194,MATH 497 - Undergraduate Research,"53-SUP
+Regular",TBA,In Person,TBA
+22195,MATH 497 - Undergraduate Research,"54-SUP
+Regular",TBA,In Person,TBA
+22196,MATH 497 - Undergraduate Research,"55-SUP
+Regular",TBA,In Person,TBA
+22197,MATH 497 - Undergraduate Research,"56-SUP
+Regular",TBA,In Person,TBA
+22198,MATH 497 - Undergraduate Research,"57-SUP
+Regular",TBA,In Person,TBA
+22199,MATH 497 - Undergraduate Research,"58-SUP
+Regular",TBA,In Person,TBA
+22200,MATH 497 - Undergraduate Research,"59-SUP
+Regular",TBA,In Person,TBA
+22201,MATH 497 - Undergraduate Research,"60-SUP
+Regular",TBA,In Person,TBA
+18039,MATH 498 - Senior Thesis,"01-SUP
+Regular",TBA,In Person,TBA
+18030,MATH 499 - Independent Study,"01-SUP
+Regular",TBA,In Person,TBA
+18031,MATH 499 - Independent Study,"02-SUP
+Regular",TBA,In Person,TBA
+18032,MATH 499 - Independent Study,"03-SUP
+Regular",TBA,In Person,TBA
+18042,MATH 499 - Independent Study,"04-SUP
+Regular",TBA,In Person,TBA
+18043,MATH 499 - Independent Study,"05-SUP
+Regular",TBA,In Person,TBA
+18067,MATH 499 - Independent Study,"06-SUP
+Regular",TBA,In Person,TBA
+18066,MATH 499 - Independent Study,"07-SUP
+Regular",TBA,In Person,TBA
+18065,MATH 499 - Independent Study,"08-SUP
+Regular",TBA,In Person,TBA
+18071,MATH 499 - Independent Study,"09-SUP
+Regular",TBA,In Person,TBA
+18070,MATH 499 - Independent Study,"10-SUP
+Regular",TBA,In Person,TBA
+18069,MATH 499 - Independent Study,"11-SUP
+Regular",TBA,In Person,TBA
+18068,MATH 499 - Independent Study,"12-SUP
+Regular",TBA,In Person,TBA
+18094,MATH 501A - Foundations of Numerical Analysis,"01-SEM
+Regular","Zoom
+MH 452 - Computer Lab",Mostly In-Person (Hybrid),Mo 5:30-8:15PM
+18250,MATH 502A - Foundations of Probability and Statistics,"01-SEM
+Regular","Zoom
+MH 452 - Computer Lab",Mostly In-Person (Hybrid),We 5:30-8:15PM
+18074,MATH 534 - Statistical Computing,"01-SEM
+Regular","Zoom
+MH 480 - Teaching Lab",Mostly Online w/ In-Person Mtg,Th 5:30-8:15PM
+18197,MATH 536 - Categorical Data Analysis,"01-SEM
+Regular","Zoom
+MH 480 - Teaching Lab",Mostly Online w/ In-Person Mtg,Tu 5:30-8:15PM
+18084,MATH 539 - Statistical Consulting,"01-SEM
+Regular","Zoom
+MH 480 - Teaching Lab",Mostly Online w/ In-Person Mtg,MoWe 5:30-8:15PM
+18033,MATH 582 - Studies in Algebra,"01-SEM
+Regular",MH 380 - Teaching Lab,In Person,TuTh 5:30-6:45PM
+18073,MATH 583 - Studies in Statistics,"01-DIS
+Regular",MH 390 - Teaching Lab,In Person,TuTh 4:00-5:15PM
+18034,MATH 584 - Studies in Analysis,"01-SEM
+Regular",MH 390 - Teaching Lab,In Person,TuTh 5:30-6:45PM
+18206,MATH 597 - Industrial Project in Computational Applied Mathematics,"01-SUP
+Regular",MH 404 - Lecture Room,In Person,MoWe 5:30-6:45PM
+18207,MATH 597 - Industrial Project in Computational Applied Mathematics,"02-SUP
+Regular",MH 404 - Lecture Room,In Person,MoWe 7:00-8:15PM
+18035,MATH 599 - Independent Graduate Research,"01-SUP
+Regular",TBA,In Person,TBA
+18036,MATH 599 - Independent Graduate Research,"02-SUP
+Regular",TBA,In Person,TBA
+18037,MATH 599 - Independent Graduate Research,"03-SUP
+Regular",TBA,In Person,TBA

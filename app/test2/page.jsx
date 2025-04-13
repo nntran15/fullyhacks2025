@@ -1,4 +1,4 @@
-// App.jsx - With enhanced course removal
+// App.jsx - Updated to work with Flask backend
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -13,153 +13,93 @@ function App() {
   const [selectedCourses, setSelectedCourses] = useState([]);
   const [schedules, setSchedules] = useState([{ id: 1, name: 'Schedule 1', courses: [] }]);
   const [activeSchedule, setActiveSchedule] = useState(1);
-  const [terms, setTerms] = useState([
-    { id: '2025-Spring', name: 'Spring 2025' },
-    { id: '2025-Summer', name: 'Summer 2025' },
-    { id: '2025-Fall', name: 'Fall 2025' },
-  ]);
-  const [activeTerm, setActiveTerm] = useState('2025-Spring');
+  const [terms, setTerms] = useState([]);
+  const [activeTerm, setActiveTerm] = useState('');
+  const [loading, setLoading] = useState(true);
 
-  // Mock data for demonstration
-  const mockCourseData = [
-    {
-      id: 'COMPSCI161',
-      code: 'COMPSCI 161',
-      title: 'Design and Analysis of Algorithms',
-      department: 'Computer Science',
-      sections: [
-        {
-          id: '36520',
-          type: 'Lec',
-          instructor: 'Goodrich, M.',
-          time: 'MWF 10:00-10:50am',
-          location: 'HSLH 100A',
-          status: 'OPEN',
-          enrollment: '120/150'
-        },
-        {
-          id: '36521',
-          type: 'Dis',
-          instructor: 'TA',
-          time: 'M 1:00-1:50pm',
-          location: 'SSL 140',
-          status: 'OPEN',
-          enrollment: '30/30'
+  // Fetch available terms from the backend
+  useEffect(() => {
+    const fetchTerms = async () => {
+      try {
+        const response = await fetch('http://127.0.0.1:5000/api/terms');
+        if (response.ok) {
+          const data = await response.json();
+          // Transform term data to match the expected format
+          const formattedTerms = data.map(term => ({
+            id: term.includes(' ') ? 
+              `${term.split(' ')[1]}-${term.split(' ')[0]}` : term,
+            name: term
+          }));
+          
+          setTerms(formattedTerms);
+          if (formattedTerms.length > 0) {
+            setActiveTerm(formattedTerms[0].id);
+          }
         }
-      ]
-    },
-    {
-      id: 'COMPSCI143A',
-      code: 'COMPSCI 143A',
-      title: 'Principles of Operating Systems',
-      department: 'Computer Science',
-      sections: [
-        {
-          id: '36530',
-          type: 'Lec',
-          instructor: 'Wong, A.',
-          time: 'TuTh 11:00-12:20pm',
-          location: 'MSTB 118',
-          status: 'OPEN',
-          enrollment: '80/100'
-        },
-        {
-          id: '36531',
-          type: 'Dis',
-          instructor: 'TA',
-          time: 'F 1:00-1:50pm',
-          location: 'ICS 174',
-          status: 'OPEN',
-          enrollment: '25/30'
-        }
-      ]
-    }
-  ];
+      } catch (error) {
+        console.error('Error fetching terms:', error);
+        // Fallback to default terms if API fails
+        const defaultTerms = [
+          { id: '2025-Spring', name: 'Spring 2025' },
+          { id: '2025-Summer', name: 'Summer 2025' },
+          { id: '2025-Fall', name: 'Fall 2025' },
+        ];
+        setTerms(defaultTerms);
+        setActiveTerm(defaultTerms[0].id);
+      } finally {
+        setLoading(false);
+      }
+    };
+    
+    fetchTerms();
+  }, []);
 
-  // Search for courses (mock implementation)
-  const searchCourses = (query) => {
-    if (!query) return setSearchResults([]);
-
-    // Filter mock data based on query
-    const results = mockCourseData.filter(course =>
-      course.code.toLowerCase().includes(query.toLowerCase()) ||
-      course.title.toLowerCase().includes(query.toLowerCase())
-    );
-
+  // Search for courses (now uses the transformed data from CourseSearch)
+  const handleSearchResults = (results) => {
     setSearchResults(results);
   };
 
   // Add course to schedule
-  const addCourseToSchedule = (course, sectionIds) => {
-    const currentSchedule = schedules.find(s => s.id === activeSchedule);
+  // Updated addCourseToSchedule function in App.jsx
+const addCourseToSchedule = (course, sectionIds) => {
+  const currentSchedule = schedules.find(s => s.id === activeSchedule);
 
-    if (!currentSchedule) return;
+  if (!currentSchedule) return;
 
-    // Find the existing course in the schedule, if any
-    const existingCourse = currentSchedule.courses.find(c => c.id === course.id);
+  // Check if this course is already in the schedule
+  const existingCourse = currentSchedule.courses.find(c => c.code === course.code);
 
-    // Get selected sections
-    const selectedSections = course.sections.filter(section =>
-      sectionIds.includes(section.id)
-    );
+  if (existingCourse) {
+    alert(`${course.code} is already in your schedule. Remove it first if you want to change sections.`);
+    return;
+  }
 
-    if (existingCourse) {
-      // Check for duplicate sections
-      const newSections = selectedSections.filter(
-        section => !existingCourse.selectedSections.some(s => s.id === section.id)
-      );
+  // Get selected sections
+  const selectedSections = course.sections.filter(section =>
+    sectionIds.includes(section.id)
+  );
 
-      if (newSections.length === 0) {
-        alert(`You cannot add duplicate sections!`);
-        return;
-      }
-
-      // Add new sections to the existing course
-      const updatedCourses = currentSchedule.courses.map(c => {
-        if (c.id === course.id) {
-          return {
-            ...c,
-            selectedSections: [...c.selectedSections, ...newSections]
-          };
-        }
-        return c;
-      });
-
-      // Update the schedule
-      const updatedSchedules = schedules.map(schedule => {
-        if (schedule.id === activeSchedule) {
-          return {
-            ...schedule,
-            courses: updatedCourses
-          };
-        }
-        return schedule;
-      });
-
-      setSchedules(updatedSchedules);
-    } else {
-      // Add the course with its selected sections
-      const updatedCourse = {
-        ...course,
-        selectedSections
-      };
-
-      const updatedSchedules = schedules.map(schedule => {
-        if (schedule.id === activeSchedule) {
-          return {
-            ...schedule,
-            courses: [...schedule.courses, updatedCourse]
-          };
-        }
-        return schedule;
-      });
-
-      setSchedules(updatedSchedules);
-    }
-
-    // Show confirmation
-    alert(`Added ${course.code} to your schedule!`);
+  // Add the course with its selected sections
+  const updatedCourse = {
+    ...course,
+    selectedSections
   };
+
+  const updatedSchedules = schedules.map(schedule => {
+    if (schedule.id === activeSchedule) {
+      return {
+        ...schedule,
+        courses: [...schedule.courses, updatedCourse]
+      };
+    }
+    return schedule;
+  });
+
+  setSchedules(updatedSchedules);
+
+  // Show confirmation
+  alert(`Added ${course.code} to your schedule!`);
+};
 
   // Remove course from schedule
   const removeCourseFromSchedule = (courseId) => {
@@ -224,22 +164,16 @@ function App() {
     setSchedules(updatedSchedules);
   };
 
+  if (loading) {
+    return <div className="loading">Loading...</div>;
+  }
+
   return (
     <div className="app">
       <header className="app-header">
         <h1>Course Scheduler</h1>
-        <img
-        src = "https://media.tenor.com/sEiYXWmf1W8AAAAi/glorp-alien.gif"
-        alt = "Cat"
-        className= "cat-image"
-       />
-       
         <div className="term-selector">
-          <img
-            src= "https://i.imgur.com/I1svEqz.png"
-            alt="Dog"
-            className="dog-image"
-          />
+          <label>Term: </label>
           <select
             value={activeTerm}
             onChange={(e) => setActiveTerm(e.target.value)}
@@ -253,7 +187,10 @@ function App() {
 
       <div className="main-content">
         <div className="left-panel">
-          <CourseSearch onSearch={searchCourses} />
+          <CourseSearch 
+            onSearch={handleSearchResults} 
+            activeTerm={activeTerm}
+          />
           <CourseList
             courses={searchResults}
             onAddCourse={addCourseToSchedule}

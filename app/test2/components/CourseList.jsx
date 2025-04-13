@@ -1,9 +1,59 @@
 // components/CourseList.jsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function CourseList({ courses, onAddCourse }) {
   const [expandedCourse, setExpandedCourse] = useState(null);
   const [selectedSections, setSelectedSections] = useState({});
+  const [groupedCourses, setGroupedCourses] = useState([]);
+  
+  // Group courses by their class name
+  useEffect(() => {
+    if (!courses.length) {
+      setGroupedCourses([]);
+      return;
+    }
+    
+    // Create a map to group courses by their code
+    const courseMap = {};
+    
+    courses.forEach(course => {
+      const courseKey = course.code;
+      
+      if (!courseMap[courseKey]) {
+        courseMap[courseKey] = {
+          id: courseKey,
+          code: course.code,
+          title: course.title,
+          department: course.department,
+          sections: []
+        };
+      }
+      
+      // Add this course's sections to the grouped course
+      courseMap[courseKey].sections.push(...course.sections);
+    });
+    
+    // Convert the map to an array
+    const groupedArray = Object.values(courseMap);
+    
+    // Make sure sections have unique IDs
+    groupedArray.forEach(course => {
+      // Remove any duplicate sections based on section ID
+      const uniqueSections = [];
+      const sectionIds = new Set();
+      
+      course.sections.forEach(section => {
+        if (!sectionIds.has(section.id)) {
+          sectionIds.add(section.id);
+          uniqueSections.push(section);
+        }
+      });
+      
+      course.sections = uniqueSections;
+    });
+    
+    setGroupedCourses(groupedArray);
+  }, [courses]);
   
   const toggleCourse = (courseId) => {
     setExpandedCourse(expandedCourse === courseId ? null : courseId);
@@ -12,19 +62,9 @@ function CourseList({ courses, onAddCourse }) {
   };
   
   const toggleSection = (courseId, sectionId) => {
-    setSelectedSections(prev => {
-      const courseSections = prev[courseId] || [];
-      if (courseSections.includes(sectionId)) {
-        return {
-          ...prev,
-          [courseId]: courseSections.filter(id => id !== sectionId)
-        };
-      } else {
-        return {
-          ...prev,
-          [courseId]: [...courseSections, sectionId]
-        };
-      }
+    setSelectedSections({
+      ...selectedSections,
+      [courseId]: [sectionId], // Only allow one section to be selected
     });
   };
   
@@ -43,11 +83,11 @@ function CourseList({ courses, onAddCourse }) {
   return (
     <div className="course-list">
       <h2>Search Results</h2>
-      {courses.length === 0 ? (
+      {groupedCourses.length === 0 ? (
         <p>No courses to display. Please search above.</p>
       ) : (
         <ul className="results-list">
-          {courses.map((course) => (
+          {groupedCourses.map((course) => (
             <li key={course.id} className="course-item">
               <div className="course-header" onClick={() => toggleCourse(course.id)}>
                 <h3>{course.code}: {course.title}</h3>
@@ -89,7 +129,8 @@ function CourseList({ courses, onAddCourse }) {
                           <td>{section.time}</td>
                           <td>{section.location}</td>
                           <td className={section.status === 'OPEN' ? 'status-open' : 'status-closed'}>
-                            {section.status} ({section.enrollment})
+                            {section.status} 
+                            {section.enrollment && `(${section.enrollment})`}
                           </td>
                         </tr>
                       ))}
@@ -112,4 +153,5 @@ function CourseList({ courses, onAddCourse }) {
     </div>
   );
 }
+
 export default CourseList;

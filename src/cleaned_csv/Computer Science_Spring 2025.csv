@@ -1,0 +1,293 @@
+Class ID,Class Name,Section,Room,Instruction Type,Time
+13906,CPSC 120A - Introduction to Programming Lecture,"01-LEC
+Regular",E 202 - Lecture Room,In Person,MoWe 8:30-9:20AM
+13907,CPSC 120A - Introduction to Programming Lecture,"02-LEC
+Regular",E 202 - Lecture Room,In Person,MoWe 9:30-10:20AM
+13908,CPSC 120A - Introduction to Programming Lecture,"03-LEC
+Regular",E 202 - Lecture Room,In Person,MoWe 10:30-11:20AM
+13909,CPSC 120A - Introduction to Programming Lecture,"04-LEC
+Regular",E 202 - Lecture Room,In Person,MoWe 11:30AM-12:20PM
+20336,CPSC 120A - Introduction to Programming Lecture,"05-LEC
+Regular",E 202 - Lecture Room,In Person,MoWe 1:00-1:50PM
+13910,CPSC 120L - Introduction to Programming Lab,"01-LAB
+Regular",CS 300 - Teaching Lab,In Person,Mo 11:30AM-1:20PM
+13911,CPSC 120L - Introduction to Programming Lab,"02-LAB
+Regular",CS 300 - Teaching Lab,In Person,We 11:30AM-1:20PM
+13912,CPSC 120L - Introduction to Programming Lab,"03-LAB
+Regular",CS 101 - Teaching Lab,In Person,Mo 11:30AM-1:20PM
+13913,CPSC 120L - Introduction to Programming Lab,"04-LAB
+Regular",CS 101 - Teaching Lab,In Person,We 11:30AM-1:20PM
+13914,CPSC 120L - Introduction to Programming Lab,"05-LAB
+Regular",CS 300 - Teaching Lab,In Person,Mo 1:30-3:20PM
+13915,CPSC 120L - Introduction to Programming Lab,"06-LAB
+Regular",CS 300 - Teaching Lab,In Person,We 1:30-3:20PM
+13916,CPSC 120L - Introduction to Programming Lab,"07-LAB
+Regular",CS 101 - Teaching Lab,In Person,Mo 1:30-3:20PM
+13917,CPSC 120L - Introduction to Programming Lab,"08-LAB
+Regular",CS 101 - Teaching Lab,In Person,We 1:30-3:20PM
+13918,CPSC 120L - Introduction to Programming Lab,"09-LAB
+Regular",CS 300 - Teaching Lab,In Person,Mo 3:30-5:20PM
+13919,CPSC 120L - Introduction to Programming Lab,"10-LAB
+Regular",CS 300 - Teaching Lab,In Person,We 3:30-5:20PM
+20337,CPSC 121A - Object Oriented Programming Lecture,"01-LEC
+Regular",E 202 - Lecture Room,In Person,MoWe 4:30-5:20PM
+20338,CPSC 121A - Object Oriented Programming Lecture,"02-LEC
+Regular",E 202 - Lecture Room,In Person,TuTh 1:30-2:20PM
+20339,CPSC 121A - Object Oriented Programming Lecture,"03-LEC
+Regular",E 202 - Lecture Room,In Person,TuTh 2:30-3:20PM
+20663,CPSC 121A - Object Oriented Programming Lecture,"07-LEC
+Regular",KHS 199 - Lecture Room,In Person,MoWe 9:00-9:50AM
+21583,CPSC 121A - Object Oriented Programming Lecture,"08-LEC
+Regular",LH 307 - Lecture Room,In Person,TuTh 9:00-9:50AM
+21748,CPSC 121A - Object Oriented Programming Lecture,"09-LEC
+Regular",E 202 - Lecture Room,In Person,MoWe 5:30-6:20PM
+13928,CPSC 121L - Object-Oriented Programming Lab,"03-LAB
+Regular",CS 300 - Teaching Lab,In Person,Mo 5:30-7:20PM
+13929,CPSC 121L - Object-Oriented Programming Lab,"04-LAB
+Regular",CS 300 - Teaching Lab,In Person,We 5:30-7:20PM
+13930,CPSC 121L - Object-Oriented Programming Lab,"05-LAB
+Regular",CS 101 - Teaching Lab,In Person,Mo 5:30-7:20PM
+13931,CPSC 121L - Object-Oriented Programming Lab,"06-LAB
+Regular",CS 101 - Teaching Lab,In Person,We 5:30-7:20PM
+13937,CPSC 121L - Object-Oriented Programming Lab,"12-LAB
+Regular",CS 300 - Teaching Lab,In Person,Th 2:00-3:50PM
+13939,CPSC 121L - Object-Oriented Programming Lab,"14-LAB
+Regular",CS 101 - Teaching Lab,In Person,Th 2:00-3:50PM
+13941,CPSC 121L - Object-Oriented Programming Lab,"16-LAB
+Regular",CS 300 - Teaching Lab,In Person,Th 4:00-5:50PM
+13942,CPSC 121L - Object-Oriented Programming Lab,"17-LAB
+Regular",CS 101 - Teaching Lab,In Person,Tu 4:00-5:50PM
+13943,CPSC 121L - Object-Oriented Programming Lab,"18-LAB
+Regular",CS 101 - Teaching Lab,In Person,Th 4:00-5:50PM
+13501,CPSC 131 - Data Structures,"01-DIS
+Regular",E 202 - Lecture Room,In Person,TuTh 10:00-11:15AM
+13502,CPSC 131 - Data Structures,"02-DIS
+Regular",E 202 - Lecture Room,In Person,TuTh 5:30-6:45PM
+13612,CPSC 131 - Data Structures,"04-DIS
+Regular",E 202 - Lecture Room,In Person,TuTh 11:30AM-12:45PM
+13608,CPSC 131 - Data Structures,"05-DIS
+Regular",E 202 - Lecture Room,In Person,TuTh 8:30-9:45AM
+13922,CPSC 131 - Data Structures,"08-DIS
+Regular",E 202 - Lecture Room,In Person,Fr 4:00-6:45PM
+13820,CPSC 223C - C Programming,"01-DIS
+Regular",CS 408 - Teaching Lab,In Person,Tu 8:00-9:50AM
+13821,CPSC 223C - C Programming,"02-ACT
+Regular",CS 408 - Teaching Lab,In Person,Th 8:00-9:50AM
+13678,CPSC 223P - Python Programming,"01-DIS
+Regular",CS 408 - Teaching Lab,In Person,Mo 8:00-9:50AM
+13679,CPSC 223P - Python Programming,"02-LAB
+Regular",CS 408 - Teaching Lab,In Person,We 8:00-9:50AM
+13788,CPSC 223P - Python Programming,"05-DIS
+Regular",CS 408 - Teaching Lab,In Person,Tu 5:00-6:50PM
+13789,CPSC 223P - Python Programming,"06-LAB
+Regular",CS 408 - Teaching Lab,In Person,Th 5:00-6:50PM
+13812,CPSC 223P - Python Programming,"07-DIS
+Regular",CS 104 - Teaching Lab,In Person,Tu 8:00-9:50PM
+13813,CPSC 223P - Python Programming,"08-LAB
+Regular",CS 104 - Teaching Lab,In Person,Th 8:00-9:50PM
+13604,CPSC 240 - Computer Organization and Assembly Language,"03-DIS
+Regular",CS 104 - Teaching Lab,In Person,Mo 10:00-11:50AM
+13605,CPSC 240 - Computer Organization and Assembly Language,"04-ACT
+Regular",CS 104 - Teaching Lab,In Person,We 10:00-11:50AM
+13669,CPSC 240 - Computer Organization and Assembly Language,"05-DIS
+Regular",CS 104 - Teaching Lab,In Person,Tu 3:00-4:50PM
+13670,CPSC 240 - Computer Organization and Assembly Language,"06-ACT
+Regular",CS 104 - Teaching Lab,In Person,Th 3:00-4:50PM
+13710,CPSC 240 - Computer Organization and Assembly Language,"09-DIS
+Regular",CS 104 - Teaching Lab,In Person,Mo 8:00-9:50AM
+13711,CPSC 240 - Computer Organization and Assembly Language,"10-ACT
+Regular",CS 104 - Teaching Lab,In Person,We 8:00-9:50AM
+13569,CPSC 240 - Computer Organization and Assembly Language,"11-DIS
+Regular",CS 408 - Teaching Lab,In Person,Tu 10:00-11:50AM
+13950,CPSC 240 - Computer Organization and Assembly Language,"12-ACT
+Regular",CS 408 - Teaching Lab,In Person,Th 10:00-11:50AM
+13952,CPSC 253 - Cybersecurity Foundations and Principles,"07-DIS
+Regular",KHS 172 - Lecture Room,In Person,We 7:00-9:45PM
+21972,CPSC 253 - Cybersecurity Foundations and Principles,"11-DIS
+Regular",Hum 409 - Lecture Room,In Person,Fr 7:00-9:45PM
+13770,CPSC 315 - Professional Ethics in Computing,"05-DIS
+Regular",Hum 121 - Lecture Room,In Person,Sa 9:00-11:45AM
+14090,CPSC 315 - Professional Ethics in Computing,"11-DIS
+Regular",E-SW011 - Lecture Room,In Person,Sa 9:00-11:45AM
+21743,CPSC 315 - Professional Ethics in Computing,"13-DIS
+Regular",Hum 409 - Lecture Room,In Person,TuTh 5:30-6:45PM
+21902,CPSC 315 - Professional Ethics in Computing,"14-DIS
+Regular",Hum 521 - Lecture Room,In Person,TuTh 7:00-8:15PM
+22130,CPSC 315 - Professional Ethics in Computing,"15-DIS
+Regular",Hum 514 - Lecture Room,In Person,Th 4:00-6:45PM
+13606,CPSC 323 - Compilers and Languages,"02-DIS
+Regular",CS 104 - Teaching Lab,In Person,TuTh 10:00-11:15AM
+13615,CPSC 323 - Compilers and Languages,"03-DIS
+Regular",Hum 426 - Lecture Room,In Person,MoWe 5:30-6:45PM
+13824,CPSC 323 - Compilers and Languages,"09-DIS
+Regular",MH 657 - Lecture Room,In Person,MoWe 5:30-6:45PM
+21612,CPSC 323 - Compilers and Languages,"12-DIS
+Regular",EC 049 - Lecture Room,In Person,Mo 7:00-9:45PM
+13774,CPSC 332 - File Structures and Database Systems,"06-DIS
+Regular",EC 007 - Lecture Room,In Person,We 7:00-9:45PM
+14031,CPSC 332 - File Structures and Database Systems,"08-DIS
+Regular",MH 682 - Lecture Room,In Person,TuTh 1:00-2:15PM
+21428,CPSC 332 - File Structures and Database Systems,"10-DIS
+Regular",E 321 - Lecture Room,In Person,Sa 9:00-11:45AM
+13719,CPSC 335 - Algorithm Engineering,"05-DIS
+Regular",EC 007 - Lecture Room,In Person,Tu 7:00-9:45PM
+13956,CPSC 335 - Algorithm Engineering,"09-DIS
+Regular",E 321 - Lecture Room,In Person,Fr 1:00-3:45PM
+14052,CPSC 335 - Algorithm Engineering,"10-DIS
+Regular",Hum 521 - Lecture Room,In Person,TuTh 5:30-6:45PM
+21575,CPSC 335 - Algorithm Engineering,"12-DIS
+Regular",E 321 - Lecture Room,In Person,Fr 4:00-6:45PM
+21576,CPSC 335 - Algorithm Engineering,"13-DIS
+Regular",EC 007 - Lecture Room,In Person,Sa 10:00AM-12:45PM
+21744,CPSC 335 - Algorithm Engineering,"14-DIS
+Regular",CS 104 - Teaching Lab,In Person,MoWe 5:30-6:45PM
+14039,CPSC 349 - Web Front-End Engineering,"04-DIS
+Regular",EC 034 - Lecture Room,In Person,Fr 10:00AM-12:45PM
+13614,CPSC 351 - Operating Systems Concepts,"03-DIS
+Regular",EC 007 - Lecture Room,In Person,Sa 1:00-3:45PM
+13727,CPSC 351 - Operating Systems Concepts,"06-DIS
+Regular",MH 617 - Lecture Room,In Person,MoWe 8:30-9:45AM
+13957,CPSC 351 - Operating Systems Concepts,"07-DIS
+Regular",EC 007 - Lecture Room,In Person,TuTh 1:00-2:15PM
+14006,CPSC 351 - Operating Systems Concepts,"08-DIS
+Regular",MH 049 - Lecture Room,In Person,MoWe 4:00-5:15PM
+14061,CPSC 351 - Operating Systems Concepts,"09-DIS
+Regular",E-SW011 - Lecture Room,In Person,Mo 7:00-9:45PM
+21429,CPSC 351 - Operating Systems Concepts,"11-DIS
+Regular",CS 101 - Teaching Lab,In Person,Sa 9:00-11:45AM
+21430,CPSC 351 - Operating Systems Concepts,"12-DIS
+Regular",CS 101 - Teaching Lab,In Person,Sa 4:00-6:45PM
+21666,CPSC 351 - Operating Systems Concepts,"13-DIS
+Regular",MOD 101 - Modular,In Person,TuTh 4:00-5:15PM
+21411,CPSC 362 - Foundations of Software Engineering,"03-LEC
+Regular",CS 104 - Teaching Lab,In Person,Sa 1:00-3:45PM
+21412,CPSC 362 - Foundations of Software Engineering,"04-LEC
+Regular",CS 408 - Teaching Lab,In Person,Sa 9:00-11:45AM
+21414,CPSC 362 - Foundations of Software Engineering,"06-LEC
+Regular",Hum 224 - Lecture Room,In Person,MoWe 1:00-2:15PM
+21416,CPSC 362 - Foundations of Software Engineering,"07-LEC
+Regular",Hum 414 - Lecture Room,In Person,MoWe 2:30-3:45PM
+21421,CPSC 362 - Foundations of Software Engineering,"12-LEC
+Regular",MH 463 - Lecture Room,In Person,TuTh 4:00-5:15PM
+21422,CPSC 362 - Foundations of Software Engineering,"13-LEC
+Regular",MH 463 - Lecture Room,In Person,TuTh 5:30-6:45PM
+21657,CPSC 411 - Mobile Device Application Programming,"06-DIS
+Regular",KHS 174 - Lecture Room,In Person,Th 7:00-9:45PM
+14029,CPSC 411A - Mobile Device Application Programming for Android,"03-DIS
+Regular",Hum 321B - Lecture Room,In Person,Fr 10:00AM-12:45PM
+14030,CPSC 411A - Mobile Device Application Programming for Android,"04-DIS
+Regular",Hum 522 - Lecture Room,In Person,Fr 1:00-3:45PM
+14099,CPSC 431 - Database and Applications,"02-DIS
+Regular",MH 617 - Lecture Room,In Person,TuTh 4:00-5:15PM
+13818,CPSC 439 - Theory of Computation,"02-DIS
+Regular",CS 408 - Teaching Lab,In Person,MoWe 2:30-3:45PM
+13797,CPSC 449 - Web Back-End Engineering,"01-DIS
+Regular",EC 034 - Lecture Room,In Person,Mo 7:00-9:45PM
+21656,CPSC 449 - Web Back-End Engineering,"04-DIS
+Regular",EC 067 - Lecture Room,In Person,Sa 9:00-11:45AM
+21536,CPSC 454 - Cloud Computing and Security,"02-DIS
+Regular",CS 408 - Teaching Lab,In Person,MoWe 10:00-11:15AM
+21750,CPSC 454 - Cloud Computing and Security,"04-DIS
+Regular",Hum 426 - Lecture Room,In Person,TuTh 7:00-8:15PM
+21423,CPSC 462 - Software Design,"01-LEC
+Regular",CS 101 - Teaching Lab,In Person,MoWe 8:30-9:45AM
+13613,CPSC 463 - Software Testing,"01-DIS
+Regular",E-SW011 - Lecture Room,In Person,MoWe 8:30-9:45AM
+21739,CPSC 465 - Modern Software Deployment and Operations,"01-LEC
+Regular",CS 102A - Lecture Room,In Person,MoWe 5:30-6:45PM
+21537,CPSC 471 - Computer Communications,"11-DIS
+Regular",CS 408 - Teaching Lab,In Person,MoWe 11:30AM-12:45PM
+21603,CPSC 471 - Computer Communications,"12-DIS
+Regular",EC 034 - Lecture Room,In Person,Sa 9:00-11:45AM
+21751,CPSC 471 - Computer Communications,"13-DIS
+Regular",RGC 019 - Lecture Room,In Person,MoWe 7:00-8:15PM
+21897,CPSC 471 - Computer Communications,"14-DIS
+Regular",Hum 409 - Lecture Room,In Person,Fr 4:00-6:45PM
+21441,CPSC 476 - Edge AI: Principles and Practices,"01-LEC
+Regular",EC 121 - Lecture Room,In Person,MoWe 10:00-11:15AM
+13722,CPSC 481 - Artificial Intelligence,"01-DIS
+Regular",EC 049 - Lecture Room,In Person,MoWe 4:00-5:15PM
+13703,CPSC 481 - Artificial Intelligence,"04-DIS
+Regular",Hum 409 - Lecture Room,In Person,Fr 1:00-3:45PM
+13786,CPSC 481 - Artificial Intelligence,"06-DIS
+Regular",Hum 125 - Lecture Room,In Person,Th 7:00-9:45PM
+21432,CPSC 481 - Artificial Intelligence,"12-DIS
+Regular",Hum 412 - Lecture Room,In Person,MoWe 11:30AM-12:45PM
+21895,CPSC 483 - Introduction to Machine Learning,"03-DIS
+Regular",CS 102B - Lecture Room,In Person,MoWe 11:30AM-12:45PM
+14050,CPSC 483 - Introduction to Machine Learning,"05-DIS
+Regular",EC 067 - Lecture Room,In Person,Sa 1:00-3:45PM
+21981,CPSC 483 - Introduction to Machine Learning,"06-DIS
+Regular",CS 402 - Special Instruction,In Person,TuTh 2:30-3:45PM
+13584,CPSC 484 - Principles of Computer Graphics,"01-DIS
+Regular",MH 617 - Lecture Room,In Person,MoWe 11:30AM-12:45PM
+14091,CPSC 484 - Principles of Computer Graphics,"02-DIS
+Regular",MH 617 - Lecture Room,In Person,MoWe 10:00-11:15AM
+21747,CPSC 490 - Undergraduate Seminar in Computer Science,"08-SEM
+Regular",Hum 409 - Lecture Room,In Person,Th 7:00-9:45PM
+21953,CPSC 490 - Undergraduate Seminar in Computer Science,"09-SEM
+Regular",EC 063 - Lecture Room,In Person,Fr 1:00-3:45PM
+22203,CPSC 490 - Undergraduate Seminar in Computer Science,"10-SEM
+Regular",GH 239 - Seminar,In Person,TuTh 11:30AM-12:45PM
+13816,CPSC 491 - Senior Capstone Project in Computer Science,"03-SEM
+Regular",EC 032 - Lecture Room,In Person,Th 7:00-9:45PM
+14047,CPSC 491 - Senior Capstone Project in Computer Science,"09-SEM
+Regular",KHS 164 - Lecture Room,In Person,TuTh 2:30-3:45PM
+13698,CPSC 499 - Independent Study,"04-SUP
+Regular",TBA,In Person,TBA
+13572,CPSC 531 - Advanced Database Management,"01-SEM
+Regular",EC 165 - Lecture Room,In Person,Fr 4:00-6:45PM
+13803,CPSC 531 - Advanced Database Management,"02-SEM
+Regular",Hum 126 - Lecture Room,In Person,Fr 7:00-9:45PM
+21904,CPSC 535 - Advanced Algorithms,"05-DIS
+Regular",CS 401 - Computer Lab,In Person,MoWe 2:30-3:45PM
+13509,CPSC 543 - Software Maintenance,"51-SEM
+Regular",Online,Fully Online,TBA
+14098,CPSC 544 - Advanced Software Process,"01-SEM
+Regular",E-SW011 - Lecture Room,In Person,Th 7:00-9:45PM
+21903,CPSC 544 - Advanced Software Process,"02-SEM
+Regular",E-SW011 - Lecture Room,In Person,We 7:00-9:45PM
+13681,CPSC 545 - Software Design and Architecture,"01-SEM
+Regular",E-NE042 - Lecture Room,In Person,Sa 1:00-3:45PM
+21468,CPSC 545 - Software Design and Architecture,"02-SEM
+Regular",CS 401 - Computer Lab,In Person,TuTh 1:00-2:15PM
+21433,CPSC 545 - Software Design and Architecture,"52-SEM
+Regular",Online,Fully Online,TBA
+14096,CPSC 546 - Modern Software Management,"03-SEM
+Regular",CS 102B - Lecture Room,In Person,We 7:00-9:45PM
+21436,CPSC 546 - Modern Software Management,"52-SEM
+Regular",Online,Fully Online,TBA
+14051,CPSC 547 - Software Measurement,"02-SEM
+Regular",EC 024A - Lecture Room,In Person,Sa 9:00-11:45AM
+13833,"CPSC 548 - Professional, Ethical and Legal Issues for Software Engineers","01-SEM
+Regular",Hum 121 - Lecture Room,In Person,Th 7:00-9:45PM
+14015,CPSC 551 - Operating Systems Design,"01-SEM
+Regular",EC 165 - Lecture Room,In Person,We 7:00-9:45PM
+21899,CPSC 551 - Operating Systems Design,"03-SEM
+Regular",EC 044 - Lecture Room,In Person,Mo 7:00-9:45PM
+13831,CPSC 566 - Advanced Computer Graphics,"01-SEM
+Regular",CS 102B - Lecture Room,In Person,Th 7:00-9:45PM
+21532,"CPSC 585 - Neural Networks, Deep Learning, and Reinforcement Learning","04-SEM
+Regular",CS 102B - Lecture Room,In Person,MoWe 5:30-6:45PM
+21901,"CPSC 585 - Neural Networks, Deep Learning, and Reinforcement Learning","05-SEM
+Regular",E-NE042 - Lecture Room,In Person,We 7:00-9:45PM
+20511,CPSC 589 - Seminar in Computer Science,"02-SEM
+Regular",Hum 426 - Lecture Room,In Person,Th 8:30-11:15AM
+21655,CPSC 589 - Seminar in Computer Science,"03-SEM
+Regular",EC 121 - Lecture Room,In Person,Sa 9:00-11:45AM
+14092,CPSC 597 - Project,"07-SEM
+Regular",CS 102A - Lecture Room,In Person,TuTh 11:30AM-12:45PM
+21985,CPSC 597 - Project,"09-SEM
+Regular",EC 067 - Lecture Room,In Person,Mo 7:00-9:45PM
+13785,CPSC 597 - Project,"51-SEM
+Regular",Online,Fully Online,TBA
+22206,CPSC 598 - Thesis,"05-SUP
+Regular",TBA,In Person,TBA
+13519,CPSC 599 - Independent Graduate Research,"03-SUP
+Regular",TBA,In Person,TBA
+13583,CPSC 599 - Independent Graduate Research,"04-SUP
+Regular",TBA,In Person,TBA
+22150,CPSC 599 - Independent Graduate Research,"06-SUP
+Regular",TBA,In Person,TBA
+22202,CPSC 599 - Independent Graduate Research,"07-SUP
+Regular",TBA,In Person,TBA
