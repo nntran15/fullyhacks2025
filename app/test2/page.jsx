@@ -1,4 +1,3 @@
-// App.jsx - Updated to work with Flask backend
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -24,7 +23,6 @@ function App() {
         const response = await fetch('http://127.0.0.1:5000/api/terms');
         if (response.ok) {
           const data = await response.json();
-          // Transform term data to match the expected format
           const formattedTerms = data.map(term => ({
             id: term.includes(' ') ? 
               `${term.split(' ')[1]}-${term.split(' ')[0]}` : term,
@@ -38,7 +36,6 @@ function App() {
         }
       } catch (error) {
         console.error('Error fetching terms:', error);
-        // Fallback to default terms if API fails
         const defaultTerms = [
           { id: '2025-Spring', name: 'Spring 2025' },
           { id: '2025-Summer', name: 'Summer 2025' },
@@ -60,7 +57,6 @@ function App() {
   };
 
   // Add course to schedule
-  // Updated addCourseToSchedule function in App.jsx
 const addCourseToSchedule = (course, sectionIds) => {
   const currentSchedule = schedules.find(s => s.id === activeSchedule);
 
@@ -97,7 +93,6 @@ const addCourseToSchedule = (course, sectionIds) => {
 
   setSchedules(updatedSchedules);
 
-  // Show confirmation
   alert(`Added ${course.code} to your schedule!`);
 };
 

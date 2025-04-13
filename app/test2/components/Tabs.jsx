@@ -1,5 +1,4 @@
 
-// components/Tabs.jsx
 import React, { useState } from 'react';
 
 function Tabs({

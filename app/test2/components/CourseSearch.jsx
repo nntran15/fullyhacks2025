@@ -1,4 +1,3 @@
-// components/CourseSearch.jsx
 import React, { useState, useEffect } from 'react';
 
 function CourseSearch({ onSearch, activeTerm }) {
@@ -7,7 +6,7 @@ function CourseSearch({ onSearch, activeTerm }) {
   const [departments, setDepartments] = useState([]);
   const [loading, setLoading] = useState(false);
   
-  // Fetch departments when component mounts
+  // departments
   useEffect(() => {
     const fetchDepartments = async () => {
       try {
@@ -32,30 +31,32 @@ function CourseSearch({ onSearch, activeTerm }) {
     setLoading(true);
     
     try {
-      // Convert term ID to display name (e.g., '2025-Spring' to 'Spring 2025')
+      // convert parts to term
       const termParts = activeTerm.split('-');
       const formattedTerm = termParts.length > 1 ? `${termParts[1]} ${termParts[0]}` : activeTerm;
       
-      // Build query URL with parameters
+      // where the api is stored
       let url = `http://127.0.0.1:5000/api/classes?term=${encodeURIComponent(formattedTerm)}`;
       
+      // send an api query using just department name
       if (department) {
-        // Find the department name from its ID
         const selectedDept = departments.find(dept => dept.id === department);
         if (selectedDept) {
           url += `&subject=${encodeURIComponent(selectedDept.name)}`;
         }
       }
       
+      // send an api query using just search 
       if (query) {
         url += `&query=${encodeURIComponent(query)}`;
       }
       
+      // response
       const response = await fetch(url);
       if (response.ok) {
         const data = await response.json();
         
-        // Transform the data to match the expected format in your App.jsx
+        // retrieve data and format it
         const transformedData = data.map(course => ({
           id: `${course["Class ID"]}`,
           code: course["Class Name"].split(' - ')[0],
@@ -64,11 +65,8 @@ function CourseSearch({ onSearch, activeTerm }) {
           sections: [{
             id: `${course["Class ID"]}`,
             type: course["Section"].split('-')[1]?.split('\n')[0]?.trim() || 'LEC',
-            instructor: 'Faculty', // This information is not in your sample data
             time: course["Time"],
-            location: course["Room"],
-            status: 'OPEN', // This information is not in your sample data
-            enrollment: '0/0' // This information is not in your sample data
+            location: course["Room"]
           }]
         }));
         
@@ -92,7 +90,7 @@ function CourseSearch({ onSearch, activeTerm }) {
             value={department}
             onChange={(e) => setDepartment(e.target.value)}
           >
-            <option value="">All Departments</option>
+            <option value=""></option>
             {departments.map(dept => (
               <option key={dept.id} value={dept.id}>{dept.name}</option>
             ))}

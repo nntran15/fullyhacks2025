@@ -1,10 +1,7 @@
-// WeeklyCalendar.jsx - Fixed version with robust time parsing
-
 import React from 'react';
 import './WeeklyCalendar.css';
 
 function WeeklyCalendar({ events, onRemoveEvent }) {
-  // Define the days of the week and time slots
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
   const timeSlots = [];
   
@@ -18,10 +15,6 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
     }
   }
 
-  // DEBUG: Log all events immediately to check input format
-  console.log('Raw events:', events);
-
-  // Helper to convert time string to minutes since midnight - ROBUST VERSION
   const timeToMinutes = (timeStr) => {
     if (!timeStr) return 0;
   
@@ -49,19 +42,19 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
   // Calculate the vertical position of an event
   const getTimePosition = (startTime) => {
     const minutes = timeToMinutes(startTime);
-    const startOfDay = 7 * 60; // 7:00 AM in minutes
-    return (minutes - startOfDay) * (80 / 60); // 40px per hour, 2/3px per minute
+    const startOfDay = 7 * 60;
+    return (minutes - startOfDay) * (80 / 60);
   };
 
   // Calculate the height of an event
   const getEventHeight = (startTime, endTime) => {
     const startMinutes = timeToMinutes(startTime);
     const endMinutes = timeToMinutes(endTime);
-    return (endMinutes - startMinutes) * (80 / 60); // 40px per hour, 2/3px per minute
+    return (endMinutes - startMinutes) * (80 / 60);
   };
 
-  console.log('Start time position:', getTimePosition('5:30PM')); // Should be correct
-  console.log('Event height:', getEventHeight('5:30PM', '6:45PM')); // Should match duration
+  console.log('Start time position:', getTimePosition('5:30PM'));
+  console.log('Event height:', getEventHeight('5:30PM', '6:45PM'));
 
   // Group events by day
   const eventsByDay = days.reduce((acc, day) => {
@@ -79,8 +72,7 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
   // Find overlapping events and organize them
   const organizeOverlappingEvents = (events) => {
     if (!events.length) return [];
-    
-    // Group events by overlap
+  
     const groups = [];
     let currentGroup = [events[0]];
     
@@ -88,7 +80,6 @@ function WeeklyCalendar({ events, onRemoveEvent }) {
       const event = events[i];
       const previousEvent = events[i - 1];
       
-      // Check if current event overlaps with previous event
       if (timeToMinutes(event.startTime) < timeToMinutes(previousEvent.endTime)) {
         currentGroup.push(event);
       } else {

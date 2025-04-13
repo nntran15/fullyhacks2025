@@ -1,4 +1,3 @@
-// components/CourseList.jsx
 import React, { useState, useEffect } from 'react';
 
 function CourseList({ courses, onAddCourse }) {
@@ -6,14 +5,13 @@ function CourseList({ courses, onAddCourse }) {
   const [selectedSections, setSelectedSections] = useState({});
   const [groupedCourses, setGroupedCourses] = useState([]);
   
-  // Group courses by their class name
+  // group courses together
   useEffect(() => {
     if (!courses.length) {
       setGroupedCourses([]);
       return;
     }
     
-    // Create a map to group courses by their code
     const courseMap = {};
     
     courses.forEach(course => {
@@ -29,16 +27,14 @@ function CourseList({ courses, onAddCourse }) {
         };
       }
       
-      // Add this course's sections to the grouped course
       courseMap[courseKey].sections.push(...course.sections);
     });
     
-    // Convert the map to an array
+    // convert map to array 
     const groupedArray = Object.values(courseMap);
     
-    // Make sure sections have unique IDs
+    // remove duplicates
     groupedArray.forEach(course => {
-      // Remove any duplicate sections based on section ID
       const uniqueSections = [];
       const sectionIds = new Set();
       
@@ -57,14 +53,13 @@ function CourseList({ courses, onAddCourse }) {
   
   const toggleCourse = (courseId) => {
     setExpandedCourse(expandedCourse === courseId ? null : courseId);
-    // Reset selections when toggling courses
     setSelectedSections({});
   };
   
   const toggleSection = (courseId, sectionId) => {
     setSelectedSections({
       ...selectedSections,
-      [courseId]: [sectionId], // Only allow one section to be selected
+      [courseId]: [sectionId],
     });
   };
   
@@ -73,7 +68,6 @@ function CourseList({ courses, onAddCourse }) {
     if (sectionsToAdd.length === 0) return;
     
     onAddCourse(course, sectionsToAdd);
-    // Reset after adding
     setSelectedSections(prev => ({
       ...prev,
       [course.id]: []

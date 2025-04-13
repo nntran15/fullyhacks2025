@@ -1,6 +1,5 @@
-/* WeeklyCalendar.css */
 .weekly-calendar {
-    height: 1240px; /* Matches the 31 time slots x 40px */
+    height: 1240px;
   }
   
   .calendar-header {
@@ -42,7 +41,7 @@
   .day-column {
     position: relative;
     flex: 1;
-    height: 1240px; /* Same as above */
+    height: 1240px;
   }
   
   .day-column:last-child {

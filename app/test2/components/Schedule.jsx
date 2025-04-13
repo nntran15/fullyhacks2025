@@ -1,39 +1,33 @@
-// components/Schedule.jsx - Completely fixed version
 import React from 'react';
 import WeeklyCalendar from './WeeklyCalendar';
 
 function Schedule({ schedule, onRemoveCourse }) {
   if (!schedule) return <div>No schedule selected</div>;
 
-  // Helper to parse time strings into schedule objects - COMPLETELY REVAMPED
   const parseTimeString = (timeStr) => {
     if (!timeStr || timeStr === "TBA") return { days: [], startTime: '', endTime: '' };
     
     console.log('Parsing schedule time string:', timeStr);
-    
-    // Extract days part and time part, handling various formats
     const match = timeStr.match(/^([A-Za-z]+)\s+(.+)$/);
+
 if (!match) {
   console.error('Invalid time string format:', timeStr);
   return { days: [], startTime: '', endTime: '' };
 }
 const daysStr = match[1].trim();
 const timePart = match[2].trim();
-    
-    // Extract start and end times, handling different dash formats and spacing
+  
     const timeMatch = timePart.match(/(\d+:\d+(?:AM|PM)?)\s*-\s*(\d+:\d+(?:AM|PM)?)/i);
     if (!timeMatch) {
       console.error('Could not extract start and end times:', timePart);
       return { days: [], startTime: '', endTime: '' };
     }
     
-    // Ensure AM/PM is included in times
     let startTime = timeMatch[1].trim();
     let endTime = timeMatch[2].trim();
     
-    // Add AM/PM if missing (handle case where AM/PM is only at the end)
+    // Add AM/PM
     if (!startTime.toLowerCase().includes('am') && !startTime.toLowerCase().includes('pm')) {
-      // Extract AM/PM from end time if present
       const periodMatch = endTime.match(/(AM|PM)$/i);
       if (periodMatch) {
         startTime += periodMatch[0];
@@ -42,7 +36,7 @@ const timePart = match[2].trim();
     
     console.log(`Extracted times: start=${startTime}, end=${endTime}`);
     
-    // Parse days, handling both "MWF" and "MoWeFr" formats
+    // map days
     const dayMappings = {
       'M': 'Monday', 'Mo': 'Monday',
       'T': 'Tuesday', 'Tu': 'Tuesday',
@@ -53,7 +47,6 @@ const timePart = match[2].trim();
     
     const parsedDays = [];
     
-    // Try to parse by checking all possible day abbreviations
     let remainingStr = daysStr;
     while (remainingStr.length > 0) {
       let matched = false;
@@ -68,7 +61,7 @@ const timePart = match[2].trim();
         }
       }
       
-      // If no two-letter match, try one-letter abbreviations
+      // try one-letter abbreviations
       if (!matched) {
         for (const [abbr, day] of Object.entries(dayMappings)) {
           if (abbr.length === 1 && remainingStr.startsWith(abbr)) {
@@ -80,7 +73,7 @@ const timePart = match[2].trim();
         }
       }
       
-      // If still no match, skip this character
+      // Skip
       if (!matched) {
         remainingStr = remainingStr.substring(1);
       }
@@ -108,12 +101,11 @@ const timePart = match[2].trim();
         section: section.type,
         location: section.location,
         instructor: section.instructor,
-        courseId: course.id // Add courseId for removal
+        courseId: course.id
       }));
     }).flat()
   );
 
-  // Log the calendar events for debugging
   console.log('Calendar events:', calendarEvents);
 
   // Function to handle course removal with confirmation

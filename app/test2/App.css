@@ -33,19 +33,19 @@ body {
 }
 
 .dog-image {
-  width: 50px; /* Set a fixed width */
-  height: 50px; /* Maintain aspect ratio */
-  max-height: 50px; /* Optional: Limit the maximum height */
-  object-fit: contain; /* Ensure the image fits within the dimensions */
-  margin: 0 10px; /* Add spacing around the images */
+  width: 50px;
+  height: 50px;
+  max-height: 50px;
+  object-fit: contain;
+  margin: 0 10px;
 }
 
 .cat-image {
-  width: 50px; /* Set a fixed width */
-  height: 50px; /* Maintain aspect ratio */
-  max-height: 50px; /* Optional: Limit the maximum height */
-  object-fit: contain; /* Ensure the image fits within the dimensions */
-  margin: 0 10px; /* Add spacing around the images */
+  width: 50px;
+  height: 50px;
+  max-height: 50px;
+  object-fit: contain;
+  margin: 0 10px;
   align-items: left;
 }
 
@@ -97,7 +97,6 @@ body {
   overflow: hidden;
 }
 
-/* Course Search */
 .course-search {
   background-color: #fff;
   padding: 15px;
@@ -146,7 +145,6 @@ body {
   background-color: #00518a;
 }
 
-/* Course List */
 .course-list {
   flex: 1;
   overflow: auto;
@@ -403,17 +401,13 @@ body {
 .tabs-container {
   display: flex;
   flex-direction: row;
-  /* Align tabs horizontally */
   gap: 10px;
-  /* Add spacing between tabs */
 }
 
 .tab-actions {
   display: flex;
   gap: 16px;
-  /* Add spacing between the ✎ and ✕ buttons */
   align-items: center;
-  /* Align buttons vertically */
 }
 
 .tab {
@@ -432,24 +426,15 @@ body {
 
 .add-tab {
   border: 2px solid #4CAF50;
-  /* Green border */
   border-radius: 5px;
-  /* Rounded corners */
   padding: 5px 10px;
-  /* Add some padding */
   background-color: white;
-  /* Background color */
   color: #4CAF50;
-  /* Text color */
   font-size: 16px;
-  /* Font size */
   cursor: pointer;
-  /* Pointer cursor on hover */
 }
 
 .add-tab:hover {
   background-color: #4CAF50;
-  /* Green background on hover */
   color: white;
-  /* White text on hover */
 }
