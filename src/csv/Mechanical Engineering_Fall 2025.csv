@@ -1,0 +1,175 @@
+Class ID,Class Name,Section,Room,Instruction Type,Time
+17276,EGME 102 - Engineering Graphics,"01-DIS
+Regular",CS 309 - Teaching Lab,In Person,MoWe 8:00AM - 8:25AM
+17277,EGME 102 - Engineering Graphics,"02-LAB
+Regular",CS 309 - Teaching Lab,In Person,MoWe 8:30AM - 9:45AM
+17278,EGME 102 - Engineering Graphics,"03-DIS
+Regular",CS 304 - Teaching Lab,In Person,MoWe 8:00AM - 8:25AM
+17279,EGME 102 - Engineering Graphics,"04-LAB
+Regular",CS 304 - Teaching Lab,In Person,MoWe 8:30AM - 9:45AM
+17280,EGME 102 - Engineering Graphics,"05-DIS
+Regular",CS 304 - Teaching Lab,In Person,MoWe 2:30PM - 2:55PM
+17281,EGME 102 - Engineering Graphics,"06-LAB
+Regular",CS 304 - Teaching Lab,In Person,MoWe 3:00PM - 4:15PM
+17471,EGME 102 - Engineering Graphics,"07-DIS
+Regular",CS 309 - Teaching Lab,In Person,TuTh 11:30AM - 11:55AM
+17472,EGME 102 - Engineering Graphics,"08-LAB
+Regular",CS 309 - Teaching Lab,In Person,TuTh 12:00PM - 1:15PM
+17372,EGME 102 - Engineering Graphics,"09-DIS
+Regular",CS 309 - Teaching Lab,In Person,TuTh 8:00AM - 8:25AM
+17373,EGME 102 - Engineering Graphics,"10-LAB
+Regular",CS 309 - Teaching Lab,In Person,TuTh 8:30AM - 9:45AM
+17549,EGME 102 - Engineering Graphics,"11-DIS
+Regular",CS 309 - Teaching Lab,In Person,TuTh 7:00PM - 7:25PM
+17550,EGME 102 - Engineering Graphics,"12-LAB
+Regular",CS 309 - Teaching Lab,In Person,TuTh 7:30PM - 8:45PM
+17552,EGME 102 - Engineering Graphics,"13-DIS
+Regular",CS 309 - Teaching Lab,In Person,MoWe 7:00PM - 7:25PM
+17553,EGME 102 - Engineering Graphics,"14-LAB
+Regular",CS 309 - Teaching Lab,In Person,MoWe 7:30PM - 8:45PM
+20289,EGME 102 - Engineering Graphics,"19-DIS
+Regular",CS 309 - Teaching Lab,In Person,MoWe 11:30AM - 11:55AM
+20291,EGME 102 - Engineering Graphics,"20-LAB
+Regular",CS 309 - Teaching Lab,In Person,MoWe 12:00PM - 1:15PM
+20294,EGME 205 - Digital Computation,"01-DIS
+Regular",CS 309 - Teaching Lab,In Person,MoWe 10:00AM - 11:15AM
+17642,EGME 205 - Digital Computation,"03-DIS
+Regular",CS 304 - Teaching Lab,In Person,MoWe 11:30AM - 12:45PM
+17335,EGME 205 - Digital Computation,"05-DIS
+Regular",CS 304 - Teaching Lab,In Person,MoWe 1:00PM - 2:15PM
+17336,EGME 205 - Digital Computation,"06-DIS
+Regular",CS 304 - Teaching Lab,In Person,TuTh 2:30PM - 3:45PM
+17271,EGME 304 - Thermodynamics,"01-DIS
+Regular",E-NE042 - Lecture Room,In Person,MoWe 11:30AM - 12:45PM
+17291,EGME 304 - Thermodynamics,"02-DIS
+Regular",E 201 - Teaching Lab,In Person,MoWe 2:30PM - 3:45PM
+17641,EGME 304 - Thermodynamics,"03-DIS
+Regular",E 201 - Teaching Lab,In Person,MoWe 5:30PM - 6:45PM
+17647,EGME 306A - Solid Mechanics Laboratory,"03-LAB
+Regular",E-NE042 - Lecture Room,In Person,Fr 8:30AM - 11:15AM
+17299,EGME 306A - Solid Mechanics Laboratory,"04-LAB
+Regular",E-NE042 - Lecture Room,In Person,Tu 8:30AM - 11:15AM
+17313,EGME 306A - Solid Mechanics Laboratory,"05-LAB
+Regular",E-NE042 - Lecture Room,In Person,Tu 11:30AM - 2:15PM
+17367,EGME 306A - Solid Mechanics Laboratory,"06-LAB
+Regular",E-NE042 - Lecture Room,In Person,Fr 11:30AM - 2:15PM
+17333,EGME 306A - Solid Mechanics Laboratory,"10-LAB
+Regular",E-NE042 - Lecture Room,In Person,Th 8:30AM - 11:15AM
+17699,EGME 308 - Engineering Analysis,"02-DIS
+Regular",E-NE042 - Lecture Room,In Person,MoWe 2:30PM - 3:45PM
+17345,EGME 308 - Engineering Analysis,"03-DIS
+Regular",E-SE022 - Lecture Room,In Person,MoWe 5:30PM - 6:45PM
+20668,EGME 308 - Engineering Analysis,"05-DIS
+Regular",E 201 - Teaching Lab,In Person,TuTh 5:30PM - 6:45PM
+17283,EGME 322L - Introduction to Computer-Aided Design,"01-DIS
+Regular",CS 304 - Teaching Lab,In Person,MoWe 7:00PM - 7:25PM
+17284,EGME 322L - Introduction to Computer-Aided Design,"02-LAB
+Regular",CS 304 - Teaching Lab,In Person,MoWe 7:25PM - 9:45PM
+17304,EGME 322L - Introduction to Computer-Aided Design,"03-DIS
+Regular",CS 304 - Teaching Lab,In Person,TuTh 7:00PM - 7:25PM
+17305,EGME 322L - Introduction to Computer-Aided Design,"04-LAB
+Regular",CS 304 - Teaching Lab,In Person,TuTh 7:25PM - 9:45PM
+17302,EGME 331 - Solid Mechanics,"01-DIS
+Regular",E 201 - Teaching Lab,In Person,MoWe 4:00PM - 5:15PM
+17314,EGME 331 - Solid Mechanics,"02-DIS
+Regular",E 201 - Teaching Lab,In Person,TuTh 1:00PM - 2:15PM
+17256,EGME 333 - Fluid Mechanics,"02-DIS
+Regular",E 201 - Teaching Lab,In Person,MoWe 1:00PM - 2:15PM
+17337,EGME 333 - Fluid Mechanics,"03-DIS
+Regular",E 201 - Teaching Lab,In Person,TuTh 2:30PM - 3:45PM
+17388,EGME 333 - Fluid Mechanics,"04-DIS
+Regular",E 201 - Teaching Lab,In Person,TuTh 4:00PM - 5:15PM
+17406,EGME 333 - Fluid Mechanics,"05-DIS
+Regular",E-SE022 - Lecture Room,In Person,TuTh 10:00AM - 11:15AM
+20314,EGME 335 - Kinematics of Mechanisms,"01-DIS
+Regular",E-SE022 - Lecture Room,In Person,TuTh 2:30PM - 3:45PM
+17375,EGME 335 - Kinematics of Mechanisms,"02-DIS
+Regular",E 201 - Teaching Lab,In Person,MoWe 10:00AM - 11:15AM
+17648,EGME 335 - Kinematics of Mechanisms,"03-DIS
+Regular",E 201 - Teaching Lab,In Person,MoWe 11:30AM - 12:45PM
+17623,EGME 401 - Engineering Economics and Professionalism,"01-DIS
+Regular",E 201 - Teaching Lab,In Person,TuTh 7:00PM - 8:15PM
+17625,EGME 401 - Engineering Economics and Professionalism,"02-DIS
+Regular",E 201 - Teaching Lab,In Person,MoWe 7:00PM - 8:15PM
+17432,EGME 410 - Introduction to the Finite Element Method and Applications,"01-DIS
+Regular",CS 304 - Teaching Lab,In Person,TuTh 5:30PM - 6:45PM
+17226,EGME 414 - Design Project I,"01-DIS
+Regular",CS 304 - Teaching Lab,In Person,TuTh 8:00AM - 8:25AM
+17250,EGME 414 - Design Project I,"02-LAB
+Regular",CS 304 - Teaching Lab,In Person,TuTh 8:30AM - 11:15AM
+17295,EGME 414 - Design Project I,"03-DIS
+Regular",E 201 - Teaching Lab,In Person,TuTh 8:00AM - 8:25AM
+17297,EGME 414 - Design Project I,"04-LAB
+Regular",E 201 - Teaching Lab,In Person,TuTh 8:30AM - 11:15AM
+17317,EGME 414 - Design Project I,"05-DIS
+Regular",CS 304 - Teaching Lab,In Person,Fr 8:30AM - 9:20AM
+17318,EGME 414 - Design Project I,"06-LAB
+Regular",CS 304 - Teaching Lab,In Person,Fr 9:30AM - 3:00PM
+17362,EGME 414 - Design Project I,"07-DIS
+Regular",E 201 - Teaching Lab,In Person,Fr 8:30AM - 9:20AM
+17363,EGME 414 - Design Project I,"08-LAB
+Regular",E 201 - Teaching Lab,In Person,Fr 9:30AM - 3:00PM
+17376,EGME 422 - Advanced Computer-Aided Design,"01-DIS
+Regular",CS 304 - Teaching Lab,In Person,Sa 10:00AM - 12:45PM
+17307,EGME 426 - Design of Thermal and Fluid Systems,"01-DIS
+Regular",E-SE022 - Lecture Room,In Person,Mo 7:00PM - 9:45PM
+17407,EGME 434 - Combustion,"01-LEC
+Regular",E-NE042 - Lecture Room,In Person,MoWe 4:00PM - 5:15PM
+17508,EGME 438 - Analytical Methods in Engineering,"01-DIS
+Regular",E-NE042 - Lecture Room,In Person,MoWe 5:30PM - 6:45PM
+21343,EGME 443 - Thermal-Fluids in Biological Systems,"01-LEC
+Regular",CS 304 - Teaching Lab,In Person,TuTh 4:00PM - 5:15PM
+17312,"EGME 451 - Heating, Ventilating and Air Conditioning Systems","01-LEC
+Regular",E-NE042 - Lecture Room,In Person,TuTh 7:00PM - 8:15PM
+17371,EGME 452 - Fluid Machinery,"01-DIS
+Regular",E-SE022 - Lecture Room,In Person,TuTh 4:00PM - 5:15PM
+17542,EGME 456 - Introduction to Mechatronics for Engineers,"01-DIS
+Regular",CS 309 - Teaching Lab,In Person,MoWe 4:00PM - 5:15PM
+17321,EGME 476A - Dynamic Systems and Controls Laboratory,"01-LEC
+Regular",E-SE022 - Lecture Room,In Person,Mo 11:30AM - 12:20PM
+17322,EGME 476A - Dynamic Systems and Controls Laboratory,"02-LAB
+Regular",E-SE022 - Lecture Room,In Person,Mo 12:20PM - 2:15PM
+17323,EGME 476A - Dynamic Systems and Controls Laboratory,"03-LEC
+Regular",E-SE022 - Lecture Room,In Person,Mo 2:30PM - 3:20PM
+17324,EGME 476A - Dynamic Systems and Controls Laboratory,"04-LAB
+Regular",E-SE022 - Lecture Room,In Person,Mo 3:20PM - 5:15PM
+17389,EGME 476A - Dynamic Systems and Controls Laboratory,"05-LEC
+Regular",E-SE022 - Lecture Room,In Person,Tu 11:30AM - 12:20PM
+17390,EGME 476A - Dynamic Systems and Controls Laboratory,"06-LAB
+Regular",E-SE022 - Lecture Room,In Person,Tu 12:20PM - 2:15PM
+17325,EGME 476A - Dynamic Systems and Controls Laboratory,"09-LEC
+Regular",E-SE022 - Lecture Room,In Person,We 11:30AM - 12:20PM
+17326,EGME 476A - Dynamic Systems and Controls Laboratory,"10-LAB
+Regular",E-SE022 - Lecture Room,In Person,We 12:20PM - 2:15PM
+17364,EGME 476A - Dynamic Systems and Controls Laboratory,"11-LEC
+Regular",E-SE022 - Lecture Room,In Person,We 2:30PM - 3:20PM
+17365,EGME 476A - Dynamic Systems and Controls Laboratory,"12-LAB
+Regular",E-SE022 - Lecture Room,In Person,We 3:20PM - 5:15PM
+20338,EGME 512 - Advanced Mechanical Design and Management,"01-SEM
+Regular",CS 309 - Teaching Lab,In Person,MoWe 5:30PM - 6:45PM
+20335,EGME 526 - Advanced Convective Heat Transfer,"01-SEM
+Regular",E-SE022 - Lecture Room,In Person,TuTh 5:30PM - 6:45PM
+20340,EGME 576 - Advanced Dynamics and Control of Mechanical Systems,"01-SEM
+Regular",E-SE022 - Lecture Room,In Person,TuTh 7:00PM - 8:15PM
+17236,EGME 597 - Project,"01-SUP
+Regular",TBA,In Person,TBA
+17237,EGME 597 - Project,"02-SUP
+Regular",TBA,In Person,TBA
+17282,EGME 597 - Project,"03-SUP
+Regular",TBA,In Person,TBA
+17310,EGME 597 - Project,"04-SUP
+Regular",TBA,In Person,TBA
+17238,EGME 597 - Project,"05-SUP
+Regular",TBA,In Person,TBA
+17244,EGME 597 - Project,"06-SUP
+Regular",TBA,In Person,TBA
+17239,EGME 598 - Thesis,"01-SUP
+Regular",TBA,In Person,TBA
+17240,EGME 598 - Thesis,"02-SUP
+Regular",TBA,In Person,TBA
+20625,EGME 598 - Thesis,"03-SUP
+Regular",TBA,In Person,TBA
+20626,EGME 598 - Thesis,"04-SUP
+Regular",TBA,In Person,TBA
+21084,EGME 598 - Thesis,"05-SUP
+Regular",TBA,In Person,TBA

@@ -1,0 +1,321 @@
+Class ID,Class Name,Section,Room,Instruction Type,Time
+19534,PHYS 211 - Elementary Physics,"03-LEC
+Regular",MH 682 - Lecture Room,In Person,MoWeFr 11:00AM - 11:50AM
+19561,PHYS 211L - Elementary Physics: Laboratory,"03-LAB
+Regular",MH 650 - Physics Teaching Lab,In Person,We 11:30AM - 2:20PM
+19498,PHYS 211L - Elementary Physics: Laboratory,"05-LAB
+Regular",MH 650 - Physics Teaching Lab,In Person,Tu 3:00PM - 5:50PM
+19574,PHYS 211L - Elementary Physics: Laboratory,"10-LAB
+Regular",MH 650 - Physics Teaching Lab,In Person,We 3:00PM - 5:50PM
+20618,PHYS 212 - Elementary Physics,"04-LEC
+Regular",SGMH 1406 - Lecture,In Person,MoWeFr 11:00AM - 11:50AM
+19516,PHYS 212L - Elementary Physics: Laboratory,"16-LAB
+Regular",MH 605 - Teaching Lab,In Person,Th 7:00PM - 9:50PM
+19650,PHYS 212L - Elementary Physics: Laboratory,"20-LAB
+Regular",MH 605 - Teaching Lab,In Person,We 8:00AM - 10:50AM
+19651,PHYS 212L - Elementary Physics: Laboratory,"21-LAB
+Regular",MH 605 - Teaching Lab,In Person,We 11:30AM - 2:20PM
+19657,PHYS 225 - Fundamental Physics: Mechanics,"06-LEC
+Regular",RGC 013 - Auditorium,In Person,MoWeFr 9:00AM - 9:50AM
+19474,PHYS 225L - Fundamental Physics: Laboratory,"03-LAB
+Regular",MH 656 - Teaching Lab,In Person,Th 11:30AM - 2:20PM
+21965,PHYS 225L - Fundamental Physics: Laboratory,"05-LAB
+Regular",MH 656 - Teaching Lab,In Person,Mo 3:00PM - 5:50PM
+22027,PHYS 225L - Fundamental Physics: Laboratory,"08-LAB
+Regular",MH 656 - Teaching Lab,In Person,Mo 8:00AM - 10:50AM
+19648,PHYS 225L - Fundamental Physics: Laboratory,"19-LAB
+Regular",MH 656 - Teaching Lab,In Person,Fr 8:00AM - 10:50AM
+22162,PHYS 225L - Fundamental Physics: Laboratory,"20-LAB
+Regular",MH 650 - Physics Teaching Lab,In Person,Fr 9:00AM - 11:50AM
+19548,PHYS 226 - Fundamental Physics: Electricity and Magnetism,"01-LEC
+Regular",MH 682 - Lecture Room,In Person,MoWe 2:30PM - 3:45PM
+20619,PHYS 226 - Fundamental Physics: Electricity and Magnetism,"03-LEC
+Regular",MH 682 - Lecture Room,In Person,MoWeFr 10:00AM - 10:50AM
+21646,PHYS 226 - Fundamental Physics: Electricity and Magnetism,"04-LEC
+Regular",KHS 199 - Lecture Room,In Person,TuTh 4:00PM - 5:15PM
+19475,PHYS 226L - Fundamental Physics: Laboratory,"01-LAB
+Regular",MH 606 - Teaching Lab,In Person,We 11:30AM - 2:15PM
+19549,PHYS 226L - Fundamental Physics: Laboratory,"04-LAB
+Regular",MH 606 - Teaching Lab,In Person,Th 3:00PM - 5:50PM
+21969,PHYS 226L - Fundamental Physics: Laboratory,"05-LAB
+Regular",MH 606 - Teaching Lab,In Person,Th 8:00AM - 10:50AM
+21970,PHYS 226L - Fundamental Physics: Laboratory,"06-LAB
+Regular",MH 606 - Teaching Lab,In Person,Th 7:00PM - 9:50PM
+19562,PHYS 226L - Fundamental Physics: Laboratory,"12-LAB
+Regular",MH 606 - Teaching Lab,In Person,We 8:00AM - 10:50AM
+19580,PHYS 226L - Fundamental Physics: Laboratory,"14-LAB
+Regular",MH 606 - Teaching Lab,In Person,Tu 3:00PM - 5:50PM
+19619,PHYS 226L - Fundamental Physics: Laboratory,"20-LAB
+Regular",MH 606 - Teaching Lab,In Person,Tu 8:00AM - 10:50AM
+19582,"PHYS 227 - Fundamental Physics: Waves, Optics, and Modern Physics","02-DIS
+Regular",KHS 199 - Lecture Room,In Person,TuTh 2:30PM - 3:45PM
+19583,"PHYS 227 - Fundamental Physics: Waves, Optics, and Modern Physics","04-DIS
+Mini 1",KHS 199 - Lecture Room,In Person,TuTh 2:30PM - 3:45PM
+19553,PHYS 227L - Fundamental Physics: Laboratory,"01-LAB
+Regular",MH 606 - Teaching Lab,In Person,Mo 7:00PM - 9:50PM
+19856,PHYS 300 - Survey of Mathematical Physics,"02-DIS
+Regular",MH 629 - Computer Lab,In Person,TuTh 12:00PM - 1:15PM
+19652,PHYS 301 - Energy and Sustainability,"50-LEC
+Regular",Online,Fully Online,TBA
+19658,PHYS 305 - Physics of Sound,"50-LEC
+Regular",Online,Fully Online,TBA
+21712,"PHYS 310 - Thermodynamics, Kinetic Theory, and Statistical Physics","02-DIS
+Regular",MH 629 - Computer Lab,In Person,MoWe 1:00PM - 2:15PM
+19655,PHYS 320 - Classical Mechanics,"05-DIS
+Regular",MH 629 - Computer Lab,In Person,TuTh 9:00AM - 10:15AM
+19653,PHYS 330B - Electromagnetic Theory II,"02-DIS
+Regular",MH 629 - Computer Lab,In Person,TuTh 1:30PM - 2:45PM
+21647,PHYS 455 - Quantum Mechanics 2,"01-DIS
+Regular",MH 629 - Computer Lab,In Person,TuTh 10:30AM - 11:45AM
+19502,PHYS 481 - Experimental Physics,"01-LEC
+Regular",MH 690 - Physics Shop,In Person,Mo 2:00PM - 5:50PM
+19503,PHYS 481 - Experimental Physics,"02-LAB
+Regular",MH 690 - Physics Shop,In Person,We 2:00PM - 4:50PM
+19479,PHYS 496 - Student-to-Student Tutorials,"01-SUP
+Regular",TBA,In Person,TBA
+19480,PHYS 499 - Independent Study,"01-SUP
+Regular",TBA,In Person,TBA
+19481,PHYS 499 - Independent Study,"02-SUP
+Regular",TBA,In Person,TBA
+19482,PHYS 499 - Independent Study,"03-SUP
+Regular",TBA,In Person,TBA
+19484,PHYS 499 - Independent Study,"05-SUP
+Regular",TBA,In Person,TBA
+19485,PHYS 499 - Independent Study,"06-SUP
+Regular",TBA,In Person,TBA
+19504,PHYS 499 - Independent Study,"10-SUP
+Regular",TBA,In Person,TBA
+19507,PHYS 499 - Independent Study,"11-SUP
+Regular",TBA,In Person,TBA
+19508,PHYS 499 - Independent Study,"12-SUP
+Regular",TBA,In Person,TBA
+19512,PHYS 499 - Independent Study,"13-SUP
+Regular",TBA,In Person,TBA
+19517,PHYS 499 - Independent Study,"14-SUP
+Regular",TBA,In Person,TBA
+19522,PHYS 499 - Independent Study,"15-SUP
+Regular",TBA,In Person,TBA
+19523,PHYS 499 - Independent Study,"16-SUP
+Regular",TBA,In Person,TBA
+19527,PHYS 499 - Independent Study,"17-SUP
+Regular",TBA,In Person,TBA
+19529,PHYS 499 - Independent Study,"18-SUP
+Regular",TBA,In Person,TBA
+19554,PHYS 499 - Independent Study,"19-SUP
+Regular",TBA,In Person,TBA
+19563,PHYS 499 - Independent Study,"20-SUP
+Regular",TBA,In Person,TBA
+19567,PHYS 499 - Independent Study,"21-SUP
+Regular",TBA,In Person,TBA
+19568,PHYS 499 - Independent Study,"22-SUP
+Regular",TBA,In Person,TBA
+19569,PHYS 499 - Independent Study,"23-SUP
+Regular",TBA,In Person,TBA
+19573,PHYS 499 - Independent Study,"24-SUP
+Regular",TBA,In Person,TBA
+19584,PHYS 499 - Independent Study,"25-SUP
+Regular",TBA,In Person,TBA
+19585,PHYS 499 - Independent Study,"26-SUP
+Regular",TBA,In Person,TBA
+19586,PHYS 499 - Independent Study,"27-SUP
+Regular",TBA,In Person,TBA
+19587,PHYS 499 - Independent Study,"28-SUP
+Regular",TBA,In Person,TBA
+19588,PHYS 499 - Independent Study,"29-SUP
+Regular",TBA,In Person,TBA
+19589,PHYS 499 - Independent Study,"30-SUP
+Regular",TBA,In Person,TBA
+19609,PHYS 499 - Independent Study,"31-SUP
+Regular",TBA,In Person,TBA
+19616,PHYS 499 - Independent Study,"32-SUP
+Regular",TBA,In Person,TBA
+19620,PHYS 530A - Electromagnetic Theory I,"01-DIS
+Regular",MH 629 - Computer Lab,In Person,We 5:30PM - 8:15PM
+21648,PHYS 555A - Quantum Physics I,"01-DIS
+Regular",MH 629 - Computer Lab,In Person,Fr 9:00AM - 11:50AM
+19631,PHYS 581 - Advanced Experimental Physics,"01-LEC
+Regular",MH 690 - Physics Shop,In Person,Tu 1:30PM - 4:50PM
+19632,PHYS 581 - Advanced Experimental Physics,"02-LAB
+Regular",MH 690 - Physics Shop,In Person,Th 1:30PM - 4:50PM
+19535,PHYS 597 - Project,"01-SUP
+Regular",TBA,In Person,TBA
+19536,PHYS 597 - Project,"02-SUP
+Regular",TBA,In Person,TBA
+19537,PHYS 597 - Project,"03-SUP
+Regular",TBA,In Person,TBA
+19538,PHYS 597 - Project,"04-SUP
+Regular",TBA,In Person,TBA
+19539,PHYS 597 - Project,"05-SUP
+Regular",TBA,In Person,TBA
+19540,PHYS 597 - Project,"06-SUP
+Regular",TBA,In Person,TBA
+19541,PHYS 597 - Project,"07-SUP
+Regular",TBA,In Person,TBA
+19542,PHYS 597 - Project,"08-SUP
+Regular",TBA,In Person,TBA
+19543,PHYS 597 - Project,"09-SUP
+Regular",TBA,In Person,TBA
+19544,PHYS 597 - Project,"10-SUP
+Regular",TBA,In Person,TBA
+19545,PHYS 597 - Project,"11-SUP
+Regular",TBA,In Person,TBA
+19546,PHYS 597 - Project,"12-SUP
+Regular",TBA,In Person,TBA
+19547,PHYS 597 - Project,"13-SUP
+Regular",TBA,In Person,TBA
+19555,PHYS 597 - Project,"14-SUP
+Regular",TBA,In Person,TBA
+19556,PHYS 597 - Project,"15-SUP
+Regular",TBA,In Person,TBA
+19557,PHYS 597 - Project,"16-SUP
+Regular",TBA,In Person,TBA
+19564,PHYS 597 - Project,"17-SUP
+Regular",TBA,In Person,TBA
+19566,PHYS 597 - Project,"18-SUP
+Regular",TBA,In Person,TBA
+19572,PHYS 597 - Project,"19-SUP
+Regular",TBA,In Person,TBA
+19598,PHYS 597 - Project,"20-SUP
+Regular",TBA,In Person,TBA
+19599,PHYS 597 - Project,"21-SUP
+Regular",TBA,In Person,TBA
+19600,PHYS 597 - Project,"22-SUP
+Regular",TBA,In Person,TBA
+19601,PHYS 597 - Project,"23-SUP
+Regular",TBA,In Person,TBA
+19602,PHYS 597 - Project,"24-SUP
+Regular",TBA,In Person,TBA
+19603,PHYS 597 - Project,"25-SUP
+Regular",TBA,In Person,TBA
+19604,PHYS 597 - Project,"26-SUP
+Regular",TBA,In Person,TBA
+19605,PHYS 597 - Project,"27-SUP
+Regular",TBA,In Person,TBA
+19606,PHYS 597 - Project,"28-SUP
+Regular",TBA,In Person,TBA
+19607,PHYS 597 - Project,"29-SUP
+Regular",TBA,In Person,TBA
+19608,PHYS 597 - Project,"30-SUP
+Regular",TBA,In Person,TBA
+19610,PHYS 597 - Project,"31-SUP
+Regular",TBA,In Person,TBA
+19611,PHYS 597 - Project,"32-SUP
+Regular",TBA,In Person,TBA
+19612,PHYS 597 - Project,"33-SUP
+Regular",TBA,In Person,TBA
+19623,PHYS 597 - Project,"34-SUP
+Regular",TBA,In Person,TBA
+19624,PHYS 597 - Project,"35-SUP
+Regular",TBA,In Person,TBA
+19625,PHYS 597 - Project,"36-SUP
+Regular",TBA,In Person,TBA
+19633,PHYS 597 - Project,"37-SUP
+Regular",TBA,In Person,TBA
+19634,PHYS 597 - Project,"38-SUP
+Regular",TBA,In Person,TBA
+19635,PHYS 597 - Project,"39-SUP
+Regular",TBA,In Person,TBA
+19636,PHYS 597 - Project,"40-SUP
+Regular",TBA,In Person,TBA
+19637,PHYS 597 - Project,"41-SUP
+Regular",TBA,In Person,TBA
+19638,PHYS 597 - Project,"42-SUP
+Regular",TBA,In Person,TBA
+19489,PHYS 598 - Thesis,"01-SUP
+Regular",TBA,In Person,TBA
+19490,PHYS 598 - Thesis,"02-SUP
+Regular",TBA,In Person,TBA
+19491,PHYS 598 - Thesis,"03-SUP
+Regular",TBA,In Person,TBA
+19501,PHYS 598 - Thesis,"06-SUP
+Regular",TBA,In Person,TBA
+19590,PHYS 599 - Independent Graduate Research,"01-SUP
+Regular",TBA,In Person,TBA
+19492,PHYS 599 - Independent Graduate Research,"02-SUP
+Regular",TBA,In Person,TBA
+19493,PHYS 599 - Independent Graduate Research,"03-SUP
+Regular",TBA,In Person,TBA
+19494,PHYS 599 - Independent Graduate Research,"04-SUP
+Regular",TBA,In Person,TBA
+19495,PHYS 599 - Independent Graduate Research,"05-SUP
+Regular",TBA,In Person,TBA
+19597,PHYS 599 - Independent Graduate Research,"06-SUP
+Regular",TBA,In Person,TBA
+19591,PHYS 599 - Independent Graduate Research,"07-SUP
+Regular",TBA,In Person,TBA
+19496,PHYS 599 - Independent Graduate Research,"08-SUP
+Regular",TBA,In Person,TBA
+19497,PHYS 599 - Independent Graduate Research,"09-SUP
+Regular",TBA,In Person,TBA
+19506,PHYS 599 - Independent Graduate Research,"10-SUP
+Regular",TBA,In Person,TBA
+19509,PHYS 599 - Independent Graduate Research,"11-SUP
+Regular",TBA,In Person,TBA
+19518,PHYS 599 - Independent Graduate Research,"12-SUP
+Regular",TBA,In Person,TBA
+19519,PHYS 599 - Independent Graduate Research,"13-SUP
+Regular",TBA,In Person,TBA
+19520,PHYS 599 - Independent Graduate Research,"14-SUP
+Regular",TBA,In Person,TBA
+19521,PHYS 599 - Independent Graduate Research,"15-SUP
+Regular",TBA,In Person,TBA
+19524,PHYS 599 - Independent Graduate Research,"16-SUP
+Regular",TBA,In Person,TBA
+19525,PHYS 599 - Independent Graduate Research,"17-SUP
+Regular",TBA,In Person,TBA
+19526,PHYS 599 - Independent Graduate Research,"18-SUP
+Regular",TBA,In Person,TBA
+19528,PHYS 599 - Independent Graduate Research,"19-SUP
+Regular",TBA,In Person,TBA
+19558,PHYS 599 - Independent Graduate Research,"20-SUP
+Regular",TBA,In Person,TBA
+19559,PHYS 599 - Independent Graduate Research,"21-SUP
+Regular",TBA,In Person,TBA
+19560,PHYS 599 - Independent Graduate Research,"22-SUP
+Regular",TBA,In Person,TBA
+19565,PHYS 599 - Independent Graduate Research,"23-SUP
+Regular",TBA,In Person,TBA
+19570,PHYS 599 - Independent Graduate Research,"24-SUP
+Regular",TBA,In Person,TBA
+19571,PHYS 599 - Independent Graduate Research,"25-SUP
+Regular",TBA,In Person,TBA
+19592,PHYS 599 - Independent Graduate Research,"26-SUP
+Regular",TBA,In Person,TBA
+19593,PHYS 599 - Independent Graduate Research,"27-SUP
+Regular",TBA,In Person,TBA
+19594,PHYS 599 - Independent Graduate Research,"28-SUP
+Regular",TBA,In Person,TBA
+19595,PHYS 599 - Independent Graduate Research,"29-SUP
+Regular",TBA,In Person,TBA
+19596,PHYS 599 - Independent Graduate Research,"30-SUP
+Regular",TBA,In Person,TBA
+19613,PHYS 599 - Independent Graduate Research,"31-SUP
+Regular",TBA,In Person,TBA
+19614,PHYS 599 - Independent Graduate Research,"32-SUP
+Regular",TBA,In Person,TBA
+19615,PHYS 599 - Independent Graduate Research,"33-SUP
+Regular",TBA,In Person,TBA
+19626,PHYS 599 - Independent Graduate Research,"34-SUP
+Regular",TBA,In Person,TBA
+19627,PHYS 599 - Independent Graduate Research,"35-SUP
+Regular",TBA,In Person,TBA
+19628,PHYS 599 - Independent Graduate Research,"36-SUP
+Regular",TBA,In Person,TBA
+19639,PHYS 599 - Independent Graduate Research,"37-SUP
+Regular",TBA,In Person,TBA
+19640,PHYS 599 - Independent Graduate Research,"38-SUP
+Regular",TBA,In Person,TBA
+19641,PHYS 599 - Independent Graduate Research,"39-SUP
+Regular",TBA,In Person,TBA
+19642,PHYS 599 - Independent Graduate Research,"40-SUP
+Regular",TBA,In Person,TBA
+19643,PHYS 599 - Independent Graduate Research,"41-SUP
+Regular",TBA,In Person,TBA
+19644,PHYS 599 - Independent Graduate Research,"42-SUP
+Regular",TBA,In Person,TBA
+19645,PHYS 599 - Independent Graduate Research,"43-SUP
+Regular",TBA,In Person,TBA
+19646,PHYS 599 - Independent Graduate Research,"44-SUP
+Regular",TBA,In Person,TBA
+19647,PHYS 599 - Independent Graduate Research,"45-SUP
+Regular",TBA,In Person,TBA

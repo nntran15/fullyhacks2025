@@ -1,0 +1,470 @@
+{
+  "selects": [
+    {
+      "id": "CLASS_SRCH_WRK2_INSTITUTION$31$",
+      "name": "CLASS_SRCH_WRK2_INSTITUTION$31$",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " ",
+        "CSU Fullerton"
+      ]
+    },
+    {
+      "id": "CLASS_SRCH_WRK2_STRM$35$",
+      "name": "CLASS_SRCH_WRK2_STRM$35$",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " ",
+        "Fall 2025",
+        "Spring 2025",
+        "Summer 2025"
+      ]
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_SUBJECT_SRCH$0",
+      "name": "SSR_CLSRCH_WRK_SUBJECT_SRCH$0",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " ",
+        "Accounting",
+        "African American Studies",
+        "Aging Studies",
+        "American Studies",
+        "Anthropology",
+        "Arabic",
+        "Art",
+        "Art Education",
+        "Asian American Studies",
+        "Astronomy",
+        "Biological Science",
+        "Business Administration",
+        "Chemistry and Biochemistry",
+        "Chicana and Chicano Studies",
+        "Child and Adolescent Studies",
+        "Chinese",
+        "Cinema and Television Arts",
+        "Civil & Environmental Engr",
+        "Coll of Natural Sci & Math",
+        "Comm Sciences and Disorders",
+        "Communications",
+        "Comparative Literature",
+        "Computer Science",
+        "Counseling",
+        "Credential Studies",
+        "Criminal Justice",
+        "Dance",
+        "Economics",
+        "Education Leadership Doctorate",
+        "Educational Leadership",
+        "Electrical & Computer Engineer",
+        "Elementary & Bilingual Ed",
+        "English",
+        "English Education",
+        "Environmental Studies",
+        "Finance",
+        "French",
+        "Gender and Sexuality Studies",
+        "General Engineering",
+        "Geography and the Environment",
+        "Geological Sciences",
+        "German",
+        "Graduate Studies",
+        "History",
+        "Honors",
+        "Human Communication Studies",
+        "Human Services",
+        "Humanities and Social Sciences",
+        "Info Systems & Decision Sci",
+        "Instructional Design & Tech",
+        "International Studies",
+        "International Studies",
+        "Italian",
+        "Japanese",
+        "Kinesiology",
+        "Korean",
+        "Liberal Studies",
+        "Linguistics",
+        "Management",
+        "Marketing",
+        "Master of Social Work",
+        "Math Education",
+        "Mathematics",
+        "Mechanical Engineering",
+        "Military Science",
+        "Modern Languages & Literatures",
+        "Music",
+        "Music Education",
+        "Nursing",
+        "Persian",
+        "Philosophy",
+        "Physics",
+        "Political Science",
+        "Portuguese",
+        "Psychology",
+        "Public Health",
+        "Reading",
+        "Registrar",
+        "Religious Studies",
+        "Secondary Education",
+        "Sociology",
+        "Spanish",
+        "Special Education",
+        "Teach English Spkrs Oth Lang",
+        "Theatre",
+        "University Studies",
+        "Vietnamese"
+      ]
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1",
+      "name": "SSR_CLSRCH_WRK_SSR_EXACT_MATCH1$1",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " ",
+        "contains",
+        "greater than or equal to",
+        "is exactly",
+        "less than or equal to"
+      ]
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_ACAD_CAREER$2",
+      "name": "SSR_CLSRCH_WRK_ACAD_CAREER$2",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " ",
+        "Extended Education",
+        "Postbaccalaureate",
+        "Undergraduate"
+      ]
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_CRSE_ATTR$4",
+      "name": "SSR_CLSRCH_WRK_CRSE_ATTR$4",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " ",
+        "American Government Grad Reqmt",
+        "Fully On line",
+        "Writing Requirement",
+        "Zero Cost Course Material"
+      ]
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_CRSE_ATTR_VALUE$4",
+      "name": "SSR_CLSRCH_WRK_CRSE_ATTR_VALUE$4",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " "
+      ]
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_LOCATION$5",
+      "name": "SSR_CLSRCH_WRK_LOCATION$5",
+      "class": "PSDROPDOWNLIST",
+      "options": [
+        " ",
+        "CSU Fullerton",
+        "London",
+        "Off Campus",
+        "Study Abroad"
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "COPYCONSOLE",
+      "name": "",
+      "type": "button",
+      "value": "Copy",
+      "class": ""
+    },
+    {
+      "id": "CLEARCONSOLE",
+      "name": "",
+      "type": "button",
+      "value": "Clear",
+      "class": ""
+    },
+    {
+      "id": "HIDECONSOLE",
+      "name": "",
+      "type": "button",
+      "value": "Hide",
+      "class": ""
+    },
+    {
+      "id": "CLOSECONSOLE",
+      "name": "",
+      "type": "button",
+      "value": "Close",
+      "class": ""
+    },
+    {
+      "id": "ICType",
+      "name": "ICType",
+      "type": "hidden",
+      "value": "Panel",
+      "class": ""
+    },
+    {
+      "id": "ICElementNum",
+      "name": "ICElementNum",
+      "type": "hidden",
+      "value": "0",
+      "class": ""
+    },
+    {
+      "id": "ICStateNum",
+      "name": "ICStateNum",
+      "type": "hidden",
+      "value": "2",
+      "class": ""
+    },
+    {
+      "id": "ICAction",
+      "name": "ICAction",
+      "type": "hidden",
+      "value": "None",
+      "class": ""
+    },
+    {
+      "id": "ICModelCancel",
+      "name": "ICModelCancel",
+      "type": "hidden",
+      "value": "0",
+      "class": ""
+    },
+    {
+      "id": "ICXPos",
+      "name": "ICXPos",
+      "type": "hidden",
+      "value": "0",
+      "class": ""
+    },
+    {
+      "id": "ICYPos",
+      "name": "ICYPos",
+      "type": "hidden",
+      "value": "441.5",
+      "class": ""
+    },
+    {
+      "id": "ResponsetoDiffFrame",
+      "name": "ResponsetoDiffFrame",
+      "type": "hidden",
+      "value": "-1",
+      "class": ""
+    },
+    {
+      "id": "TargetFrameName",
+      "name": "TargetFrameName",
+      "type": "hidden",
+      "value": "None",
+      "class": ""
+    },
+    {
+      "id": "FacetPath",
+      "name": "FacetPath",
+      "type": "hidden",
+      "value": "None",
+      "class": ""
+    },
+    {
+      "id": "ICFocus",
+      "name": "ICFocus",
+      "type": "hidden",
+      "value": "",
+      "class": ""
+    },
+    {
+      "id": "ICSaveWarningFilter",
+      "name": "ICSaveWarningFilter",
+      "type": "hidden",
+      "value": "0",
+      "class": ""
+    },
+    {
+      "id": "ICChanged",
+      "name": "ICChanged",
+      "type": "hidden",
+      "value": "-1",
+      "class": ""
+    },
+    {
+      "id": "ICSkipPending",
+      "name": "ICSkipPending",
+      "type": "hidden",
+      "value": "0",
+      "class": ""
+    },
+    {
+      "id": "ICAutoSave",
+      "name": "ICAutoSave",
+      "type": "hidden",
+      "value": "0",
+      "class": ""
+    },
+    {
+      "id": "ICResubmit",
+      "name": "ICResubmit",
+      "type": "hidden",
+      "value": "0",
+      "class": ""
+    },
+    {
+      "id": "ICSID",
+      "name": "ICSID",
+      "type": "hidden",
+      "value": "sFrdVzikj+hmUfM6bMUEYtvD3/QfrqUJUK7efMONZhw=",
+      "class": ""
+    },
+    {
+      "id": "ICActionPrompt",
+      "name": "ICActionPrompt",
+      "type": "hidden",
+      "value": "false",
+      "class": ""
+    },
+    {
+      "id": "ICBcDomData",
+      "name": "ICBcDomData",
+      "type": "hidden",
+      "value": "UnknownValue",
+      "class": ""
+    },
+    {
+      "id": "ICPanelName",
+      "name": "ICPanelName",
+      "type": "hidden",
+      "value": "",
+      "class": ""
+    },
+    {
+      "id": "ICFind",
+      "name": "ICFind",
+      "type": "hidden",
+      "value": "",
+      "class": ""
+    },
+    {
+      "id": "ICAddCount",
+      "name": "ICAddCount",
+      "type": "hidden",
+      "value": "",
+      "class": ""
+    },
+    {
+      "id": "ICAppClsData",
+      "name": "ICAppClsData",
+      "type": "hidden",
+      "value": "",
+      "class": ""
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_CATALOG_NBR$1",
+      "name": "SSR_CLSRCH_WRK_CATALOG_NBR$1",
+      "type": "text",
+      "value": "",
+      "class": "PSEDITBOX"
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$3",
+      "name": "SSR_CLSRCH_WRK_SSR_OPEN_ONLY$chk$3",
+      "type": "hidden",
+      "value": "Y",
+      "class": ""
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_SSR_OPEN_ONLY$3",
+      "name": "SSR_CLSRCH_WRK_SSR_OPEN_ONLY$3",
+      "type": "checkbox",
+      "value": "Y",
+      "class": ""
+    },
+    {
+      "id": "SSR_CLSRCH_WRK_DESCR$6",
+      "name": "SSR_CLSRCH_WRK_DESCR$6",
+      "type": "text",
+      "value": "",
+      "class": "PSEDITBOX"
+    },
+    {
+      "id": "CLASS_SRCH_WRK2_SSR_PB_CLEAR",
+      "name": "CLASS_SRCH_WRK2_SSR_PB_CLEAR",
+      "type": "button",
+      "value": "Clear",
+      "class": "PSPUSHBUTTON"
+    },
+    {
+      "id": "CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH",
+      "name": "CLASS_SRCH_WRK2_SSR_PB_CLASS_SRCH",
+      "type": "button",
+      "value": "Search",
+      "class": "PSPUSHBUTTON"
+    }
+  ],
+  "buttons": [],
+  "links": [
+    {
+      "id": "ICFirstAnchor_win0",
+      "href": null,
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "DERIVED_CLSMSG_SSR_MSG_PB",
+      "href": "javascript:submitAction_win0(document.win0,'DERIVED_CLSMSG_SSR_MSG_PB');",
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0",
+      "href": "javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$0');",
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1",
+      "href": "javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$1');",
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$2",
+      "href": "javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$2');",
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$3",
+      "href": "javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$3');",
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "DERIVED_AS_LBL_ES_EXAMPLE_LBL3$6",
+      "href": "javascript:submitAction_win0(document.win0,'DERIVED_AS_LBL_ES_EXAMPLE_LBL3$6');",
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$4",
+      "href": "javascript:submitAction_win0(document.win0,'DERIVED_CLSRCH_SSR_EXPAND_COLLAPS$149$$4');",
+      "text": "",
+      "class": ""
+    },
+    {
+      "id": "",
+      "href": null,
+      "text": "",
+      "class": "PSPUSHBUTTON Left"
+    },
+    {
+      "id": "",
+      "href": null,
+      "text": "",
+      "class": "PSPUSHBUTTON Left PSPRIMARY"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+Class ID,Class Name,Section,Room,Instruction Type,Time
+17374,EGCE 104 - Computer-Aided Architectural and Civil Engineering Drafting,"01-LAB
+Regular",CS 207 - Self Instruct Lab,In Person,Tu 7:00PM - 9:45PM
+17207,EGCE 104 - Computer-Aided Architectural and Civil Engineering Drafting,"02-LAB
+Regular",CS 207 - Self Instruct Lab,In Person,We 7:00PM - 9:45PM
+17560,EGCE 110 - Engineering Surveying,"01-LEC
+Regular",E-SW011 - Lecture Room,In Person,Mo 8:00AM - 9:50AM
+17252,EGCE 110L - Engineering Surveying Laboratory,"02-LAB
+Regular",CS 204 - Self Instruct Lab,In Person,We 10:00AM - 12:45PM
+21074,EGCE 110L - Engineering Surveying Laboratory,"05-LAB
+Regular",CS 204 - Self Instruct Lab,In Person,Fr 8:00AM - 11:15AM
+17435,EGCE 201 - Statics,"01-LEC
+Regular",E 221 - Lecture Room,In Person,MoWe 1:00PM - 2:15PM
+17437,EGCE 201 - Statics,"02-LEC
+Regular",E 221 - Lecture Room,In Person,TuTh 1:00PM - 2:15PM
+17687,EGCE 202 - Dynamics,"02-LEC
+Regular",MH 513 - Lecture Room,In Person,MoWe 11:30AM - 12:45PM
+17689,EGCE 202 - Dynamics,"04-LEC
+Regular",LH 306 - Lecture Room,In Person,TuTh 11:30AM - 12:45PM
+17438,EGCE 203 - Mechanics of Materials,"01-LEC
+Regular",CS 204 - Self Instruct Lab,In Person,MoWe 1:00PM - 2:15PM
+17439,EGCE 203 - Mechanics of Materials,"02-LEC
+Regular",CS 204 - Self Instruct Lab,In Person,TuTh 1:00PM - 2:15PM
+17510,EGCE 204 - Technical Communication and Computing for Civil Engineers,"01-ACT
+Regular",CS 204 - Self Instruct Lab,In Person,Tu 5:30PM - 6:45PM
+17511,EGCE 204 - Technical Communication and Computing for Civil Engineers,"02-ACT
+Regular",CS 204 - Self Instruct Lab,In Person,Th 5:30PM - 6:45PM
+17387,EGCE 305 - Earthquake Impact on Structures,"01-DIS
+Regular",Hum 523 - Lecture Room,In Person,Mo 7:00PM - 9:45PM
+17272,EGCE 308 - Engineering Analysis,"01-DIS
+Regular",E 221 - Lecture Room,In Person,MoWe 10:00AM - 11:15AM
+17454,EGCE 308 - Engineering Analysis,"02-DIS
+Regular",LH 315B - Lecture Room,In Person,MoWe 10:00AM - 11:15AM
+17532,EGCE 311L - Civil Engineering Materials Laboratory,"01-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"We 9:00AM - 9:50AM
+We 10:00AM - 11:45AM"
+17533,EGCE 311L - Civil Engineering Materials Laboratory,"02-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"We 9:00AM - 9:50AM
+We 12:00PM - 1:45PM"
+17534,EGCE 311L - Civil Engineering Materials Laboratory,"03-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"We 9:00AM - 9:50AM
+We 2:15PM - 4:00PM"
+17441,EGCE 320 - Structural Analysis,"01-LEC
+Regular",EC 049 - Lecture Room,In Person,MoWe 2:30PM - 3:45PM
+17442,EGCE 320 - Structural Analysis,"02-LEC
+Regular",CS 204 - Self Instruct Lab,In Person,TuTh 2:30PM - 3:45PM
+17396,EGCE 321L - Structural Analysis Laboratory,"01-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Tu 9:00AM - 9:50AM
+Tu 10:00AM - 11:45AM"
+17397,EGCE 321L - Structural Analysis Laboratory,"02-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Tu 9:00AM - 9:50AM
+Tu 12:00PM - 1:45PM"
+17551,EGCE 321L - Structural Analysis Laboratory,"03-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Tu 9:00AM - 9:50AM
+Tu 2:15PM - 4:00PM"
+17444,EGCE 330 - Engineering Hydraulics,"01-LEC
+Regular",E 221 - Lecture Room,In Person,TuTh 5:30PM - 6:45PM
+17398,EGCE 331L - Engineering Hydraulics Laboratory,"01-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Th 9:00AM - 9:50AM
+Th 10:00AM - 11:45AM"
+17399,EGCE 331L - Engineering Hydraulics Laboratory,"02-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Th 9:00AM - 9:50AM
+Th 12:00PM - 1:45PM"
+17400,EGCE 331L - Engineering Hydraulics Laboratory,"03-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Th 9:00AM - 9:50AM
+Th 2:15PM - 4:00PM"
+17440,EGCE 340 - Soil Mechanics,"01-LEC
+Regular",EC 008 - Lecture Room,In Person,TuTh 10:00AM - 11:15AM
+17528,EGCE 341L - Soil Mechanics Laboratory,"01-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Mo 9:00AM - 9:50AM
+Mo 10:00AM - 11:45AM"
+17529,EGCE 341L - Soil Mechanics Laboratory,"02-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Mo 9:00AM - 9:50AM
+Mo 12:00PM - 1:45PM"
+17530,EGCE 341L - Soil Mechanics Laboratory,"03-LAB
+Regular","E 221 - Lecture Room
+E-SW011 - Lecture Room",In Person,"Mo 9:00AM - 9:50AM
+Mo 2:15PM - 4:00PM"
+19958,EGCE 342 - Foundation Design,"02-LEC
+Regular",LH 303 - Lecture Room,In Person,TuTh 1:00PM - 2:15PM
+17447,EGCE 350 - Construction Engineering,"01-LEC
+Regular",EC 008 - Lecture Room,In Person,TuTh 2:30PM - 3:45PM
+19960,EGCE 350 - Construction Engineering,"03-LEC
+Regular",LH 306 - Lecture Room,In Person,TuTh 2:30PM - 3:45PM
+17621,EGCE 360 - Transportation Engineering,"01-LEC
+Regular",LH 303 - Lecture Room,In Person,We 7:00PM - 9:45PM
+17665,EGCE 370 - Environmental Engineering,"01-LEC
+Regular",LH 301 - Lecture Room,In Person,TuTh 1:00PM - 2:15PM
+17344,EGCE 401 - Engineering Economics and Professionalism,"01-DIS
+Regular",E 221 - Lecture Room,In Person,Th 7:00PM - 9:45PM
+17408,EGCE 401 - Engineering Economics and Professionalism,"02-DIS
+Regular",E-SW011 - Lecture Room,In Person,Tu 7:00PM - 9:45PM
+17509,EGCE 406 - Computer Applications in Civil Engineering Analysis and Design,"01-ACT
+Regular",CS 207 - Self Instruct Lab,In Person,Tu 5:30PM - 6:45PM
+17515,EGCE 406 - Computer Applications in Civil Engineering Analysis and Design,"03-ACT
+Regular",CS 207 - Self Instruct Lab,In Person,Th 5:30PM - 6:45PM
+17673,EGCE 415 - Architectural Design,"01-LEC
+Regular",E 221 - Lecture Room,In Person,MoWe 5:30PM - 6:45PM
+20341,EGCE 421 - Bridge Engineering,"01-LEC
+Regular",E 221 - Lecture Room,In Person,We 7:00PM - 9:45PM
+21314,EGCE 422 - Structural Dynamics,"02-LEC
+Regular",Hum 326B - Lecture Room,In Person,Th 7:00PM - 9:45PM
+17446,EGCE 430 - Design of Hydraulic Structures,"01-LEC
+Regular",E 221 - Lecture Room,In Person,Tu 7:00PM - 9:45PM
+17519,EGCE 433 - River and Channel Hydraulics,"01-LEC
+Regular",CS 207 - Self Instruct Lab,In Person,Th 7:00PM - 9:45PM
+17622,EGCE 450 - Project Management and Construction Engineering Practices,"01-LEC
+Regular",Hum 224 - Lecture Room,In Person,Tu 7:00PM - 9:45PM
+17685,EGCE 471 - Water Quality Engineering,"01-LEC
+Regular",EC 011 - Lecture Room,In Person,We 7:00PM - 9:45PM
+17434,EGCE 494A - Senior Design,"01-ACT
+Regular",CS 204 - Self Instruct Lab,In Person,Mo 7:00PM - 9:45PM
+17514,EGCE 494A - Senior Design,"02-ACT
+Regular",E 221 - Lecture Room,In Person,Mo 7:00PM - 9:45PM
+20529,EGCE 494A - Senior Design,"03-ACT
+Regular",Hum 123 - Lecture Room,In Person,Mo 7:00PM - 9:45PM
+17209,EGCE 497 - Senior Projects,"01-SUP
+Regular",TBA,In Person,TBA
+21086,EGCE 497 - Senior Projects,"02-SUP
+Regular",TBA,In Person,TBA
+21087,EGCE 497 - Senior Projects,"03-SUP
+Regular",TBA,In Person,TBA
+21088,EGCE 497 - Senior Projects,"04-SUP
+Regular",TBA,In Person,TBA
+17563,EGCE 520 - Advanced Structural Analysis,"01-LEC
+Regular",E-SW011 - Lecture Room,In Person,We 7:00PM - 9:45PM
+17562,EGCE 526 - Advanced Topics in Structural Steel Design,"01-LEC
+Regular",Hum 511 - Lecture Room,In Person,MoWe 5:30PM - 6:45PM
+20411,EGCE 540 - Advanced Soil Mechanics,"02-LEC
+Regular",Hum 322 - Lecture Room,In Person,MoWe 5:30PM - 6:45PM
+17564,EGCE 541 - Slope Stability and Retaining Structures,"01-LEC
+Regular",E-SW011 - Lecture Room,In Person,Mo 7:00PM - 9:45PM
+20412,EGCE 551 - Construction Methods and Equipment for Heavy Construction Engineering,"02-LEC
+Regular",EC 034 - Lecture Room,In Person,We 7:00PM - 9:45PM
+17565,EGCE 553 - Cost Estimating and Bidding Strategy,"01-LEC
+Regular",E-SW011 - Lecture Room,In Person,TuTh 5:30PM - 6:45PM
+17265,EGCE 570 - Fate and Transport of Chemicals in the Environment,"50-DIS
+Regular","Online
+E 202 - Lecture Room",Mostly Online w/ In-Person Mtg,"TBA
+Su 10:00AM - 11:50AM"
+17266,EGCE 571 - Hydraulics and Hydrology for Environmental Engineers,"50-DIS
+Regular","Online
+E 202 - Lecture Room",Mostly Online w/ In-Person Mtg,"TBA
+Su 1:00PM - 2:15PM"
+17275,"EGCE 572 - Water Supply, Treatment and System Design","50-DIS
+Regular","Online
+E-SW011 - Lecture Room",Mostly Online w/ In-Person Mtg,"TBA
+Su 10:00AM - 11:50AM"
+17558,EGCE 573 - Environmental Engineering Practices and Project Management,"50-DIS
+Regular","Online
+CS 204 - Self Instruct Lab",Mostly Online w/ In-Person Mtg,"TBA
+Sa 1:00PM - 2:50PM"
+17557,"EGCE 575 - Solid Waste Management, System Design and Sustainability","50-LEC
+Regular","Online
+E 221 - Lecture Room",Mostly Online w/ In-Person Mtg,"TBA
+Sa 10:00AM - 11:50AM"
+17429,EGCE 581 - Remediation of Contaminated Soil and Groundwater,"50-DIS
+Regular","Online
+E 221 - Lecture Room",Mostly Online w/ In-Person Mtg,"TBA
+Sa 1:00PM - 2:50PM"
+17559,EGCE 582 - Wastewater Treatment and Water Reclamation,"50-DIS
+Regular","Online
+E 321 - Lecture Room",Mostly Online w/ In-Person Mtg,"TBA
+Su 1:00PM - 2:50PM"
+17520,EGCE 597 - Graduate Projects,"01-LEC
+Regular",TBA,In Person,TBA
+21080,EGCE 597 - Graduate Projects,"02-LEC
+Regular",TBA,In Person,TBA
+21081,EGCE 597 - Graduate Projects,"03-LEC
+Regular",TBA,In Person,TBA
+17448,EGCE 597 - Graduate Projects,"50-LEC
+Regular",Online,Fully Online,TBA
+21082,EGCE 598 - Thesis,"04-SUP
+Regular",TBA,In Person,TBA
+21083,EGCE 598 - Thesis,"05-SUP
+Regular",TBA,In Person,TBA
+21085,EGCE 598 - Thesis,"06-SUP
+Regular",TBA,In Person,TBA
+17232,EGCE 599 - Independent Graduate Research,"01-SUP
+Regular",TBA,In Person,TBA
+17260,EGCE 599 - Independent Graduate Research,"03-SUP
+Regular",TBA,In Person,TBA
+17233,EGCE 599 - Independent Graduate Research,"06-SUP
+Regular",TBA,In Person,TBA
+21079,EGCE 599 - Independent Graduate Research,"07-SUP
+Regular",TBA,In Person,TBA
