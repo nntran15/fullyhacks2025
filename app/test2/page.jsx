@@ -1,4 +1,4 @@
-// App.jsx - Main application component
+// App.jsx - With enhanced course removal
 "use client";
 
 import React, { useState, useEffect } from 'react';
@@ -95,6 +95,12 @@ function App() {
     
     if (!currentSchedule) return;
     
+    // Check if course already exists in schedule
+    if (currentSchedule.courses.some(c => c.id === course.id)) {
+      alert(`${course.code} is already in your schedule!`);
+      return;
+    }
+    
     // Get selected sections
     const selectedSections = course.sections.filter(section => 
       sectionIds.includes(section.id)
@@ -117,10 +123,21 @@ function App() {
     });
     
     setSchedules(updatedSchedules);
+    
+    // Show confirmation
+    alert(`Added ${course.code} to your schedule!`);
   };
 
   // Remove course from schedule
   const removeCourseFromSchedule = (courseId) => {
+    const currentSchedule = schedules.find(s => s.id === activeSchedule);
+    
+    if (!currentSchedule) return;
+    
+    // Find the course to be removed (for notification)
+    const courseToRemove = currentSchedule.courses.find(c => c.id === courseId);
+    
+    // Update schedules
     const updatedSchedules = schedules.map(schedule => {
       if (schedule.id === activeSchedule) {
         return {
@@ -132,6 +149,11 @@ function App() {
     });
     
     setSchedules(updatedSchedules);
+    
+    // Show confirmation if course was found and removed
+    if (courseToRemove) {
+      console.log(`Removed ${courseToRemove.code} from your schedule`);
+    }
   };
 
   // Add new schedule
@@ -143,7 +165,10 @@ function App() {
 
   // Delete schedule
   const deleteSchedule = (id) => {
-    if (schedules.length <= 1) return; 
+    if (schedules.length <= 1) {
+      alert("You cannot delete your only schedule");
+      return;
+    }
     
     const updatedSchedules = schedules.filter(s => s.id !== id);
     setSchedules(updatedSchedules);

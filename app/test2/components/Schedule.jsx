@@ -1,7 +1,6 @@
 // components/Schedule.jsx
 import React from 'react';
 import WeeklyCalendar from './WeeklyCalendar';
-import './Schedule.css'; // Make sure to import the CSS
 
 function Schedule({ schedule, onRemoveCourse }) {
   if (!schedule) return <div>No schedule selected</div>;
@@ -71,10 +70,19 @@ function Schedule({ schedule, onRemoveCourse }) {
         title: course.title,
         section: section.type,
         location: section.location,
-        instructor: section.instructor
+        instructor: section.instructor,
+        courseId: course.id // Add courseId for removal
       }));
     }).flat()
   );
+
+  // Function to handle course removal with confirmation
+  const handleRemoveCourse = (courseId, courseName) => {
+    const confirmRemove = window.confirm(`Remove ${courseName} from your schedule?`);
+    if (confirmRemove) {
+      onRemoveCourse(courseId);
+    }
+  };
 
   return (
     <div className="schedule-view">
@@ -82,7 +90,10 @@ function Schedule({ schedule, onRemoveCourse }) {
       
       <div className="schedule-content">
         <div className="calendar-view">
-          <WeeklyCalendar events={calendarEvents} />
+          <WeeklyCalendar 
+            events={calendarEvents} 
+            onRemoveEvent={(courseId) => handleRemoveCourse(courseId)} 
+          />
         </div>
         
         <div className="list-view">
@@ -97,7 +108,7 @@ function Schedule({ schedule, onRemoveCourse }) {
                     <h4>{course.code}: {course.title}</h4>
                     <button 
                       className="remove-course"
-                      onClick={() => onRemoveCourse(course.id)}
+                      onClick={() => handleRemoveCourse(course.id, course.code)}
                       aria-label={`Remove ${course.code}`}
                     >
                       ✕

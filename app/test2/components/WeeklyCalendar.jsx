@@ -1,7 +1,8 @@
 // components/WeeklyCalendar.jsx
 import React from 'react';
+import './WeeklyCalendar.css'; // Make sure to create this CSS file
 
-function WeeklyCalendar({ events }) {
+function WeeklyCalendar({ events, onRemoveEvent }) {
   // Define the days of the week and time slots
   const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
   const timeSlots = [];
@@ -18,17 +19,24 @@ function WeeklyCalendar({ events }) {
 
   // Helper to convert time string to minutes since midnight
   const timeToMinutes = (timeStr) => {
-    // Parse time like "10:00am" or "2:30pm" or "10:50am"
-    const [time, amPm] = timeStr.split(/([ap]m)/).filter(Boolean);
-    let [hours, minutes] = time.split(':').map(Number);
+    if (!timeStr) return 0;
     
-    if (amPm === 'pm' && hours !== 12) {
-      hours += 12;
-    } else if (amPm === 'am' && hours === 12) {
-      hours = 0;
+    try {
+      // Parse time like "10:00am" or "2:30pm" or "10:50am"
+      const [time, amPm] = timeStr.split(/([ap]m)/).filter(Boolean);
+      let [hours, minutes] = time.split(':').map(Number);
+      
+      if (amPm === 'pm' && hours !== 12) {
+        hours += 12;
+      } else if (amPm === 'am' && hours === 12) {
+        hours = 0;
+      }
+      
+      return hours * 60 + minutes;
+    } catch (e) {
+      console.error(`Error parsing time ${timeStr}:`, e);
+      return 0;
     }
-    
-    return hours * 60 + minutes;
   };
 
   // Helper to convert time to vertical position
@@ -50,7 +58,7 @@ function WeeklyCalendar({ events }) {
     
     // Convert minutes to pixels (40px per 30min)
     const pixelsPerMinute = 40 / 30;
-    return durationMinutes * pixelsPerMinute;
+    return Math.max(durationMinutes * pixelsPerMinute, 30); // Minimum height of 30px
   };
 
   // Group events by day
@@ -59,7 +67,7 @@ function WeeklyCalendar({ events }) {
     return acc;
   }, {});
   
-  // Sort events within each day to handle overlaps
+  // Sort events within each day
   Object.keys(eventsByDay).forEach(day => {
     eventsByDay[day].sort((a, b) => {
       return timeToMinutes(a.startTime) - timeToMinutes(b.startTime);
@@ -109,6 +117,15 @@ function WeeklyCalendar({ events }) {
     processedEventsByDay[day] = organizeOverlappingEvents(eventsByDay[day]);
   });
 
+  // Generate random colors for each unique course
+  const courseColors = {};
+  events.forEach(event => {
+    if (!courseColors[event.course]) {
+      const hue = Math.floor(Math.random() * 360);
+      courseColors[event.course] = `hsla(${hue}, 70%, 60%, 0.85)`;
+    }
+  });
+
   return (
     <div className="weekly-calendar">
       <div className="calendar-header">
@@ -140,6 +157,7 @@ function WeeklyCalendar({ events }) {
             {processedEventsByDay[day].map((event, index) => {
               const top = getTimePosition(event.startTime);
               const height = getEventHeight(event.startTime, event.endTime);
+              const backgroundColor = courseColors[event.course];
               
               return (
                 <div 
@@ -149,12 +167,27 @@ function WeeklyCalendar({ events }) {
                     top: `${top}px`,
                     height: `${height}px`,
                     width: `${event.width}%`,
-                    left: `${event.left}%`
+                    left: `${event.left}%`,
+                    backgroundColor
                   }}
                   title={`${event.course} - ${event.title} (${event.startTime}-${event.endTime})`}
                 >
                   <div className="event-content">
-                    <div className="event-title">{event.course}</div>
+                    <div className="event-header">
+                      <div className="event-title">{event.course}</div>
+                      {onRemoveEvent && (
+                        <button 
+                          className="event-remove-btn"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            onRemoveEvent(event.courseId, event.course);
+                          }}
+                          aria-label={`Remove ${event.course}`}
+                        >
+                          ×
+                        </button>
+                      )}
+                    </div>
                     <div className="event-details">
                       <div>{event.section}</div>
                       <div>{event.location}</div>
